@@ -1,3 +1,3 @@
 # platform-contracts-artifacts
 
-check https://github.com/Neufund/platform-contracts README for details
+Please read [platform-contracts README](https://github.com/Neufund/platform-contracts). for details
