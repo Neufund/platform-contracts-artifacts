@@ -1,0 +1,153 @@
+{
+  "contract_name": "NeumarkIssuanceCurve",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "totalEuroUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "burnNeumarkUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "minEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "maxEurUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "incrementalInverse",
+      "outputs": [
+        {
+          "name": "euroUlps",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "totalEuroUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "burnNeumarkUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "incrementalInverse",
+      "outputs": [
+        {
+          "name": "euroUlps",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "neumarkUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "minEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "maxEurUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "cumulativeInverse",
+      "outputs": [
+        {
+          "name": "euroUlps",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "neumarkCap",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "euroUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "cumulative",
+      "outputs": [
+        {
+          "name": "neumarkUlps",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "initialRewardFraction",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "totalEuroUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "euroUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "incremental",
+      "outputs": [
+        {
+          "name": "neumarkUlps",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b61042c8061001f6000396000f300606060405236156100805763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166308f7d57081146100855780635f3cebcd146100b6578063684641b4146100e15780638648c0ce1461010f5780638e53d5e414610134578063e787887b1461015c578063fa9fd8b214610181575b600080fd5b341561009057600080fd5b6100a46004356024356044356064356101ac565b60405190815260200160405180910390f35b34156100c157600080fd5b6100a46004356024356101f7565b60405190815260200160405180910390f35b34156100ec57600080fd5b6100a4600435602435604435610241565b60405190815260200160405180910390f35b341561011a57600080fd5b6100a46102cc565b60405190815260200160405180910390f35b341561013f57600080fd5b6100a46004356102dd565b60405190815260200160405180910390f35b341561016757600080fd5b6100a46103af565b60405190815260200160405180910390f35b341561018c57600080fd5b6100a46004356024356103bc565b60405190815260200160405180910390f35b6000806000806101bb886102dd565b9250868310156101ca57600080fd5b86830391506101da828787610241565b9050808810156101e657fe5b80880393505b505050949350505050565b600080600080610206866102dd565b92508483101561021557600080fd5b848303915061022682600088610241565b90508086101561023257fe5b80860393505b50505092915050565b6000808080808686101561025457600080fd5b8761025e886102dd565b111561026957600080fd5b87610273876102dd565b101561027e57600080fd5b8693508592505b838311156102bd5760028385015b04915061029f826102dd565b9050878110156102b4578160010193506102b8565b8192505b610285565b8294505b505050509392505050565b6b04d8c55aefb8c05b5c0000005b90565b6000808080806b1ad1995d94dc285fec000000861061030a576b04d8c55aefb8c05b5c00000094506103a6565b6b06c9144c1c690d4cb4000000861061035d576b1408851178731b13380000006923781f97ea6cbb0f55216b06c9144c1c690d4cb3ffffff198801025b046b04d8a1e2d020d5eea0f0aadf0194506103a6565b506abee34911301d97e6c4ec4f92506b04d8c55aefb8c05b5c000000915060009050825b8381019286020480860283900492910182900390830182156103a257610381565b8194505b50505050919050565b675a34a38fc00a00005b90565b60008080838501859010156103d057600080fd5b6103d9856102dd565b91506103e68486016102dd565b9050818110156103f257fe5b81810392505b5050929150505600a165627a7a723058207ce106fce128a22bb702e10e769e8780aa938a12dce38540f463a19303177b0b0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1523453323212
+}

@@ -1,0 +1,77 @@
+{
+  "contract_name": "TestERC223Callback",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "dataKeccak",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "TestERC223FallbackCallback",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "tokenFallback",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "from",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6102b08061001f6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663154991f4811461006957806373c94e061461008e578063aa8c217c146100a3578063c0ee0b8a146100c8578063d5ce33891461013c575b600080fd5b341561007457600080fd5b61007c610178565b60405190815260200160405180910390f35b341561009957600080fd5b6100a161017f565b005b34156100ae57600080fd5b61007c6101bf565b60405190815260200160405180910390f35b34156100d357600080fd5b6100a16004803573ffffffffffffffffffffffffffffffffffffffff169060248035919060649060443590810190830135806020601f820181900481020160405190810160405281815292919060208401838380828437509496506101c695505050505050565b005b341561014757600080fd5b61014f610267565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b6002545b90565b3060405173ffffffffffffffffffffffffffffffffffffffff919091166c010000000000000000000000000281526014016040519081900390206002555b565b6001545b90565b6000805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff85161790556001829055806040518082805190602001908083835b6020831061023157805182525b601f199092019160209182019101610211565b6001836020036101000a03801982511681845116179092525050509190910192506040915050519081900390206002555b505050565b60005473ffffffffffffffffffffffffffffffffffffffff165b905600a165627a7a7230582013a320c7b74b74445537a5ebf4745067b2e7a7ae3b50b2ca4ff22efe5dcd5e450029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1523453323219
+}

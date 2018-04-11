@@ -1,0 +1,148 @@
+{
+  "contract_name": "TestAccessControl",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "someFunction",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newPolicy",
+          "type": "address"
+        },
+        {
+          "name": "newAccessController",
+          "type": "address"
+        }
+      ],
+      "name": "setAccessPolicy",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "accessPolicy",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "policy",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "controller",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "subject",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "name": "object",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "oldValue",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "newValue",
+          "type": "uint8"
+        }
+      ],
+      "name": "LogAccessChanged",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "subject",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "name": "object",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "verb",
+          "type": "bytes4"
+        },
+        {
+          "indexed": false,
+          "name": "granted",
+          "type": "bool"
+        }
+      ],
+      "name": "LogAccess",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "controller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "oldPolicy",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newPolicy",
+          "type": "address"
+        }
+      ],
+      "name": "LogAccessPolicyChanged",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b604051602080610450833981016040528080519150505b805b600160a060020a038116151561003d57600080fd5b60008054600160a060020a031916600160a060020a0383161790555b505b505b6103e48061006c6000396000f300606060405263ffffffff60e060020a60003504166335b09a6e811461003a578063578756311461004f578063f5d60a5114610076575b600080fd5b341561004557600080fd5b61004d6100a5565b005b341561005a57600080fd5b61004d600160a060020a0360043581169060243516610180565b005b341561008157600080fd5b6100896103a8565b604051600160a060020a03909116815260200160405180910390f35b600080547fb01f6215887f913abe74277c39da2c7de51baf17958191658f84959dfddab97091600160a060020a0390911690639085b77f90339084903090600160e060020a0319813516906040516020015260405160e060020a63ffffffff8716028152600160a060020a039485166004820152602481019390935292166044820152600160e060020a03199091166064820152608401602060405180830381600087803b151561015557600080fd5b6102c65a03f1151561016657600080fd5b50505060405180519050151561017b57600080fd5b5b5b50565b600080547fac42f8beb17975ed062dcb80c63e6d203ef1c2c335ced149dc5664cc671cb7da90600160a060020a0316639085b77f338330600160e060020a0319873516876040516020015260405160e060020a63ffffffff8716028152600160a060020a039485166004820152602481019390935292166044820152600160e060020a03199091166064820152608401602060405180830381600087803b151561022957600080fd5b6102c65a03f1151561023a57600080fd5b50505060405180519050151561024f57600080fd5b83600160a060020a0316639085b77f847fac42f8beb17975ed062dcb80c63e6d203ef1c2c335ced149dc5664cc671cb7da60010230600035600160e060020a03191660006040516020015260405160e060020a63ffffffff8716028152600160a060020a039485166004820152602481019390935292166044820152600160e060020a03199091166064820152608401602060405180830381600087803b15156102f857600080fd5b6102c65a03f1151561030957600080fd5b50505060405180519050151561031e57600080fd5b60008054600160a060020a0386811673ffffffffffffffffffffffffffffffffffffffff198316179092551691507f7d475c32583df95fccc34a6e12df24c1fc9943092cc129b6512013aecba0f136338386604051600160a060020a03938416815291831660208301529091166040808301919091526060909101905180910390a15b5b50505050565b600054600160a060020a03165b905600a165627a7a7230582072f1ce4295bbca2def33f02e8aacd01eee1543fcb48dbc3ac945c9bc9cc817190029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1523453323219
+}

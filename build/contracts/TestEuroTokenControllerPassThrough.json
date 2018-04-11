@@ -1,0 +1,127 @@
+{
+  "contract_name": "TestEuroTokenControllerPassThrough",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onTransfer",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "hasPermanentAllowance",
+      "outputs": [
+        {
+          "name": "yes",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onGenerateTokens",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onDestroyTokens",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onApprove",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b61021f8061001f6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416634a393149811461006957806352b238a0146100b257806379b6b952146100f5578063848a8db2146100f5578063da682aeb14610069575b600080fd5b341561007457600080fd5b61009e73ffffffffffffffffffffffffffffffffffffffff600435811690602435166044356101c4565b604051901515815260200160405180910390f35b34156100bd57600080fd5b61009e73ffffffffffffffffffffffffffffffffffffffff600435166024356101ce565b604051901515815260200160405180910390f35b341561010057600080fd5b61009e73ffffffffffffffffffffffffffffffffffffffff600435166024356101d7565b604051901515815260200160405180910390f35b341561010057600080fd5b61009e73ffffffffffffffffffffffffffffffffffffffff600435166024356101d7565b604051901515815260200160405180910390f35b341561007457600080fd5b61009e73ffffffffffffffffffffffffffffffffffffffff600435811690602435166044356101c4565b604051901515815260200160405180910390f35b60015b9392505050565b60005b92915050565b60015b92915050565b60015b92915050565b60015b93925050505600a165627a7a72305820054ab20bbffab90ebdcfb4ef91d144ee1d317d780dc807b6b6d15fb98e0c4cef0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1523453323220
+}
