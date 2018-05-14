@@ -1,0 +1,72 @@
+{
+  "contract_name": "IIdentityRegistry",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "identity",
+          "type": "address"
+        },
+        {
+          "name": "oldClaims",
+          "type": "bytes32"
+        },
+        {
+          "name": "newClaims",
+          "type": "bytes32"
+        }
+      ],
+      "name": "setClaims",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "identity",
+          "type": "address"
+        }
+      ],
+      "name": "getClaims",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "identity",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "oldClaims",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "newClaims",
+          "type": "bytes32"
+        }
+      ],
+      "name": "LogSetClaims",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341397132
+}

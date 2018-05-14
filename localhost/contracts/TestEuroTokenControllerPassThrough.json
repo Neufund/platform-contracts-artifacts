@@ -1,0 +1,140 @@
+{
+  "contract_name": "TestEuroTokenControllerPassThrough",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onDestroyTokens",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onTransfer",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "hasPermanentAllowance",
+      "outputs": [
+        {
+          "name": "yes",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onGenerateTokens",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "onApprove",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x608060405234801561001057600080fd5b5061011e806100206000396000f30060806040526004361060665763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630c36efa08114606b5780634a39314914606b57806352b238a01460b35780637d31c9f014606b578063da682aeb14606b575b600080fd5b348015607657600080fd5b50609f73ffffffffffffffffffffffffffffffffffffffff6004358116906024351660443560e1565b604080519115158252519081900360200190f35b34801560be57600080fd5b50609f73ffffffffffffffffffffffffffffffffffffffff6004351660243560ea565b60019392505050565b6000929150505600a165627a7a72305820aba927cfb70385629e3b4ed45f697c5a65b282790d2c32bfe0515e03ab8761fa0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341397142
+}

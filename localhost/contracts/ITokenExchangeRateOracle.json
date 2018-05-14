@@ -1,0 +1,42 @@
+{
+  "contract_name": "ITokenExchangeRateOracle",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "numeratorToken",
+          "type": "address"
+        },
+        {
+          "name": "denominatorToken",
+          "type": "address"
+        }
+      ],
+      "name": "getExchangeRate",
+      "outputs": [
+        {
+          "name": "rateFraction",
+          "type": "uint256"
+        },
+        {
+          "name": "timestamp",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {
+    "1525262815832": {
+      "links": {},
+      "events": {},
+      "updated_at": 1526341406966
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1526341406966
+}

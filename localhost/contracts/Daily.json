@@ -1,0 +1,28 @@
+{
+  "contract_name": "Daily",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "snapshotAt",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b5060a18061001e6000396000f300608060405260043610603e5763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305ecc08581146043575b600080fd5b348015604e57600080fd5b506058600435606a565b60408051918252519081900360200190f35b6201518081069003905600a165627a7a72305820d9b69891bb86e080f1f51ba11cb2a53b2a57c9af6b1845edb586e6834c85d8420029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341397134
+}

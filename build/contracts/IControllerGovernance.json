@@ -1,0 +1,130 @@
+{
+  "contract_name": "IControllerGovernance",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "capTable",
+      "outputs": [
+        {
+          "name": "equityTokens",
+          "type": "address[]"
+        },
+        {
+          "name": "shares",
+          "type": "uint256[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "closeCompany",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "informationType",
+          "type": "string"
+        },
+        {
+          "name": "informationUrl",
+          "type": "string"
+        }
+      ],
+      "name": "issueGeneralInformation",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        }
+      ],
+      "name": "executeResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "cancelCompanyClosing",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "resolutionUri",
+          "type": "string"
+        },
+        {
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "name": "payload",
+          "type": "bytes"
+        }
+      ],
+      "name": "startResolution",
+      "outputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "shareholderInformation",
+      "outputs": [
+        {
+          "name": "totalCompanyShares",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "shareholderRights",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341380700
+}

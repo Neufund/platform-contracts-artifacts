@@ -1,0 +1,57 @@
+{
+  "contract_name": "TestFeeDistributionPool",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "name": "_token",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "receiveApproval",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogTestReceiveApproval",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x608060405234801561001057600080fd5b50610252806100206000396000f3006080604052600436106100405763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416638f4ffcb18114610045575b600080fd5b34801561005157600080fd5b50604080516020601f6064356004818101359283018490048402850184019095528184526100c29473ffffffffffffffffffffffffffffffffffffffff8135811695602480359660443590931695369560849492019181908401838280828437509497506100d69650505050505050565b604080519115158252519081900360200190f35b60008273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561011257600080fd5b604080517f23b872dd00000000000000000000000000000000000000000000000000000000815273ffffffffffffffffffffffffffffffffffffffff87811660048301523081166024830152604482018790529151918516916323b872dd916064808201926020929091908290030181600087803b15801561019357600080fd5b505af11580156101a7573d6000803e3d6000fd5b505050506040513d60208110156101bd57600080fd5b505115156101ca57600080fd5b6040805173ffffffffffffffffffffffffffffffffffffffff871681526020810186905281517fdd0a7367c8d6a1723dc95520aee42c276a93c3207d935845cfd69077dd359a18929181900390910190a15060019493505050505600a165627a7a72305820455d25e8b5773f9512a0107315c4d5a7c6b2afcb21df1ccfc5c0714f6802bb830029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341397138
+}

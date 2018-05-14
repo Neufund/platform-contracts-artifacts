@@ -1,0 +1,8 @@
+{
+  "contract_name": "StandardRoles",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a7230582073d4b6e28dda96f7572a97c7064acbacdbd8dd14518850535b2ad35a7fbb2fb00029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341397126
+}

@@ -1,0 +1,29 @@
+{
+  "contract_name": "ForceEther",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "target",
+          "type": "address"
+        }
+      ],
+      "name": "pay",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x608060405260b5806100126000396000f300608060405260043610603e5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630c11dedd81146043575b600080fd5b348015604e57600080fd5b50606e73ffffffffffffffffffffffffffffffffffffffff600435166070565b005b8073ffffffffffffffffffffffffffffffffffffffff16ff00a165627a7a723058205c3d7471ad8443130cf48577982e1a2246e2c7e31c2ba70e98c7e83ac3edf7140029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341397138
+}

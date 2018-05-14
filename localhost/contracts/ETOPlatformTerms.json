@@ -1,0 +1,238 @@
+{
+  "contract_name": "ETOPlatformTerms",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculatePlatformFee",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "IS_ICBM_INVESTOR_WHITELISTED",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "EQUITY_TOKENS_PER_SHARE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_TOTAL_AMOUNT_CROWDFUNDING_EUR_ULPS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MIN_TICKET_EUR_ULPS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PLATFORM_NEUMARK_SHARE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "EQUITY_TOKENS_PRECISION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_TICKET_EUR_ULPS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_PARTICIPATION_FEE_FRACTION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_TICKET_CROWFUNDING_SIMPLE_EUR_ULPS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "tokenAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculatePlatformTokenFee",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PLATFORM_FEE_FRACTION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "DATE_TO_WHITELIST_MIN_DURATION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "rewardNmk",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculateNeumarkDistribution",
+      "outputs": [
+        {
+          "name": "platformNmk",
+          "type": "uint256"
+        },
+        {
+          "name": "investorNmk",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_TICKET_CROWFUNDING_SOPHISTICATED_EUR_ULPS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x608060405234801561001057600080fd5b506103c0806100206000396000f3006080604052600436106100da5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630cbab4f781146100df57806327986eda14610109578063436cdb03146101325780634c7992f014610147578063548e73c71461015c578063659c713b1461017157806366448ae81461018657806366a843c2146101b1578063753f3f15146101c6578063987ce9d2146101db5780639ae0f890146101f0578063bcac568514610208578063cbf9e46a1461021d578063d017ecb414610232578063d47fc395146101db575b600080fd5b3480156100eb57600080fd5b506100f7600435610263565b60408051918252519081900360200190f35b34801561011557600080fd5b5061011e61027c565b604080519115158252519081900360200190f35b34801561013e57600080fd5b506100f7610281565b34801561015357600080fd5b506100f7610288565b34801561016857600080fd5b506100f7610297565b34801561017d57600080fd5b506100f76102a4565b34801561019257600080fd5b5061019b6102a9565b6040805160ff9092168252519081900360200190f35b3480156101bd57600080fd5b506100f76102ae565b3480156101d257600080fd5b506100f76102bd565b3480156101e757600080fd5b506100f76102c8565b3480156101fc57600080fd5b506100f76004356102d6565b34801561021457600080fd5b506100f76102e9565b34801561022957600080fd5b506100f76102f4565b34801561023e57600080fd5b5061024a6004356102fb565b6040805192835260208301919091528051918290030190f35b600061027682666a94d74f430000610307565b92915050565b600181565b620f424081565b6a021165458500521280000081565b681b1ae4d6e2ef50000081565b600281565b600081565b6a084595161401484a00000081565b66470de4df82000081565b69021e19e0c9bab240000081565b60006102768266470de4df820000610307565b666a94d74f43000081565b6203f48081565b60028104919082900390565b600061031c8383670de0b6b3a7640000610323565b9392505050565b60006103386103328585610340565b83610364565b949350505050565b600082820283158061035c575082848281151561035957fe5b04145b151561031c57fe5b6000816103748460028304610385565b81151561037d57fe5b049392505050565b60008282018381101561031c57fe00a165627a7a72305820a534a12e51be84409521fea1acda5c305d56a03d50e34e8d1096d8bda74bd9cd0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1526341397128
+}
