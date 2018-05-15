@@ -14,5 +14,6 @@ Truffle build artifacts are stored in folders with the name of network that was 
 |INTERFACE_ARTIFACTS|Names of contracts and thus Truffle artifacts that implement known interfaces, may be useful for automatic wrapper generation|
 |NETWORK|Definition of Truffle network used to deploy. In most cases the host and port will not be public addresses so components connecting to Ethereum network should not use them|
 |FIXTURE_ACCOUNTS|Addresses of account for which fixtures were deployed|
+|HEAD_BLOCK_NO|Block number at which deployment ends. It is useful for test setup. You should wait for this block before tests - your node is still deploying contracts|
 
 Please read [platform-contracts README](https://github.com/Neufund/platform-contracts). for details
