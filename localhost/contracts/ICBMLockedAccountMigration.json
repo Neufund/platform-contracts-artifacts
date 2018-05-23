@@ -12,7 +12,6 @@
         }
       ],
       "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -38,12 +37,11 @@
       "name": "migrateInvestor",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1526401737126
+  "updated_at": 1523453323210
 }

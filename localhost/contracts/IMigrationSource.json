@@ -12,7 +12,6 @@
         }
       ],
       "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -21,7 +20,6 @@
       "name": "migrate",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -35,7 +33,6 @@
       "name": "enableMigration",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -54,5 +51,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1526401737132
+  "updated_at": 1523453323215
 }

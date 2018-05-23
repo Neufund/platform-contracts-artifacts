@@ -7,76 +7,24 @@
       "name": "success",
       "outputs": [
         {
-          "name": "",
+          "name": "isSuccess",
           "type": "bool"
         }
       ],
       "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "signatory",
-          "type": "address"
-        }
-      ],
-      "name": "agreementSignedAtBlock",
-      "outputs": [
-        {
-          "name": "blockNo",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": true,
       "inputs": [],
-      "name": "amendmentsCount",
+      "name": "fail",
       "outputs": [
         {
-          "name": "",
-          "type": "uint256"
+          "name": "failed",
+          "type": "bool"
         }
       ],
       "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "amendmentIndex",
-          "type": "uint256"
-        }
-      ],
-      "name": "pastAgreement",
-      "outputs": [
-        {
-          "name": "contractLegalRepresentative",
-          "type": "address"
-        },
-        {
-          "name": "signedBlockTimestamp",
-          "type": "uint256"
-        },
-        {
-          "name": "agreementUri",
-          "type": "string"
-        },
-        {
-          "name": "index",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -85,26 +33,11 @@
       "name": "finalized",
       "outputs": [
         {
-          "name": "",
+          "name": "isFinal",
           "type": "bool"
         }
       ],
       "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "failed",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -126,47 +59,6 @@
       "name": "tokenFallback",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "currentAgreement",
-      "outputs": [
-        {
-          "name": "contractLegalRepresentative",
-          "type": "address"
-        },
-        {
-          "name": "signedBlockTimestamp",
-          "type": "uint256"
-        },
-        {
-          "name": "agreementUri",
-          "type": "string"
-        },
-        {
-          "name": "index",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "agreementUri",
-          "type": "string"
-        }
-      ],
-      "name": "amendAgreement",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -210,39 +102,10 @@
       ],
       "name": "LogFundsCommitted",
       "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "name": "accepter",
-          "type": "address"
-        }
-      ],
-      "name": "LogAgreementAccepted",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "contractLegalRepresentative",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "name": "agreementUri",
-          "type": "string"
-        }
-      ],
-      "name": "LogAgreementAmended",
-      "type": "event"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1526401737117
+  "updated_at": 1523453323209
 }

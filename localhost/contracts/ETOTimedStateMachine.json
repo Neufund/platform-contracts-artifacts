@@ -7,54 +7,11 @@
       "name": "success",
       "outputs": [
         {
-          "name": "",
+          "name": "isSuccess",
           "type": "bool"
         }
       ],
       "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "nominee",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "etoTerms",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "commitmentObserver",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -63,7 +20,6 @@
       "name": "claim",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -72,108 +28,6 @@
       "name": "refund",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [],
-      "name": "payout",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "signedInvestmentAgreementUrl",
-      "outputs": [
-        {
-          "name": "",
-          "type": "string"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "signatory",
-          "type": "address"
-        }
-      ],
-      "name": "agreementSignedAtBlock",
-      "outputs": [
-        {
-          "name": "blockNo",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "amendmentsCount",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "investors",
-          "type": "address[]"
-        }
-      ],
-      "name": "claimMany",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "amendmentIndex",
-          "type": "uint256"
-        }
-      ],
-      "name": "pastAgreement",
-      "outputs": [
-        {
-          "name": "contractLegalRepresentative",
-          "type": "address"
-        },
-        {
-          "name": "signedBlockTimestamp",
-          "type": "uint256"
-        },
-        {
-          "name": "agreementUri",
-          "type": "string"
-        },
-        {
-          "name": "index",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -192,45 +46,19 @@
         }
       ],
       "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": true,
       "inputs": [],
-      "name": "signedOfferingResults",
+      "name": "fail",
       "outputs": [
         {
-          "name": "newShares",
-          "type": "uint256"
-        },
-        {
-          "name": "capitalIncreaseEurUlps",
-          "type": "uint256"
-        },
-        {
-          "name": "additionalContributionEth",
-          "type": "uint256"
-        },
-        {
-          "name": "additionalContributionEurUlps",
-          "type": "uint256"
-        },
-        {
-          "name": "tokenParticipationFeeInt",
-          "type": "uint256"
-        },
-        {
-          "name": "platformFeeEth",
-          "type": "uint256"
-        },
-        {
-          "name": "platformFeeEurUlps",
-          "type": "uint256"
+          "name": "failed",
+          "type": "bool"
         }
       ],
       "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -239,26 +67,11 @@
       "name": "finalized",
       "outputs": [
         {
-          "name": "",
+          "name": "isFinal",
           "type": "bool"
         }
       ],
       "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "failed",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -280,7 +93,6 @@
       "name": "tokenFallback",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -294,89 +106,6 @@
         }
       ],
       "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "platformTerms",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "equityToken",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "currentAgreement",
-      "outputs": [
-        {
-          "name": "contractLegalRepresentative",
-          "type": "address"
-        },
-        {
-          "name": "signedBlockTimestamp",
-          "type": "uint256"
-        },
-        {
-          "name": "agreementUri",
-          "type": "string"
-        },
-        {
-          "name": "index",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "investors",
-          "type": "address[]"
-        }
-      ],
-      "name": "refundMany",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "agreementUri",
-          "type": "string"
-        }
-      ],
-      "name": "amendAgreement",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -385,27 +114,16 @@
       "name": "handleStateTransitions",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": true,
-      "inputs": [],
-      "name": "companyLegalRep",
-      "outputs": [
+      "inputs": [
         {
-          "name": "",
+          "name": "durationTerms",
           "type": "address"
         }
       ],
       "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
       "type": "constructor"
     },
     {
@@ -445,11 +163,16 @@
         },
         {
           "indexed": false,
+          "name": "eurEquivalent",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
           "name": "nmkReward",
           "type": "uint256"
         }
       ],
-      "name": "LogTokensClaimed",
+      "name": "LogClaimed",
       "type": "event"
     },
     {
@@ -471,7 +194,7 @@
           "type": "uint256"
         }
       ],
-      "name": "LogFundsRefunded",
+      "name": "LogReund",
       "type": "event"
     },
     {
@@ -515,39 +238,10 @@
       ],
       "name": "LogFundsCommitted",
       "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "name": "accepter",
-          "type": "address"
-        }
-      ],
-      "name": "LogAgreementAccepted",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "contractLegalRepresentative",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "name": "agreementUri",
-          "type": "string"
-        }
-      ],
-      "name": "LogAgreementAmended",
-      "type": "event"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1526401737117
+  "updated_at": 1523453323208
 }
