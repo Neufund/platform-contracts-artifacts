@@ -12,16 +12,18 @@
       "name": "pay",
       "outputs": [],
       "payable": false,
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "inputs": [],
       "payable": true,
+      "stateMutability": "payable",
       "type": "constructor"
     }
   ],
-  "unlinked_binary": "0x60606040525b5b5b60af806100156000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630c11dedd8114603c575b600080fd5b3415604657600080fd5b606573ffffffffffffffffffffffffffffffffffffffff600435166067565b005b8073ffffffffffffffffffffffffffffffffffffffff16ff5b505600a165627a7a72305820e774d1b08a8b6f87d489ee795ea41669163d392b405c68c6db41aba84899e0540029",
+  "unlinked_binary": "0x608060405260b5806100126000396000f300608060405260043610603e5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630c11dedd81146043575b600080fd5b348015604e57600080fd5b50606e73ffffffffffffffffffffffffffffffffffffffff600435166070565b005b8073ffffffffffffffffffffffffffffffffffffffff16ff00a165627a7a7230582053b3fcb08f40a6ce94b35e8295bc62a2ba417469f2ad40f691bc6d1a53be8dfe0029",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1523453323217
+  "updated_at": 1527277894968
 }

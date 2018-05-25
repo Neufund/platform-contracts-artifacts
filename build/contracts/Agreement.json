@@ -16,6 +16,7 @@
       "name": "setAccessPolicy",
       "outputs": [],
       "payable": false,
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -29,11 +30,26 @@
       "name": "agreementSignedAtBlock",
       "outputs": [
         {
+          "name": "blockNo",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amendmentsCount",
+      "outputs": [
+        {
           "name": "",
           "type": "uint256"
         }
       ],
       "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -47,7 +63,7 @@
       "name": "pastAgreement",
       "outputs": [
         {
-          "name": "platformOperatorRepresentative",
+          "name": "contractLegalRepresentative",
           "type": "address"
         },
         {
@@ -64,6 +80,7 @@
         }
       ],
       "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -72,7 +89,7 @@
       "name": "currentAgreement",
       "outputs": [
         {
-          "name": "platformOperatorRepresentative",
+          "name": "contractLegalRepresentative",
           "type": "address"
         },
         {
@@ -89,6 +106,7 @@
         }
       ],
       "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -102,6 +120,7 @@
         }
       ],
       "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -115,6 +134,7 @@
       "name": "amendAgreement",
       "outputs": [],
       "payable": false,
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -128,6 +148,7 @@
         }
       ],
       "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -142,36 +163,8 @@
         }
       ],
       "payable": false,
+      "stateMutability": "nonpayable",
       "type": "constructor"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "name": "accepter",
-          "type": "address"
-        }
-      ],
-      "name": "LogAgreementAccepted",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "platformOperatorRepresentative",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "name": "agreementUri",
-          "type": "string"
-        }
-      ],
-      "name": "LogAgreementAmended",
-      "type": "event"
     },
     {
       "anonymous": false,
@@ -194,10 +187,39 @@
       ],
       "name": "LogAccessPolicyChanged",
       "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "accepter",
+          "type": "address"
+        }
+      ],
+      "name": "LogAgreementAccepted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "contractLegalRepresentative",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "agreementUri",
+          "type": "string"
+        }
+      ],
+      "name": "LogAgreementAmended",
+      "type": "event"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1523453323207
+  "updated_at": 1527277894963
 }

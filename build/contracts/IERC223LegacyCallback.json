@@ -20,11 +20,12 @@
       "name": "onTokenTransfer",
       "outputs": [],
       "payable": false,
+      "stateMutability": "nonpayable",
       "type": "function"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1523453323215
+  "updated_at": 1527277894967
 }

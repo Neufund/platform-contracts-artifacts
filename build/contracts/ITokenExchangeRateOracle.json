@@ -5,6 +5,33 @@
       "constant": true,
       "inputs": [
         {
+          "name": "numeratorTokens",
+          "type": "address[]"
+        },
+        {
+          "name": "denominatorTokens",
+          "type": "address[]"
+        }
+      ],
+      "name": "getExchangeRates",
+      "outputs": [
+        {
+          "name": "rateFractions",
+          "type": "uint256[]"
+        },
+        {
+          "name": "timestamps",
+          "type": "uint256[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
           "name": "numeratorToken",
           "type": "address"
         },
@@ -25,11 +52,12 @@
         }
       ],
       "payable": false,
+      "stateMutability": "view",
       "type": "function"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1523453323216
+  "updated_at": 1527277894968
 }
