@@ -17,12 +17,23 @@
         }
       ],
       "payable": false,
-      "stateMutability": "pure",
+      "stateMutability": "view",
       "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "start",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
     }
   ],
-  "unlinked_binary": "0x6080604052348015600f57600080fd5b5060a18061001e6000396000f300608060405260043610603e5763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305ecc08581146043575b600080fd5b348015604e57600080fd5b506058600435606a565b60408051918252519081900360200190f35b6201518081069003905600a165627a7a7230582048e0db58b33553be6d8ec3eba1100355afd749e74c3064b58e48c7a462d1c0c00029",
+  "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1527419233303
+  "updated_at": 1527446524079
 }
