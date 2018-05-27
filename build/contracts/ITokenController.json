@@ -59,6 +59,37 @@
       "constant": true,
       "inputs": [
         {
+          "name": "broker",
+          "type": "address"
+        },
+        {
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onTransferFrom",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
           "name": "spender",
           "type": "address"
         },
@@ -136,5 +167,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1527277894968
+  "updated_at": 1527419233304
 }
