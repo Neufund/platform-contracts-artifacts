@@ -1,0 +1,40 @@
+{
+  "contract_name": "IAccessPolicy",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "subject",
+          "type": "address"
+        },
+        {
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "name": "object",
+          "type": "address"
+        },
+        {
+          "name": "verb",
+          "type": "bytes4"
+        }
+      ],
+      "name": "allowed",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1527712446780
+}

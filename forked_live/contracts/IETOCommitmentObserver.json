@@ -1,0 +1,27 @@
+{
+  "contract_name": "IETOCommitmentObserver",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "oldState",
+          "type": "uint8"
+        },
+        {
+          "name": "newState",
+          "type": "uint8"
+        }
+      ],
+      "name": "onStateTransition",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1527712446781
+}
