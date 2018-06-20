@@ -58,6 +58,44 @@
       "type": "function"
     },
     {
+      "constant": true,
+      "inputs": [],
+      "name": "contributionSummary",
+      "outputs": [
+        {
+          "name": "newShares",
+          "type": "uint256"
+        },
+        {
+          "name": "capitalIncreaseEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "additionalContributionEth",
+          "type": "uint256"
+        },
+        {
+          "name": "additionalContributionEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "tokenParticipationFeeInt",
+          "type": "uint256"
+        },
+        {
+          "name": "platformFeeEth",
+          "type": "uint256"
+        },
+        {
+          "name": "platformFeeEurUlps",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "constant": false,
       "inputs": [],
       "name": "claim",
@@ -188,44 +226,6 @@
       "outputs": [
         {
           "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "signedOfferingResults",
-      "outputs": [
-        {
-          "name": "newShares",
-          "type": "uint256"
-        },
-        {
-          "name": "capitalIncreaseEurUlps",
-          "type": "uint256"
-        },
-        {
-          "name": "additionalContributionEth",
-          "type": "uint256"
-        },
-        {
-          "name": "additionalContributionEurUlps",
-          "type": "uint256"
-        },
-        {
-          "name": "tokenParticipationFeeInt",
-          "type": "uint256"
-        },
-        {
-          "name": "platformFeeEth",
-          "type": "uint256"
-        },
-        {
-          "name": "platformFeeEurUlps",
           "type": "uint256"
         }
       ],
@@ -549,5 +549,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1527715038225
+  "updated_at": 1529537111105
 }
