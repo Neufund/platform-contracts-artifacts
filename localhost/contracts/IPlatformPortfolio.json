@@ -1,5 +1,5 @@
 {
-  "contract_name": "IFeeDisbursal",
+  "contract_name": "IPlatformPortfolio",
   "abi": [
     {
       "constant": false,

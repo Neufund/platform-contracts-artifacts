@@ -18,6 +18,42 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "totalInvestment",
+      "outputs": [
+        {
+          "name": "totalEquivEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "totalTokensInt",
+          "type": "uint256"
+        },
+        {
+          "name": "totalInvestors",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "startOfStates",
+      "outputs": [
+        {
+          "name": "startOfs",
+          "type": "uint256[7]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "nominee",
       "outputs": [
         {
@@ -253,6 +289,57 @@
     },
     {
       "constant": true,
+      "inputs": [
+        {
+          "name": "investor",
+          "type": "address"
+        }
+      ],
+      "name": "investorTicket",
+      "outputs": [
+        {
+          "name": "equivEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "rewardNmkUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "equityTokenInt",
+          "type": "uint256"
+        },
+        {
+          "name": "sharesInt",
+          "type": "uint256"
+        },
+        {
+          "name": "tokenPrice",
+          "type": "uint256"
+        },
+        {
+          "name": "neuRate",
+          "type": "uint256"
+        },
+        {
+          "name": "amountEth",
+          "type": "uint256"
+        },
+        {
+          "name": "amountEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "claimOrRefundSettled",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
       "inputs": [],
       "name": "failed",
       "outputs": [
@@ -407,12 +494,6 @@
       "type": "function"
     },
     {
-      "inputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "constructor"
-    },
-    {
       "anonymous": false,
       "inputs": [
         {
@@ -423,6 +504,11 @@
         {
           "indexed": false,
           "name": "newState",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "timestamp",
           "type": "uint32"
         }
       ],
@@ -476,6 +562,143 @@
         }
       ],
       "name": "LogFundsRefunded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "companyLegalRep",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "etoTerms",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        }
+      ],
+      "name": "LogTermsSet",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "companyLegalRep",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "previousTimestamp",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "newTimestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogETOStartDateSet",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "nominee",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "companyLegalRep",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newShares",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "capitalIncreaseEurUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogSigningStarted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "companyLegalRep",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "nominee",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "signedInvestmentAgreementUrl",
+          "type": "string"
+        }
+      ],
+      "name": "LogCompanySignedAgreement",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "nominee",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "companyLegalRep",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "signedInvestmentAgreementUrl",
+          "type": "string"
+        }
+      ],
+      "name": "LogNomineeConfirmedAgreement",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "assetToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "totalTokenAmountInt",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "totalRewardNmkUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogRefundStarted",
       "type": "event"
     },
     {
@@ -553,5 +776,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1533723871219
+  "updated_at": 1534341670032
 }
