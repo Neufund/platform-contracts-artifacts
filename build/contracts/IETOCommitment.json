@@ -377,20 +377,6 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "platformTerms",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "equityToken",
       "outputs": [
         {
@@ -753,5 +739,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1534341670032
+  "updated_at": 1534353664865
 }
