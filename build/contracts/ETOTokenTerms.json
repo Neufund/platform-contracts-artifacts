@@ -1,0 +1,84 @@
+{
+  "contract_name": "ETOTokenTerms",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_NUMBER_OF_TOKENS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MIN_NUMBER_OF_TOKENS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_NUMBER_OF_TOKENS_IN_WHITELIST",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_PRICE_EUR_ULPS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "minNumberOfTokens",
+          "type": "uint256"
+        },
+        {
+          "name": "maxNumberOfTokens",
+          "type": "uint256"
+        },
+        {
+          "name": "tokenPriceEurUlps",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x608060405234801561001057600080fd5b5060405160608061014883398101604090815281516020830151919092015160009290925560015560025560ff806100496000396000f300608060405260043610605c5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630216e304811460615780633bdcb5ef1460855780638f2c13191460975780639021276e1460a9575b600080fd5b348015606c57600080fd5b50607360bb565b60408051918252519081900360200190f35b348015609057600080fd5b50607360c1565b34801560a257600080fd5b50607360c7565b34801560b457600080fd5b50607360cd565b60015481565b60005481565b60035481565b600254815600a165627a7a7230582070eeb11e56b0cbbff0735e0d4ab07eeb962a420a8a7de07f83d87bd324f7d0e70029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1535023182863
+}
