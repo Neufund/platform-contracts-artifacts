@@ -696,7 +696,12 @@
           "type": "address"
         },
         {
-          "indexed": true,
+          "indexed": false,
+          "name": "wallet",
+          "type": "address"
+        },
+        {
+          "indexed": false,
           "name": "paymentToken",
           "type": "address"
         },
@@ -762,5 +767,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1535195970732
+  "updated_at": 1535379649812
 }
