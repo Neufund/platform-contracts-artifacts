@@ -1,0 +1,341 @@
+{
+  "contract_name": "IControllerGovernance",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "capTable",
+      "outputs": [
+        {
+          "name": "equityTokens",
+          "type": "address[]"
+        },
+        {
+          "name": "shares",
+          "type": "uint256[]"
+        },
+        {
+          "name": "lastOfferings",
+          "type": "address[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "closeCompany",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "informationType",
+          "type": "string"
+        },
+        {
+          "name": "informationUrl",
+          "type": "string"
+        }
+      ],
+      "name": "issueGeneralInformation",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        }
+      ],
+      "name": "executeResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "cancelCompanyClosing",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "resolutionUri",
+          "type": "string"
+        },
+        {
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "name": "payload",
+          "type": "bytes"
+        }
+      ],
+      "name": "startResolution",
+      "outputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "state",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "shareholderInformation",
+      "outputs": [
+        {
+          "name": "totalCompanyShares",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "shareholderRights",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "oldState",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "newState",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "timestamp",
+          "type": "uint32"
+        }
+      ],
+      "name": "LogGovStateTransition",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "action",
+          "type": "uint8"
+        }
+      ],
+      "name": "ResolutionExecuted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "transfersEnabled",
+          "type": "bool"
+        }
+      ],
+      "name": "LogTransfersStateChanged",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "ISHAUrl",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "totalShares",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "newShareholderRights",
+          "type": "address"
+        }
+      ],
+      "name": "LogISHAAmended",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "etoCommitment",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        }
+      ],
+      "name": "LogOfferingFailed",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "etoCommitment",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newShares",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogOfferingSucceeded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "companyLegalRep",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "informationType",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "informationUrl",
+          "type": "string"
+        }
+      ],
+      "name": "LogGeneralInformation",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "etoCommitment",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        }
+      ],
+      "name": "LogOfferingRegistered",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "newController",
+          "type": "address"
+        }
+      ],
+      "name": "LogMigratedTokenController",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1535379656715
+}

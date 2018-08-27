@@ -1,0 +1,225 @@
+{
+  "contract_name": "Agreement",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newPolicy",
+          "type": "address"
+        },
+        {
+          "name": "newAccessController",
+          "type": "address"
+        }
+      ],
+      "name": "setAccessPolicy",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "signatory",
+          "type": "address"
+        }
+      ],
+      "name": "agreementSignedAtBlock",
+      "outputs": [
+        {
+          "name": "blockNo",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amendmentsCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "amendmentIndex",
+          "type": "uint256"
+        }
+      ],
+      "name": "pastAgreement",
+      "outputs": [
+        {
+          "name": "contractLegalRepresentative",
+          "type": "address"
+        },
+        {
+          "name": "signedBlockTimestamp",
+          "type": "uint256"
+        },
+        {
+          "name": "agreementUri",
+          "type": "string"
+        },
+        {
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "currentAgreement",
+      "outputs": [
+        {
+          "name": "contractLegalRepresentative",
+          "type": "address"
+        },
+        {
+          "name": "signedBlockTimestamp",
+          "type": "uint256"
+        },
+        {
+          "name": "agreementUri",
+          "type": "string"
+        },
+        {
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ethereumForkArbiter",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "agreementUri",
+          "type": "string"
+        }
+      ],
+      "name": "amendAgreement",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "accessPolicy",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "accessPolicy",
+          "type": "address"
+        },
+        {
+          "name": "forkArbiter",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "controller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "oldPolicy",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newPolicy",
+          "type": "address"
+        }
+      ],
+      "name": "LogAccessPolicyChanged",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "accepter",
+          "type": "address"
+        }
+      ],
+      "name": "LogAgreementAccepted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "contractLegalRepresentative",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "agreementUri",
+          "type": "string"
+        }
+      ],
+      "name": "LogAgreementAmended",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1535379656715
+}
