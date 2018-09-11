@@ -1,0 +1,27 @@
+{
+  "contract_name": "IContractId",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "contractId",
+      "outputs": [
+        {
+          "name": "id",
+          "type": "bytes32"
+        },
+        {
+          "name": "version",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1536679608208
+}

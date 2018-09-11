@@ -3,34 +3,6 @@
   "abi": [
     {
       "constant": true,
-      "inputs": [],
-      "name": "MAX_CLAIM_DURATION_DAYS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MIN_CLAIM_DURATION_DAYS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
       "inputs": [
         {
           "name": "amount",
@@ -51,6 +23,20 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "MIN_OFFER_DURATION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "IS_ICBM_INVESTOR_WHITELISTED",
       "outputs": [
         {
@@ -65,49 +51,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MIN_OFFER_DURATION_DAYS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "EQUITY_TOKENS_PER_SHARE",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MAX_TOTAL_AMOUNT_CROWDFUNDING_EUR_ULPS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MIN_SIGNING_DURATION_DAYS",
+      "name": "MIN_SIGNING_DURATION",
       "outputs": [
         {
           "name": "",
@@ -135,7 +79,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MAX_SIGNING_DURATION_DAYS",
+      "name": "MAX_WHITELIST_DURATION",
       "outputs": [
         {
           "name": "",
@@ -163,48 +107,6 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "EQUITY_TOKENS_PRECISION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint8"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MIN_PUBLIC_DURATION_DAYS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MAX_PUBLIC_DURATION_DAYS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "TOKEN_PARTICIPATION_FEE_FRACTION",
       "outputs": [
         {
@@ -219,7 +121,39 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MAX_TICKET_CROWFUNDING_SIMPLE_EUR_ULPS",
+      "name": "contractId",
+      "outputs": [
+        {
+          "name": "id",
+          "type": "bytes32"
+        },
+        {
+          "name": "version",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MIN_PUBLIC_DURATION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_SIGNING_DURATION",
       "outputs": [
         {
           "name": "",
@@ -252,20 +186,6 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MIN_WHITELIST_DURATION_DAYS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "PLATFORM_FEE_FRACTION",
       "outputs": [
         {
@@ -280,7 +200,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MAX_OFFER_DURATION_DAYS",
+      "name": "MIN_WHITELIST_DURATION",
       "outputs": [
         {
           "name": "",
@@ -331,7 +251,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MAX_TICKET_CROWFUNDING_SOPHISTICATED_EUR_ULPS",
+      "name": "MAX_OFFER_DURATION",
       "outputs": [
         {
           "name": "",
@@ -359,7 +279,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MAX_WHITELIST_DURATION_DAYS",
+      "name": "MAX_PUBLIC_DURATION",
       "outputs": [
         {
           "name": "",
@@ -372,13 +292,8 @@
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "equityTokensToShares",
+      "inputs": [],
+      "name": "MIN_CLAIM_DURATION",
       "outputs": [
         {
           "name": "",
@@ -386,12 +301,26 @@
         }
       ],
       "payable": false,
-      "stateMutability": "pure",
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MAX_CLAIM_DURATION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
       "type": "function"
     }
   ],
-  "unlinked_binary": "0x608060405234801561001057600080fd5b50610521806100206000396000f3006080604052600436106101535763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306e642ba811461015857806306f3e8b21461017f5780630cbab4f71461019457806327986eda146101ac57806329e00380146101d5578063436cdb03146101ea5780634c7992f0146101ff5780634f4b2af314610214578063548e73c7146102295780635588299714610158578063659c713b1461023e57806366448ae8146102535780636b2afd851461027e57806370206c9614610293578063753f3f15146102a8578063987ce9d2146102bd5780639ae0f890146102d2578063aa2be9a31461027e578063bcac5685146102ea578063c0b75c9e146102ff578063cbf9e46a14610214578063d017ecb414610314578063d47fc39514610345578063e1546a231461035a578063e379051c14610158578063edf04bd41461036f575b600080fd5b34801561016457600080fd5b5061016d610387565b60408051918252519081900360200190f35b34801561018b57600080fd5b5061016d61038e565b3480156101a057600080fd5b5061016d600435610395565b3480156101b857600080fd5b506101c16103ae565b604080519115158252519081900360200190f35b3480156101e157600080fd5b5061016d6103b3565b3480156101f657600080fd5b5061016d6103ba565b34801561020b57600080fd5b5061016d6103c0565b34801561022057600080fd5b5061016d6103cf565b34801561023557600080fd5b5061016d6103d6565b34801561024a57600080fd5b5061016d6103e3565b34801561025f57600080fd5b506102686103e8565b6040805160ff9092168252519081900360200190f35b34801561028a57600080fd5b5061016d6103e8565b34801561029f57600080fd5b5061016d6103ed565b3480156102b457600080fd5b5061016d6103f4565b3480156102c957600080fd5b5061016d6103ff565b3480156102de57600080fd5b5061016d60043561040c565b3480156102f657600080fd5b5061016d610428565b34801561030b57600080fd5b5061016d610433565b34801561032057600080fd5b5061032c60043561043a565b6040805192835260208301919091528051918290030190f35b34801561035157600080fd5b5061016d610446565b34801561036657600080fd5b5061016d610454565b34801561037b57600080fd5b5061016d60043561045a565b62278d0081565b62093a8081565b60006103a882666a94d74f430000610468565b92915050565b600181565b6201518081565b61271081565b6a021165458500521280000081565b6212750081565b68056bc75e2d6310000081565b600281565b600081565b624f1a0081565b66470de4df82000081565b683635c9adc5dea0000081565b60006103a88266470de4df820000670de0b6b3a7640000610484565b666a94d74f43000081565b6276a70081565b60028104919082900390565b69021e19e0c9bab240000081565b61384081565b60006103a8826127106104a1565b600061047d8383670de0b6b3a7640000610484565b9392505050565b600061049961049385856104c2565b836104a1565b949350505050565b6000816104b184600283046104e6565b8115156104ba57fe5b049392505050565b60008282028315806104de57508284828115156104db57fe5b04145b151561047d57fe5b60008282018381101561047d57fe00a165627a7a72305820fe9600a79ffbc836a8e603dbb659d753aaa09393cb8fc6646bf785933b2554f10029",
+  "unlinked_binary": "0x608060405234801561001057600080fd5b50610451806100206000396000f30060806040526004361061011c5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630cbab4f7811461012157806325929ddd1461014b57806327986eda14610160578063436f032f14610189578063548e73c71461019e5780635d77c182146101b3578063659c713b146101c8578063753f3f15146101dd5780638291286c146101f257806386d52e291461022057806397f97e95146101b35780639ae0f89014610235578063bcac56851461024d578063c50f68ec14610220578063cbf9e46a14610189578063d017ecb414610262578063d6d4fcea1461027a578063e1546a231461028f578063ed1da7b0146102a4578063f76a9703146102b9578063fe62dfea146101b3575b600080fd5b34801561012d57600080fd5b506101396004356102ce565b60408051918252519081900360200190f35b34801561015757600080fd5b506101396102e7565b34801561016c57600080fd5b506101756102ee565b604080519115158252519081900360200190f35b34801561019557600080fd5b506101396102f3565b3480156101aa57600080fd5b506101396102fa565b3480156101bf57600080fd5b50610139610307565b3480156101d457600080fd5b5061013961030e565b3480156101e957600080fd5b50610139610313565b3480156101fe57600080fd5b5061020761031e565b6040805192835260208301919091528051918290030190f35b34801561022c57600080fd5b50610139610345565b34801561024157600080fd5b5061013960043561034a565b34801561025957600080fd5b50610139610366565b34801561026e57600080fd5b50610207600435610371565b34801561028657600080fd5b5061013961037d565b34801561029b57600080fd5b50610139610384565b3480156102b057600080fd5b5061013961038a565b3480156102c557600080fd5b50610139610391565b60006102e182666a94d74f430000610398565b92915050565b6201518081565b600181565b6212750081565b68056bc75e2d6310000081565b62278d0081565b600281565b66470de4df82000081565b7f95482babc4e32de6c4dc3910ee7ae62c8e427efde6bc4e9ce0d6d93e24c3932360009091565b600081565b60006102e18266470de4df820000670de0b6b3a76400006103b4565b666a94d74f43000081565b60028104919082900390565b6276a70081565b61384081565b624f1a0081565b62093a8081565b60006103ad8383670de0b6b3a76400006103b4565b9392505050565b60006103c96103c385856103d1565b836103f5565b949350505050565b60008282028315806103ed57508284828115156103ea57fe5b04145b15156103ad57fe5b6000816104058460028304610416565b81151561040e57fe5b049392505050565b6000828201838110156103ad57fe00a165627a7a723058207e38dcc0a64252afa7130909478485eac865e5f8537b950cbcb092fbde3cbe9d0029",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1536661234170
+  "updated_at": 1536679596885
 }

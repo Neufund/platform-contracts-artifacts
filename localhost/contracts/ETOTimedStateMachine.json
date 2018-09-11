@@ -332,6 +332,10 @@
         {
           "name": "claimOrRefundSettled",
           "type": "bool"
+        },
+        {
+          "name": "usedLockedAccount",
+          "type": "bool"
         }
       ],
       "payable": false,
@@ -712,7 +716,7 @@
         },
         {
           "indexed": false,
-          "name": "eurEquivalent",
+          "name": "baseCurrencyEquivalent",
           "type": "uint256"
         },
         {
@@ -727,7 +731,7 @@
         },
         {
           "indexed": false,
-          "name": "nmkReward",
+          "name": "neuReward",
           "type": "uint256"
         }
       ],
@@ -767,5 +771,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1536661245430
+  "updated_at": 1536679608204
 }
