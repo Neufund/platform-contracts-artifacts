@@ -140,29 +140,6 @@
       "constant": true,
       "inputs": [
         {
-          "name": "spender",
-          "type": "address"
-        },
-        {
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "hasPermanentAllowance",
-      "outputs": [
-        {
-          "name": "yes",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
           "name": "signatory",
           "type": "address"
         }
@@ -409,5 +386,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1536747633215
+  "updated_at": 1536750029436
 }
