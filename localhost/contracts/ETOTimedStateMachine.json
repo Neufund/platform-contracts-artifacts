@@ -4,6 +4,20 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "timedState",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "success",
       "outputs": [
         {
@@ -771,5 +785,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1537202678601
+  "updated_at": 1537204181366
 }
