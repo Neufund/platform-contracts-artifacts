@@ -3,7 +3,7 @@
     "address": "0x0d69bfc43eb3500a8a747df979c22e3609b62a20",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1538500192",
+    "startDate": "1538669393",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
     "definition": {
@@ -67,7 +67,7 @@
     "address": "0xead38cddebb4844dad903c48fa16ea50cc67acc1",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1536944995",
+    "startDate": "1537114195",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
     "definition": {
@@ -156,7 +156,7 @@
     "address": "0xef2260a8e516393f313e0e659b1a3571e98d73ee",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1536340198",
+    "startDate": "1536509398",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
     "definition": {
@@ -257,7 +257,7 @@
     "address": "0x70bb3329585fe6cf00104e92e62f188c2fcc4480",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1535130600",
+    "startDate": "1535299800",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
     "definition": {
@@ -358,7 +358,7 @@
     "address": "0x8592711638f43d0a6377119c90b832f4734897b2",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1535130605",
+    "startDate": "1535299805",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x007d45d94368ae57ac8351604dc1cb3236150727",
     "definition": {
@@ -459,7 +459,7 @@
     "address": "0x2ab5db87d91d772095ae6bc01d0d1c81ef1bb8a3",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1534266608",
+    "startDate": "1534435809",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x00866b5e4f539b215a28476ad5a364425599f206",
     "definition": {
@@ -560,7 +560,7 @@
     "address": "0x60fab12507c0f659ddb32f50ba3f65da9ba15bc7",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1535130614",
+    "startDate": "1535299815",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0028625dcbc24a821b40864294d66507fec70b7f",
     "definition": {
