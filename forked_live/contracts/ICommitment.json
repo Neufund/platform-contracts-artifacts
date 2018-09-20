@@ -17,6 +17,28 @@
     },
     {
       "constant": true,
+      "inputs": [],
+      "name": "totalInvestment",
+      "outputs": [
+        {
+          "name": "totalEquivEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "totalTokensInt",
+          "type": "uint256"
+        },
+        {
+          "name": "totalInvestors",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
       "inputs": [
         {
           "name": "signatory",
@@ -178,7 +200,12 @@
           "type": "address"
         },
         {
-          "indexed": true,
+          "indexed": false,
+          "name": "wallet",
+          "type": "address"
+        },
+        {
+          "indexed": false,
           "name": "paymentToken",
           "type": "address"
         },
@@ -189,7 +216,7 @@
         },
         {
           "indexed": false,
-          "name": "eurEquivalent",
+          "name": "baseCurrencyEquivalent",
           "type": "uint256"
         },
         {
@@ -204,7 +231,7 @@
         },
         {
           "indexed": false,
-          "name": "nmkReward",
+          "name": "neuReward",
           "type": "uint256"
         }
       ],
@@ -244,5 +271,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1530437690164
+  "updated_at": 1537482515974
 }
