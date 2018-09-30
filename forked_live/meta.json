@@ -56,7 +56,7 @@
     "isLiveDeployment": true
   },
   "DEPLOYER": "0x8a194c13308326173423119f8dcb785ce14c732b",
-  "UNIVERSE_ADDRESS": "0x1d65c7f4b725a6eb33b67dec604956feeb362311",
+  "UNIVERSE_ADDRESS": "0x08720cd470a2dfc38ab5d8911250b511b7d4188a",
   "ROLES": {
     "accessController": "0xac42f8beb17975ed062dcb80c63e6d203ef1c2c335ced149dc5664cc671cb7da",
     "example": "0xb01f6215887f913abe74277c39da2c7de51baf17958191658f84959dfddab970",
@@ -81,6 +81,7 @@
     "neumark": "0xeb41a1bd",
     "etherToken": "0x8cf73cf1",
     "euroToken": "0x83c3790b",
+    "euroTokenController": "0x33ac4661",
     "identityRegistry": "0x0a72e073",
     "tokenExchangeRateOracle": "0xc6e5349e",
     "feeDisbursal": "0xf4c848e8",
@@ -98,7 +99,8 @@
     "universe": "0xbf202454",
     "commitmentInterface": "0xfa0e0c60",
     "equityTokenInterface": "0xab9885bb",
-    "equityTokenControllerInterface": "0xfa30b2f1"
+    "equityTokenControllerInterface": "0xfa30b2f1",
+    "termsInterface": "0x9d5754ab"
   },
   "INTERFACE_ARTIFACTS": {
     "accessPolicy": [
@@ -115,6 +117,9 @@
     ],
     "euroToken": [
       "EuroToken"
+    ],
+    "euroTokenController": [
+      "EuroTokenController"
     ],
     "etherLock": [
       "LockedAccount"
@@ -170,6 +175,10 @@
     "equityTokenControllerInterface": [
       "PlaceholderEquityTokenController",
       ""
+    ],
+    "termsInterface": [
+      "ETOTerms",
+      ""
     ]
   },
   "NETWORK": {
@@ -210,6 +219,6 @@
       "0xf40011040398947b3c6b7532ed23fbc8c19c9654"
     ]
   },
-  "HEAD_BLOCK_NO": 7283244,
-  "INITIAL_BLOCK_NO": 7283154
+  "HEAD_BLOCK_NO": 7501216,
+  "INITIAL_BLOCK_NO": 7501143
 }
