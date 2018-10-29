@@ -2,6 +2,20 @@
   "contract_name": "IETOCommitmentObserver",
   "abi": [
     {
+      "constant": true,
+      "inputs": [],
+      "name": "commitmentObserver",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "constant": false,
       "inputs": [
         {
@@ -23,5 +37,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1540387530796
+  "updated_at": 1540850427407
 }

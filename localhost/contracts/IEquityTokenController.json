@@ -53,6 +53,20 @@
     },
     {
       "constant": true,
+      "inputs": [],
+      "name": "commitmentObserver",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
       "inputs": [
         {
           "name": "sender",
@@ -367,5 +381,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1540387545060
+  "updated_at": 1540850441402
 }
