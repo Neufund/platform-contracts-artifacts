@@ -55,8 +55,8 @@
     "shouldSkipDeployment": false,
     "isLiveDeployment": true
   },
-  "DEPLOYER": "0x8a194c13308326173423119f8dcb785ce14c732b",
-  "UNIVERSE_ADDRESS": "0xd55fd23b7b5b812e16e455ed0ba27901ad5cc940",
+  "DEPLOYER": "0x08712307a86632b15d13ecfebe732c07cc026915",
+  "UNIVERSE_ADDRESS": "0x2785279ef76d21d39ad9a5a495955b77dedad528",
   "ROLES": {
     "accessController": "0xac42f8beb17975ed062dcb80c63e6d203ef1c2c335ced149dc5664cc671cb7da",
     "example": "0xb01f6215887f913abe74277c39da2c7de51baf17958191658f84959dfddab970",
@@ -183,11 +183,7 @@
   },
   "NETWORK": {
     "network_id": 72,
-    "host": "ethexp-node.neustg.net",
-    "port": 8545,
     "gas": 6500000,
-    "gasPrice": 5000000000,
-    "from": "0x8a194c13308326173423119f8dcb785ce14c732b",
     "deploymentConfigOverride": {
       "ICBM_COMMITMENT_ADDRESS": "0xf432cec23b2a0d6062b969467f65669de81f4653",
       "ISOLATED_UNIVERSE": false,
@@ -198,27 +194,12 @@
         "TOKEN_RATE_ORACLE": "0xB3E69d2637076D265bFb056bF5F35d9155535CD6"
       }
     },
+    "gasPrice": 10000000000,
+    "from": "0x08712307a86632b15d13ecfebe732c07cc026915",
     "unlockedAccounts": [
-      "0x00b1da87c22608f90f1e34759cd1291c8a4e4b25",
-      "0x04befe8ab2ab7ce71c610a5dae0cbf826b6c4f7a",
-      "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
-      "0x2e6d01625685281a1e3d10e4b41a61b4e6acb55f",
-      "0x429123b08df32b0006fd1f3b0ef893a8993802f3",
-      "0x700f98b33992cc073744d331d70037ba0d2bca45",
-      "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
-      "0x79d7176ae8f93a04bc73b9bc710d4b44f9e362ce",
-      "0x84b07cd505f3257782b96a3e121ac1f5d1cae32f",
-      "0x8a194c13308326173423119f8dcb785ce14c732b",
-      "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
-      "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
-      "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
-      "0xdf5f67e6e4c643a2ced1f9de88a5da42e1507efd",
-      "0xe012160ed101d0ac1c8321f9af5f9d7a332c6034",
-      "0xe6ad2cdba2fb15504232ebfa82f64c06c87f9326",
-      "0xf18938a83cff0ae67dc105155469556d4224c48f",
-      "0xf40011040398947b3c6b7532ed23fbc8c19c9654"
+      "0x08712307a86632b15d13ecfebe732c07cc026915"
     ]
   },
-  "HEAD_BLOCK_NO": 7466366,
-  "INITIAL_BLOCK_NO": 7466298
+  "HEAD_BLOCK_NO": 7472508,
+  "INITIAL_BLOCK_NO": 7472410
 }
