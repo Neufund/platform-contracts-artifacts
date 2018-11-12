@@ -1,23 +1,15 @@
 {
-  "contract_name": "IFeeDisbursal",
+  "contract_name": "IWithdrawableToken",
   "abi": [
     {
       "constant": false,
       "inputs": [
         {
-          "name": "from",
-          "type": "address"
-        },
-        {
           "name": "amount",
           "type": "uint256"
-        },
-        {
-          "name": "data",
-          "type": "bytes"
         }
       ],
-      "name": "tokenFallback",
+      "name": "withdraw",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",

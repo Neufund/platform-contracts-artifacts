@@ -1,19 +1,15 @@
 {
-  "contract_name": "Reclaimable",
+  "contract_name": "ITokenControllerHook",
   "abi": [
     {
       "constant": false,
       "inputs": [
         {
-          "name": "newPolicy",
-          "type": "address"
-        },
-        {
-          "name": "newAccessController",
+          "name": "newController",
           "type": "address"
         }
       ],
-      "name": "setAccessPolicy",
+      "name": "changeTokenController",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -22,10 +18,10 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "accessPolicy",
+      "name": "tokenController",
       "outputs": [
         {
-          "name": "",
+          "name": "currentController",
           "type": "address"
         }
       ],
@@ -34,44 +30,30 @@
       "type": "function"
     },
     {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "token",
-          "type": "address"
-        }
-      ],
-      "name": "reclaim",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
       "anonymous": false,
       "inputs": [
         {
           "indexed": false,
-          "name": "controller",
+          "name": "oldController",
           "type": "address"
         },
         {
           "indexed": false,
-          "name": "oldPolicy",
+          "name": "newController",
           "type": "address"
         },
         {
           "indexed": false,
-          "name": "newPolicy",
+          "name": "by",
           "type": "address"
         }
       ],
-      "name": "LogAccessPolicyChanged",
+      "name": "LogChangeTokenController",
       "type": "event"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1542028562456
+  "updated_at": 1542028562458
 }

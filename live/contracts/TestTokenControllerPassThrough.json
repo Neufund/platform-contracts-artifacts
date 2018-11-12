@@ -1,5 +1,5 @@
 {
-  "contract_name": "TestEuroTokenControllerPassThrough",
+  "contract_name": "TestTokenControllerPassThrough",
   "abi": [
     {
       "constant": true,
@@ -8,29 +8,6 @@
           "name": "",
           "type": "address"
         },
-        {
-          "name": "",
-          "type": "address"
-        },
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "name": "onDestroyTokens",
-      "outputs": [
-        {
-          "name": "allow",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
         {
           "name": "",
           "type": "address"
@@ -68,14 +45,10 @@
         },
         {
           "name": "",
-          "type": "address"
-        },
-        {
-          "name": "",
           "type": "uint256"
         }
       ],
-      "name": "onTransferFrom",
+      "name": "onDestroyTokens",
       "outputs": [
         {
           "name": "allow",
@@ -95,13 +68,13 @@
         },
         {
           "name": "",
-          "type": "uint256"
+          "type": "address"
         }
       ],
-      "name": "hasPermanentAllowance",
+      "name": "onChangeTokenController",
       "outputs": [
         {
-          "name": "yes",
+          "name": "",
           "type": "bool"
         }
       ],
@@ -146,6 +119,29 @@
         {
           "name": "",
           "type": "address"
+        }
+      ],
+      "name": "onAllowance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
         },
         {
           "name": "",
@@ -164,8 +160,8 @@
       "type": "function"
     }
   ],
-  "unlinked_binary": "0x608060405234801561001057600080fd5b5061017c806100206000396000f3006080604052600436106100775763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630c36efa0811461007c5780634a3931491461007c57806350872d1e146100c757806352b238a0146101045780637d31c9f01461007c578063da682aeb1461007c575b600080fd5b34801561008857600080fd5b506100b373ffffffffffffffffffffffffffffffffffffffff60043581169060243516604435610135565b604080519115158252519081900360200190f35b3480156100d357600080fd5b506100b373ffffffffffffffffffffffffffffffffffffffff6004358116906024358116906044351660643561013e565b34801561011057600080fd5b506100b373ffffffffffffffffffffffffffffffffffffffff60043516602435610148565b60019392505050565b6001949350505050565b6000929150505600a165627a7a72305820225ba67f2a06908f43e1be7942e7b6e87033d8008b7dcf1c45271e7758a323620029",
+  "unlinked_binary": "0x608060405234801561001057600080fd5b506101cd806100206000396000f3006080604052600436106100775763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630987df03811461007c5780630c36efa0146100cd578063307e6661146101045780637d31c9f0146100cd578063c00d752c14610138578063da682aeb146100cd575b600080fd5b34801561008857600080fd5b506100b973ffffffffffffffffffffffffffffffffffffffff6004358116906024358116906044351660643561017e565b604080519115158252519081900360200190f35b3480156100d957600080fd5b506100b973ffffffffffffffffffffffffffffffffffffffff60043581169060243516604435610188565b34801561011057600080fd5b506100b973ffffffffffffffffffffffffffffffffffffffff60043581169060243516610191565b34801561014457600080fd5b5061016c73ffffffffffffffffffffffffffffffffffffffff60043581169060243516610199565b60408051918252519081900360200190f35b6001949350505050565b60019392505050565b600192915050565b6000929150505600a165627a7a7230582042c651a348746422b872ca33e8d3e69917376917caacc92e1fbbbef71f5137e00029",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1535379649821
+  "updated_at": 1542028562466
 }

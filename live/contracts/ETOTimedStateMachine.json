@@ -4,6 +4,20 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "timedState",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "success",
       "outputs": [
         {
@@ -331,6 +345,10 @@
         },
         {
           "name": "claimOrRefundSettled",
+          "type": "bool"
+        },
+        {
+          "name": "usedLockedAccount",
           "type": "bool"
         }
       ],
@@ -712,7 +730,7 @@
         },
         {
           "indexed": false,
-          "name": "eurEquivalent",
+          "name": "baseCurrencyEquivalent",
           "type": "uint256"
         },
         {
@@ -727,7 +745,7 @@
         },
         {
           "indexed": false,
-          "name": "nmkReward",
+          "name": "neuReward",
           "type": "uint256"
         }
       ],
@@ -767,5 +785,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1535379649812
+  "updated_at": 1542028562449
 }

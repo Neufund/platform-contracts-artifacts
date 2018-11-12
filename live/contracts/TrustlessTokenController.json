@@ -1,8 +1,8 @@
 {
-  "contract_name": "MEquityTokenController",
+  "contract_name": "TrustlessTokenController",
   "abi": [],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1535379656715
+  "updated_at": 1542028562457
 }

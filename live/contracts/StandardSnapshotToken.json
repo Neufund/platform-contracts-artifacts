@@ -142,25 +142,6 @@
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "snapshotId",
-          "type": "uint256"
-        }
-      ],
-      "name": "totalSupplyAtInternal",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
       "inputs": [],
       "name": "currentSnapshotId",
       "outputs": [
@@ -342,5 +323,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1535379656718
+  "updated_at": 1542028562457
 }

@@ -53,20 +53,6 @@
       "type": "function"
     },
     {
-      "constant": true,
-      "inputs": [],
-      "name": "isTokenClosed",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
       "constant": false,
       "inputs": [
         {
@@ -248,15 +234,6 @@
       "type": "function"
     },
     {
-      "constant": false,
-      "inputs": [],
-      "name": "closeToken",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
       "constant": true,
       "inputs": [],
       "name": "amendmentsCount",
@@ -285,20 +262,6 @@
       "type": "function"
     },
     {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "newController",
-          "type": "address"
-        }
-      ],
-      "name": "changeEquityTokenController",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
       "constant": true,
       "inputs": [
         {
@@ -323,20 +286,6 @@
         {
           "name": "index",
           "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "equityTokenController",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
         }
       ],
       "payable": false,
@@ -537,6 +486,20 @@
       "type": "function"
     },
     {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newController",
+          "type": "address"
+        }
+      ],
+      "name": "changeTokenController",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "constant": true,
       "inputs": [
         {
@@ -576,6 +539,20 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "tokenController",
+      "outputs": [
+        {
+          "name": "currentController",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "companyLegalRepresentative",
       "outputs": [
         {
@@ -586,6 +563,28 @@
       "payable": false,
       "stateMutability": "view",
       "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "oldController",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newController",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "by",
+          "type": "address"
+        }
+      ],
+      "name": "LogChangeTokenController",
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -664,5 +663,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1535379656715
+  "updated_at": 1542028562448
 }

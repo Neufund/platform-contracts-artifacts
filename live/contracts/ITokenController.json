@@ -5,32 +5,9 @@
       "constant": true,
       "inputs": [
         {
-          "name": "sender",
+          "name": "broker",
           "type": "address"
         },
-        {
-          "name": "owner",
-          "type": "address"
-        },
-        {
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "onDestroyTokens",
-      "outputs": [
-        {
-          "name": "allow",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
         {
           "name": "from",
           "type": "address"
@@ -59,15 +36,11 @@
       "constant": true,
       "inputs": [
         {
-          "name": "broker",
+          "name": "sender",
           "type": "address"
         },
         {
-          "name": "from",
-          "type": "address"
-        },
-        {
-          "name": "to",
+          "name": "owner",
           "type": "address"
         },
         {
@@ -75,7 +48,7 @@
           "type": "uint256"
         }
       ],
-      "name": "onTransferFrom",
+      "name": "onDestroyTokens",
       "outputs": [
         {
           "name": "allow",
@@ -90,18 +63,18 @@
       "constant": true,
       "inputs": [
         {
-          "name": "spender",
+          "name": "sender",
           "type": "address"
         },
         {
-          "name": "amount",
-          "type": "uint256"
+          "name": "newController",
+          "type": "address"
         }
       ],
-      "name": "hasPermanentAllowance",
+      "name": "onChangeTokenController",
       "outputs": [
         {
-          "name": "yes",
+          "name": "",
           "type": "bool"
         }
       ],
@@ -146,6 +119,29 @@
         {
           "name": "spender",
           "type": "address"
+        }
+      ],
+      "name": "onAllowance",
+      "outputs": [
+        {
+          "name": "allowanceOverride",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "name": "spender",
+          "type": "address"
         },
         {
           "name": "amount",
@@ -167,5 +163,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1535379656722
+  "updated_at": 1542028562458
 }
