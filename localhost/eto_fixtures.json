@@ -3,7 +3,7 @@
     "address": "0xb72951d32dab22852164a9cc00804bf105771749",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1543088561",
+    "startDate": "1543867083",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
     "definition": {
@@ -16,7 +16,8 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -36,14 +37,15 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
+        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
@@ -67,7 +69,7 @@
     "address": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1541533365",
+    "startDate": "1542311887",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
     "definition": {
@@ -80,34 +82,36 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
-        "WHITELIST_DURATION": "604800",
-        "PUBLIC_DURATION": "1209600",
-        "SIGNING_DURATION": "1209600",
+        "WHITELIST_DURATION": "691200",
+        "PUBLIC_DURATION": "864000",
+        "SIGNING_DURATION": "1555200",
         "CLAIM_DURATION": "864000"
       },
       "tokenTerms": {
         "MIN_NUMBER_OF_TOKENS": "10000000",
         "MAX_NUMBER_OF_TOKENS": "34520000",
-        "TOKEN_PRICE_EUR_ULPS": "323761890000000000",
+        "TOKEN_PRICE_EUR_ULPS": "423761890000000000",
         "MAX_NUMBER_OF_TOKENS_IN_WHITELIST": "15340000"
       },
       "etoTerms": {
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
-        "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "EXISTING_COMPANY_SHARES": "41976",
+        "MIN_TICKET_EUR_ULPS": "100000000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
-        "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "ALLOW_RETAIL_INVESTORS": false,
+        "ENABLE_TRANSFERS_ON_SUCCESS": true,
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
-        "EQUITY_TOKEN_NAME": "Quintessence",
-        "EQUITY_TOKEN_SYMBOL": "QTT",
+        "EQUITY_TOKEN_NAME": "Rich",
+        "EQUITY_TOKEN_SYMBOL": "RCH",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
@@ -127,25 +131,25 @@
     },
     "investors": {
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "768000000000000000000",
+        "100768000000000000000000",
         "0",
-        "3388",
+        "339705",
+        "34",
+        "296633844070590659",
         "0",
-        "226682408500590318",
         "0",
-        "0",
-        "768000000000000000000",
+        "100768000000000000000000",
         "false",
         "true"
       ],
       "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
-        "619522322423022000000",
-        "1986343476046736427919",
-        "2733",
-        "0",
-        "226682152368467618",
-        "311890833530970520",
-        "1716210000000000000",
+        "100611762963823022000000",
+        "322516591651295499396318",
+        "339178",
+        "34",
+        "296634106468647795",
+        "311958409484260963",
+        "278716210000000000000",
         "0",
         "false",
         "false"
@@ -156,7 +160,7 @@
     "address": "0xef2260a8e516393f313e0e659b1a3571e98d73ee",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1540928568",
+    "startDate": "1541707090",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
     "definition": {
@@ -169,7 +173,8 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -189,14 +194,15 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
+        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
@@ -228,24 +234,24 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "768000000000000000000",
+        "868000000000000000000",
         "0",
-        "3388",
+        "3829",
         "0",
-        "226682408500590318",
+        "226691042047531992",
         "0",
         "0",
-        "768000000000000000000",
+        "868000000000000000000",
         "false",
         "true"
       ],
       "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
         "619522322423022000000",
-        "1986338143522692824827",
+        "1985477650221454543056",
         "2733",
         "0",
         "226682152368467618",
-        "311891670833206399",
+        "312026842686404573",
         "1716210000000000000",
         "0",
         "false",
@@ -257,7 +263,7 @@
     "address": "0xfada8f267c054f469b52ccbeb08250acaaee65dc",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1539718971",
+    "startDate": "1540497494",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
     "definition": {
@@ -270,7 +276,8 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -290,14 +297,15 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
+        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
@@ -329,24 +337,24 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "768000000000000000000",
+        "868000000000000000000",
         "0",
-        "3388",
+        "3829",
         "0",
-        "226682408500590318",
+        "226691042047531992",
         "0",
         "0",
-        "768000000000000000000",
+        "868000000000000000000",
         "false",
         "true"
       ],
       "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
         "3238238422322423022000000",
-        "10310053883777017795529047",
+        "10305587508134317713829737",
         "10002733",
         "1000",
         "323735365356890264",
-        "314085499341359068",
+        "314221621985786304",
         "1716210000000000000",
         "3237618900000000000000000",
         "false",
@@ -358,7 +366,7 @@
     "address": "0x9ae7542ad7bf7cdf4244095346a9a80025e0778c",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1539114177",
+    "startDate": "1539892700",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x007d45d94368ae57ac8351604dc1cb3236150727",
     "definition": {
@@ -371,7 +379,8 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -391,14 +400,15 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
+        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
@@ -430,24 +440,24 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "768000000000000000000",
+        "868000000000000000000",
         "0",
-        "3388",
+        "3829",
         "0",
-        "226682408500590318",
+        "226691042047531992",
         "0",
         "0",
-        "768000000000000000000",
+        "868000000000000000000",
         "false",
         "true"
       ],
       "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
         "3238238422322423022000000",
-        "10166389760264200364319710",
+        "10161985620760052105287540",
         "10002733",
         "1000",
         "323735365356890264",
-        "318523930193904831",
+        "318661976425845731",
         "1716210000000000000",
         "3237618900000000000000000",
         "false",
@@ -459,7 +469,7 @@
     "address": "0xac9d64ad2ca317e32145df484792dcb1af1bfe8c",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1538250181",
+    "startDate": "1539028705",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x00866b5e4f539b215a28476ad5a364425599f206",
     "definition": {
@@ -472,7 +482,8 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -492,14 +503,15 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
+        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
@@ -531,24 +543,24 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "768000000000000000000",
+        "868000000000000000000",
         "0",
-        "3388",
+        "3829",
         "0",
-        "226682408500590318",
+        "226691042047531992",
         "0",
         "0",
-        "768000000000000000000",
+        "868000000000000000000",
         "false",
         "true"
       ],
       "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
         "3238238422322423022000000",
-        "10024727506054625116196606",
+        "10020384735467538214220237",
         "10002733",
         "1000",
         "323735365356890264",
-        "323025081765726525",
+        "323165078767939243",
         "1716210000000000000",
         "3237618900000000000000000",
         "false",
@@ -560,7 +572,7 @@
     "address": "0x7a86f4b89e28af5a34f95903bb1fc93a1f07c3a0",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1539718988",
+    "startDate": "1540497513",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0028625dcbc24a821b40864294d66507fec70b7f",
     "definition": {
@@ -573,7 +585,8 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -593,14 +606,15 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
+        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
@@ -632,24 +646,24 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "768000000000000000000",
+        "868000000000000000000",
         "0",
-        "3388",
+        "3829",
         "0",
-        "226682408500590318",
+        "226691042047531992",
         "0",
         "0",
-        "768000000000000000000",
+        "868000000000000000000",
         "false",
         "true"
       ],
       "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
         "619522322423022000000",
-        "1904449576578784813275",
+        "1903624557883686989190",
         "2733",
         "0",
         "226682152368467618",
-        "325302559879769596",
+        "325443543926414989",
         "1716210000000000000",
         "0",
         "false",
@@ -674,7 +688,8 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "TOKENHOLDERS_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000"
+        "VOTING_MAJORITY_FRAC": "500000000000000000",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -694,14 +709,15 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
+        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmVbzgZ4Ape7LVqZbsChmoqanj1npfmLR4SG7FezZ3MqS9",
-        "PROSPECTUS_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
+        "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmQYWyx6WWwCYqBnJ74ruogTTHfKoscQRHU5eJFKDD22mT",
         "SHAREHOLDER_RIGHTS": null,
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
-        "WHITELIST_DISCOUNT_FRAC": "300000000000000000"
+        "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
+        "PUBLIC_DISCOUNT_FRAC": "0"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmdV6wnSBku1ho1hLwqeSvuaN9HD1E6E7jhyQHdWteRRWz",
       "companyTokenHolderAgreement": "ipfs:QmRCwEaTf6dxSPwDqGEs9nZ6hbtvZdSCaTTWFzoFQYjkwo",
