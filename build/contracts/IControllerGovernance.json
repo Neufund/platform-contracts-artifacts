@@ -13,10 +13,6 @@
         {
           "name": "shares",
           "type": "uint256[]"
-        },
-        {
-          "name": "lastOfferings",
-          "type": "address[]"
         }
       ],
       "payable": false,
@@ -85,6 +81,24 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tokenOfferings",
+      "outputs": [
+        {
+          "name": "offerings",
+          "type": "address[]"
+        },
+        {
+          "name": "equityTokens",
+          "type": "address[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -526,5 +540,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1542584427389
+  "updated_at": 1542845797185
 }
