@@ -3,7 +3,7 @@
     "Q18": "1000000000000000000",
     "LOCK_DURATION": 46656000,
     "PENALTY_FRACTION": "100000000000000000",
-    "START_DATE": 1547661884,
+    "START_DATE": 1547810088,
     "CAP_EUR": "2e+26",
     "MIN_TICKET_EUR": "290000000000000000000",
     "ETH_EUR_FRACTION": "290000000000000000000",
@@ -56,7 +56,7 @@
     "isLiveDeployment": false
   },
   "DEPLOYER": "0x8a194c13308326173423119f8dcb785ce14c732b",
-  "UNIVERSE_ADDRESS": "0x5175a079e26d7a663a8f491010b486738d972a8d",
+  "UNIVERSE_ADDRESS": "0x762db45f0ef6c83d64181988195991ef115dc2b3",
   "ROLES": {
     "accessController": "0xac42f8beb17975ed062dcb80c63e6d203ef1c2c335ced149dc5664cc671cb7da",
     "example": "0xb01f6215887f913abe74277c39da2c7de51baf17958191658f84959dfddab970",
@@ -189,7 +189,7 @@
     "gasPrice": 21000000000,
     "from": "0x8a194c13308326173423119f8dcb785ce14c732b",
     "deploymentConfigOverride": {
-      "START_DATE": 1547661884,
+      "START_DATE": 1547810088,
       "artifacts": {
         "ICBM_COMMITMENT": "MockICBMCommitment",
         "STANDARD_ETO_COMMITMENT": "MockETOCommitment"
@@ -225,9 +225,13 @@
       "0x007ff055641147d0a170a7a73b00f0eeb2f07f12",
       "0x4b07fd23baa7198061caed44cf470b0f20ce1b7e",
       "0x9369dfd79049b7c3cf48d54435287b0afd5227da",
-      "0xe52df6021c75f8ddf20ab4dfc818bce84f7cbd5d"
+      "0xe52df6021c75f8ddf20ab4dfc818bce84f7cbd5d",
+      "0xf7784a74cc59d1e6e1c10ca2053f34d68d280ae7",
+      "0x7824e49353bd72e20b61717cf82a06a4eee209e8",
+      "0x798fd195575d195b9bb9619ffb905e434f044f1d",
+      "0xc35ef5da2607c70d812ca2f317e9958910450df1"
     ]
   },
-  "HEAD_BLOCK_NO": 272,
-  "INITIAL_BLOCK_NO": 40
+  "HEAD_BLOCK_NO": 289,
+  "INITIAL_BLOCK_NO": 45
 }
