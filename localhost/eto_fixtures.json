@@ -1,9 +1,9 @@
 {
-  "0xc5fe81a6beafd8dea70abb15b7ebc184f68cf5a7": {
-    "address": "0xc5fe81a6beafd8dea70abb15b7ebc184f68cf5a7",
+  "0x28611b1ab1a20b9114324acf3f751879d58d05e3": {
+    "address": "0x28611b1ab1a20b9114324acf3f751879d58d05e3",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1549368012",
+    "startDate": "1549455098",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
     "definition": {
@@ -70,11 +70,11 @@
     },
     "investors": {}
   },
-  "0x62deca4fa6a0314f7155583ace80cb60b639f504": {
-    "address": "0x62deca4fa6a0314f7155583ace80cb60b639f504",
+  "0x9b8b4d6c4950fb2deeb6955b06a2bec65d979011": {
+    "address": "0x9b8b4d6c4950fb2deeb6955b06a2bec65d979011",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1547812816",
+    "startDate": "1547899902",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
     "definition": {
@@ -166,11 +166,11 @@
       ]
     }
   },
-  "0x8843fd9a6e5078ab538dd49f6e106e822508225a": {
-    "address": "0x8843fd9a6e5078ab538dd49f6e106e822508225a",
+  "0xbfea0b91f7a2a5c16e83ef9f42f3e4a0cfdeb730": {
+    "address": "0xbfea0b91f7a2a5c16e83ef9f42f3e4a0cfdeb730",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1547208020",
+    "startDate": "1547295105",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
     "definition": {
@@ -286,11 +286,11 @@
       ]
     }
   },
-  "0xfcbfa87aaeb8f2eff1524c16f5a8d69b53da7f78": {
-    "address": "0xfcbfa87aaeb8f2eff1524c16f5a8d69b53da7f78",
+  "0x6e2551b25241f1a937777e274ed978c39823ad52": {
+    "address": "0x6e2551b25241f1a937777e274ed978c39823ad52",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1545998425",
+    "startDate": "1546085510",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
     "definition": {
@@ -406,11 +406,11 @@
       ]
     }
   },
-  "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b": {
-    "address": "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b",
+  "0x0f9a8d21474c992ae77e81a9c2769b0ea55b55df": {
+    "address": "0x0f9a8d21474c992ae77e81a9c2769b0ea55b55df",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1545393631",
+    "startDate": "1545480716",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x007d45d94368ae57ac8351604dc1cb3236150727",
     "definition": {
@@ -526,11 +526,11 @@
       ]
     }
   },
-  "0x6a950e43fb2676d31a07538e1f19bd20ad34399a": {
-    "address": "0x6a950e43fb2676d31a07538e1f19bd20ad34399a",
+  "0x41bdfab7ee2b023d9f32552ca55874644147980c": {
+    "address": "0x41bdfab7ee2b023d9f32552ca55874644147980c",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1544529637",
+    "startDate": "1544616723",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x00866b5e4f539b215a28476ad5a364425599f206",
     "definition": {
@@ -646,11 +646,11 @@
       ]
     }
   },
-  "0x873e776a269f4f4f4ac85dd46682fcf8dc24aedd": {
-    "address": "0x873e776a269f4f4f4ac85dd46682fcf8dc24aedd",
+  "0x175ad0d4bd4b52b11f74a7f8daaf7cca7fa01860": {
+    "address": "0x175ad0d4bd4b52b11f74a7f8daaf7cca7fa01860",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1545998445",
+    "startDate": "1546085532",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0028625dcbc24a821b40864294d66507fec70b7f",
     "definition": {
@@ -766,8 +766,8 @@
       ]
     }
   },
-  "0x1d65c7f4b725a6eb33b67dec604956feeb362311": {
-    "address": "0x1d65c7f4b725a6eb33b67dec604956feeb362311",
+  "0xd2bb43d3796932d7bcd1ca3108e9fd634b026244": {
+    "address": "0xd2bb43d3796932d7bcd1ca3108e9fd634b026244",
     "name": "ETONoStartDate",
     "state": "0",
     "startDate": "0",
