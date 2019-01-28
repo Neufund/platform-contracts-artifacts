@@ -3,7 +3,7 @@
     "Q18": "1000000000000000000",
     "LOCK_DURATION": 46656000,
     "PENALTY_FRACTION": "100000000000000000",
-    "START_DATE": 1548275992,
+    "START_DATE": 1548784790,
     "CAP_EUR": "2e+26",
     "MIN_TICKET_EUR": "290000000000000000000",
     "ETH_EUR_FRACTION": "290000000000000000000",
@@ -27,6 +27,7 @@
     "MIN_WITHDRAW_AMOUNT_EUR_ULPS": "10000000000000000000",
     "MAX_SIMPLE_EXCHANGE_ALLOWANCE_EUR_ULPS": "25000000000000000000",
     "ICBM_COMMITMENT_ADDRESS": null,
+    "UNIVERSE_ADDRESS": null,
     "ISOLATED_UNIVERSE": false,
     "artifacts": {
       "ROLE_BASED_ACCESS_POLICY": "RoleBasedAccessPolicy",
@@ -51,6 +52,7 @@
       "STANDARD_SHAREHOLDER_RIGHTS": "ShareholderRights",
       "STANDARD_DURATION_TERMS": "ETODurationTerms",
       "STANDARD_TOKEN_TERMS": "ETOTokenTerms",
+      "FEE_DISBURSAL": "IFeeDisbursal",
       "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle"
     },
     "shouldSkipDeployment": false,
@@ -74,7 +76,9 @@
     "identityManager": "0x32964e6bc50f2aaab2094a1d311be8bda920fc4fb32b2fb054917bdb153a9e9e",
     "eurtLegalManager": "0x4eb6b5806954a48eb5659c9e3982d5e75bfb2913f55199877d877f157bcc5a9b",
     "gasExchange": "0x9fe43636e0675246c99e96d7abf9f858f518b9442c35166d87f0934abef8a969",
-    "tokenRateOracle": "0xa80c3a0c8a5324136e4c806a778583a2a980f378bdd382921b8d28dcfe965585"
+    "tokenRateOracle": "0xa80c3a0c8a5324136e4c806a778583a2a980f378bdd382921b8d28dcfe965585",
+    "disburser": "0xd7ea6093d11d866c9e8449f8bffd9da1387c530ee40ad54f0641425bb0ca33b7",
+    "disbursalManager": "0x677f87f7b7ef7c97e42a7e6c85c295cf020c9f11eea1e49f6bf847d7aeae1475"
   },
   "KNOWN_INTERFACES": {
     "accessPolicy": "0xb05049d9",
@@ -101,7 +105,8 @@
     "commitmentInterface": "0xfa0e0c60",
     "equityTokenInterface": "0xab9885bb",
     "equityTokenControllerInterface": "0xfa30b2f1",
-    "termsInterface": "0x9d5754ab"
+    "termsInterface": "0x9d5754ab",
+    "paymentTokenInterface": "0xb2a0042a"
   },
   "INTERFACE_ARTIFACTS": {
     "accessPolicy": [
@@ -180,6 +185,9 @@
     "termsInterface": [
       "ETOTerms",
       ""
+    ],
+    "paymentTokenInterface": [
+      "IERC223Token"
     ]
   },
   "NETWORK": {
@@ -190,7 +198,7 @@
     "gasPrice": 21000000000,
     "from": "0x8a194c13308326173423119f8dcb785ce14c732b",
     "deploymentConfigOverride": {
-      "START_DATE": 1548275992,
+      "START_DATE": 1548784790,
       "artifacts": {
         "ICBM_COMMITMENT": "MockICBMCommitment",
         "STANDARD_ETO_COMMITMENT": "MockETOCommitment"
@@ -234,6 +242,6 @@
       "0xc35ef5da2607c70d812ca2f317e9958910450df1"
     ]
   },
-  "HEAD_BLOCK_NO": 290,
+  "HEAD_BLOCK_NO": 299,
   "INITIAL_BLOCK_NO": 45
 }

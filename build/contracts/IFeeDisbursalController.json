@@ -1,0 +1,170 @@
+{
+  "contract_name": "IFeeDisbursalController",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "newController",
+          "type": "address"
+        }
+      ],
+      "name": "onChangeFeeDisbursalController",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "name": "disburser",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "proRataToken",
+          "type": "address"
+        },
+        {
+          "name": "recycleAfterPeriod",
+          "type": "uint256"
+        }
+      ],
+      "name": "onDisburse",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "contractId",
+      "outputs": [
+        {
+          "name": "id",
+          "type": "bytes32"
+        },
+        {
+          "name": "version",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "claimer",
+          "type": "address"
+        }
+      ],
+      "name": "onReject",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "investors",
+          "type": "address[]"
+        },
+        {
+          "name": "until",
+          "type": "uint256"
+        }
+      ],
+      "name": "onRecycle",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "claimer",
+          "type": "address"
+        }
+      ],
+      "name": "onAccept",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1548698082607
+}
