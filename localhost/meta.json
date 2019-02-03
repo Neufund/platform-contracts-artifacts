@@ -3,7 +3,7 @@
     "Q18": "1000000000000000000",
     "LOCK_DURATION": 46656000,
     "PENALTY_FRACTION": "100000000000000000",
-    "START_DATE": 1548887691,
+    "START_DATE": 1549308724,
     "CAP_EUR": "2e+26",
     "MIN_TICKET_EUR": "290000000000000000000",
     "ETH_EUR_FRACTION": "290000000000000000000",
@@ -53,6 +53,7 @@
       "STANDARD_DURATION_TERMS": "ETODurationTerms",
       "STANDARD_TOKEN_TERMS": "ETOTokenTerms",
       "FEE_DISBURSAL": "FeeDisbursal",
+      "FEE_DISBURSAL_CONTROLLER": "FeeDisbursalController",
       "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle"
     },
     "shouldSkipDeployment": false,
@@ -198,7 +199,7 @@
     "gasPrice": 21000000000,
     "from": "0x8a194c13308326173423119f8dcb785ce14c732b",
     "deploymentConfigOverride": {
-      "START_DATE": 1548887691,
+      "START_DATE": 1549308724,
       "artifacts": {
         "ICBM_COMMITMENT": "MockICBMCommitment",
         "STANDARD_ETO_COMMITMENT": "MockETOCommitment"
@@ -242,6 +243,6 @@
       "0xc35ef5da2607c70d812ca2f317e9958910450df1"
     ]
   },
-  "HEAD_BLOCK_NO": 299,
+  "HEAD_BLOCK_NO": 306,
   "INITIAL_BLOCK_NO": 45
 }
