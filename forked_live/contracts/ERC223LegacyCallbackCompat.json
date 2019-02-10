@@ -1,19 +1,23 @@
 {
-  "contract_name": "Vote",
+  "contract_name": "ERC223LegacyCallbackCompat",
   "abi": [
     {
       "constant": false,
       "inputs": [
         {
-          "name": "index",
+          "name": "wallet",
+          "type": "address"
+        },
+        {
+          "name": "amount",
           "type": "uint256"
         },
         {
-          "name": "choice",
-          "type": "string"
+          "name": "data",
+          "type": "bytes"
         }
       ],
-      "name": "initChoice",
+      "name": "onTokenTransfer",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -23,34 +27,27 @@
       "constant": false,
       "inputs": [
         {
-          "name": "",
-          "type": "uint256[]"
+          "name": "wallet",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "data",
+          "type": "bytes"
         }
       ],
-      "name": "vote",
+      "name": "tokenFallback",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "name": "token",
-          "type": "address"
-        },
-        {
-          "name": "choiceHashes",
-          "type": "bytes32[]"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "constructor"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1549799168008
+  "updated_at": 1549799168004
 }
