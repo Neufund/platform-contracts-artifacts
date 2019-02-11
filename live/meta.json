@@ -20,12 +20,14 @@
       "IDENTITY_MANAGER": "0xf026dfC7de31d153Ae6B0375b93BA4E138de9130",
       "EURT_LEGAL_MANAGER": "0x5c31F869F4f9891ca3470bE30Ca3d9e60ced0a05",
       "GAS_EXCHANGE": "0x58125e023252A1Da9655994fC446892dbD1B2C03",
-      "TOKEN_RATE_ORACLE": "0x7C725f972D1ebDEF5Bbfd8996d3Cbe307b23cd42"
+      "TOKEN_RATE_ORACLE": "0x7C725f972D1ebDEF5Bbfd8996d3Cbe307b23cd42",
+      "GAS_STIPEND_SERVICE": "0xABa4430574f2353C0A22Ca4CF2d4a122f0031245"
     },
     "MIN_DEPOSIT_AMOUNT_EUR_ULPS": "50000000000000000000",
     "MIN_WITHDRAW_AMOUNT_EUR_ULPS": "10000000000000000000",
     "MAX_SIMPLE_EXCHANGE_ALLOWANCE_EUR_ULPS": "25000000000000000000",
     "ICBM_COMMITMENT_ADDRESS": "0xf432cec23b2a0d6062b969467f65669de81f4653",
+    "UNIVERSE_ADDRESS": "0x82fb5126506b6c315fa4a7ae3d4cb8a46a1aae67",
     "ISOLATED_UNIVERSE": false,
     "artifacts": {
       "ROLE_BASED_ACCESS_POLICY": "RoleBasedAccessPolicy",
@@ -50,6 +52,8 @@
       "STANDARD_SHAREHOLDER_RIGHTS": "ShareholderRights",
       "STANDARD_DURATION_TERMS": "ETODurationTerms",
       "STANDARD_TOKEN_TERMS": "ETOTokenTerms",
+      "FEE_DISBURSAL": "FeeDisbursal",
+      "FEE_DISBURSAL_CONTROLLER": "FeeDisbursalController",
       "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle"
     },
     "shouldSkipDeployment": false,
@@ -73,7 +77,9 @@
     "identityManager": "0x32964e6bc50f2aaab2094a1d311be8bda920fc4fb32b2fb054917bdb153a9e9e",
     "eurtLegalManager": "0x4eb6b5806954a48eb5659c9e3982d5e75bfb2913f55199877d877f157bcc5a9b",
     "gasExchange": "0x9fe43636e0675246c99e96d7abf9f858f518b9442c35166d87f0934abef8a969",
-    "tokenRateOracle": "0xa80c3a0c8a5324136e4c806a778583a2a980f378bdd382921b8d28dcfe965585"
+    "tokenRateOracle": "0xa80c3a0c8a5324136e4c806a778583a2a980f378bdd382921b8d28dcfe965585",
+    "disburser": "0xd7ea6093d11d866c9e8449f8bffd9da1387c530ee40ad54f0641425bb0ca33b7",
+    "disbursalManager": "0x677f87f7b7ef7c97e42a7e6c85c295cf020c9f11eea1e49f6bf847d7aeae1475"
   },
   "KNOWN_INTERFACES": {
     "accessPolicy": "0xb05049d9",
@@ -100,7 +106,8 @@
     "commitmentInterface": "0xfa0e0c60",
     "equityTokenInterface": "0xab9885bb",
     "equityTokenControllerInterface": "0xfa30b2f1",
-    "termsInterface": "0x9d5754ab"
+    "termsInterface": "0x9d5754ab",
+    "paymentTokenInterface": "0xb2a0042a"
   },
   "INTERFACE_ARTIFACTS": {
     "accessPolicy": [
@@ -137,7 +144,7 @@
       "SimpleExchange"
     ],
     "feeDisbursal": [
-      "IFeeDisbursal"
+      "FeeDisbursal"
     ],
     "platformPortfolio": [
       "IPlatformPortfolio"
@@ -179,6 +186,9 @@
     "termsInterface": [
       "ETOTerms",
       ""
+    ],
+    "paymentTokenInterface": [
+      "IERC223Token"
     ]
   },
   "NETWORK": {
@@ -186,14 +196,15 @@
     "gas": 6500000,
     "deploymentConfigOverride": {
       "ICBM_COMMITMENT_ADDRESS": "0xf432cec23b2a0d6062b969467f65669de81f4653",
+      "UNIVERSE_ADDRESS": "0x82fb5126506b6c315fa4a7ae3d4cb8a46a1aae67",
       "ISOLATED_UNIVERSE": false
     },
-    "gasPrice": 7000000000,
+    "gasPrice": 5000000000,
     "from": "0x08712307a86632b15d13ecfebe732c07cc026915",
     "unlockedAccounts": [
       "0x08712307a86632b15d13ecfebe732c07cc026915"
     ]
   },
-  "HEAD_BLOCK_NO": 6690978,
-  "INITIAL_BLOCK_NO": 6690879
+  "HEAD_BLOCK_NO": 7208163,
+  "INITIAL_BLOCK_NO": 7208101
 }
