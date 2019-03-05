@@ -1,0 +1,8 @@
+{
+  "contract_name": "EveryBlock",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820d7bece38a26637fd54792596b3bb4e7ac235a62df075b46b7fd8e04a7927ce000029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440414
+}

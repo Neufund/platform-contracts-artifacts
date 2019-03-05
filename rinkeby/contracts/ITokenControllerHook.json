@@ -1,0 +1,59 @@
+{
+  "contract_name": "ITokenControllerHook",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newController",
+          "type": "address"
+        }
+      ],
+      "name": "changeTokenController",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tokenController",
+      "outputs": [
+        {
+          "name": "currentController",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "oldController",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newController",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "by",
+          "type": "address"
+        }
+      ],
+      "name": "LogChangeTokenController",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440416
+}

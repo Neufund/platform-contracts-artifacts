@@ -1,0 +1,8 @@
+{
+  "contract_name": "IETOCommitmentStates",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820d9c4892fbd93988d05c301819a9e8159a40553bf6ac9ce0f449ba707b698fdb80029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440408
+}

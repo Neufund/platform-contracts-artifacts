@@ -1,0 +1,8 @@
+{
+  "contract_name": "IdentityRecord",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a7230582014c6ec99e0882e234cd1f8dbeaf5c2f957123bb09ea4a2309fffe2c7cf2ef9940029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440410
+}

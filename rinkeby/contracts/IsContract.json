@@ -1,0 +1,8 @@
+{
+  "contract_name": "IsContract",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058204b6d8b10478b9b0ae1162dd181810e353410cd1cbba78cc3060323cd9e8f361b0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440411
+}

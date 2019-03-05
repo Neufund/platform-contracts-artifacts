@@ -1,0 +1,49 @@
+{
+  "contract_name": "ICBMLockedAccountMigration",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "currentMigrationSource",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "investor",
+          "type": "address"
+        },
+        {
+          "name": "balance",
+          "type": "uint256"
+        },
+        {
+          "name": "neumarksDue",
+          "type": "uint256"
+        },
+        {
+          "name": "unlockDate",
+          "type": "uint256"
+        }
+      ],
+      "name": "migrateInvestor",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440410
+}

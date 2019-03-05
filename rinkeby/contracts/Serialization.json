@@ -1,0 +1,8 @@
+{
+  "contract_name": "Serialization",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a7230582092090cf57361c7ab22e03c70881e2c39809fee04a19e1c63b6fe6b0cde7642680029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440413
+}
