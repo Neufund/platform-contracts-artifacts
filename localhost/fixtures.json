@@ -24,15 +24,46 @@
     "icbmEtherLockBalance": [
       "161128979800000000000",
       "151848689370013263717423",
-      "1600787196"
+      "1600858491"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "name": "INV_ETH_ICBM_NO_KYC",
     "type": "investor"
   },
+  "0xDE185A5c2Bd3913fAC1F64102e3DEFD9E1797C4d": {
+    "ethBalance": "999853074765259000000000",
+    "neuBalance": "151817945337395409345218",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "161128979800000000000",
+      "151817945337395409345218",
+      "1600858491"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "name": "INV_ETH_ICBM_NO_KYC_2",
+    "type": "investor"
+  },
   "0xE6Ad2CdBA2FB15504232eBFa82f64c06c87F9326": {
     "ethBalance": "999627003139427000000000",
-    "neuBalance": "5744990678604298935418293",
+    "neuBalance": "5724800588350088997571360",
     "euroBalance": "0",
     "ethTokenBalance": "387198273981000000000",
     "icbmEuroBalance": "0",
@@ -49,8 +80,8 @@
     ],
     "icbmEuroLockBalance": [
       "1781267000000000000000000",
-      "5744990678604298935418293",
-      "1600787198"
+      "5724800588350088997571360",
+      "1600858494"
     ],
     "icbmEtherLockBalance": [
       "0",
@@ -61,22 +92,22 @@
     "name": "INV_EUR_ICBM_HAS_KYC",
     "type": "investor"
   },
-  "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": {
-    "ethBalance": "999796059467305000000000",
-    "neuBalance": "436246336367280555110074",
+  "0xB3a2eb675288Bff642F5036235ffb541a4289E71": {
+    "ethBalance": "1000014211820000000000000",
+    "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
-      "71827000000000000000000",
-      "230729565917310726578196",
-      "1600787199"
+      "0",
+      "0",
+      "0"
     ],
     "etherLockBalance": [
-      "218128979800000000000",
-      "205516770449969828531878",
-      "1600787197"
+      "0",
+      "0",
+      "0"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -89,25 +120,56 @@
       "0"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
-    "name": "INV_ETH_EUR_ICBM_M_HAS_KYC",
+    "name": "INV_EUR_ICBM_HAS_KYC_SEED",
     "type": "investor"
   },
-  "0x7824e49353BD72E20B61717cf82a06a4EEE209e8": {
-    "ethBalance": "999796061809120000000000",
-    "neuBalance": "436118205293043505724283",
+  "0x7b85041Fe5E05A31a961445c3321EE426015D45F": {
+    "ethBalance": "1000014211820000000000000",
+    "neuBalance": "0",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000007",
+    "name": "INV_EUR_ICBM_HAS_KYC_SEED_2",
+    "type": "investor"
+  },
+  "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": {
+    "ethBalance": "999796059467305000000000",
+    "neuBalance": "435393854660966798649491",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
       "71827000000000000000000",
-      "230657762438017214702905",
-      "1600787199"
+      "229918694147312151170325",
+      "1600858494"
     ],
     "etherLockBalance": [
       "218128979800000000000",
-      "205460442855026291021378",
-      "1600787197"
+      "205475160513654647479166",
+      "1600858491"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -120,56 +182,25 @@
       "0"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000007",
-    "name": "INV_ETH_EUR_ICBM_M_HAS_KYC_DUP",
+    "name": "INV_ETH_EUR_ICBM_M_HAS_KYC",
     "type": "investor"
   },
-  "0x00b30CC2cc22c9820d47a4E0C9E1A54455bA0883": {
-    "ethBalance": "998803043646808000000000",
-    "neuBalance": "1139764877866415973169904",
+  "0x7824e49353BD72E20B61717cf82a06a4EEE209e8": {
+    "ethBalance": "999796061809120000000000",
+    "neuBalance": "435265987335927164360110",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
-      "0",
-      "0",
-      "0"
+      "71827000000000000000000",
+      "229847143012854097669901",
+      "1600858495"
     ],
     "etherLockBalance": [
-      "1192547929800000000000",
-      "1122278690567539675140899",
-      "1600787197"
-    ],
-    "icbmEuroLockBalance": [
-      "0",
-      "0",
-      "0"
-    ],
-    "icbmEtherLockBalance": [
-      "0",
-      "0",
-      "0"
-    ],
-    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000007",
-    "name": "INV_ICBM_ETH_M_HAS_KYC",
-    "type": "investor"
-  },
-  "0xF7784a74Cc59d1e6e1C10ca2053f34D68d280aE7": {
-    "ethBalance": "998803043644603000000000",
-    "neuBalance": "1138031491771200546433571",
-    "euroBalance": "0",
-    "ethTokenBalance": "0",
-    "icbmEuroBalance": "0",
-    "icbmEthTokenBalance": "0",
-    "euroLockBalance": [
-      "0",
-      "0",
-      "0"
-    ],
-    "etherLockBalance": [
-      "1192547929800000000000",
-      "1120571897951831130735846",
-      "1600787198"
+      "218128979800000000000",
+      "205418844323073066690209",
+      "1600858491"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -182,20 +213,175 @@
       "0"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000005",
+    "name": "INV_ETH_EUR_ICBM_M_HAS_KYC_DUP",
+    "type": "investor"
+  },
+  "0xA622f39780fC8722243b49ACF3bFFEEb9B9201F2": {
+    "ethBalance": "999796061809120000000000",
+    "neuBalance": "435138157712757052017847",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "71827000000000000000000",
+      "229775614145245032770088",
+      "1600858495"
+    ],
+    "etherLockBalance": [
+      "218128979800000000000",
+      "205362543567512019247759",
+      "1600858492"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000005",
+    "name": "INV_ETH_EUR_ICBM_M_HAS_KYC_DUP_HAS_NEUR_AND_NO_ETH",
+    "type": "investor"
+  },
+  "0x00b30CC2cc22c9820d47a4E0C9E1A54455bA0883": {
+    "ethBalance": "998803043646808000000000",
+    "neuBalance": "1139221794400195441684667",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "1192547929800000000000",
+      "1121743939047138558690812",
+      "1600858492"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "name": "INV_ICBM_ETH_M_HAS_KYC",
+    "type": "investor"
+  },
+  "0xF7784a74Cc59d1e6e1C10ca2053f34D68d280aE7": {
+    "ethBalance": "998803043644603000000000",
+    "neuBalance": "1134032014693445602600181",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "1192547929800000000000",
+      "1116633780551530103028386",
+      "1600858493"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
     "name": "INV_ICBM_ETH_M_HAS_KYC_DUP",
+    "type": "investor"
+  },
+  "0xFa8ae4e924e14C834Ad48238a55A24Af97A8f3F3": {
+    "ethBalance": "998803043644603000000000",
+    "neuBalance": "1137489234241405297916295",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "1192547929800000000000",
+      "1120037959696400587666650",
+      "1600858493"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "name": "INV_ICBM_ETH_M_HAS_KYC_DUP_2",
+    "type": "investor"
+  },
+  "0x4A20381D628AEEc776335a89bb32106a8F9d4323": {
+    "ethBalance": "998803043163829000000000",
+    "neuBalance": "1135759309008244721627005",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "1192547929800000000000",
+      "1118334574846460736888120",
+      "1600858493"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "name": "INV_ICBM_ETH_M_HAS_KYC_DUP_HAS_NEURO",
     "type": "investor"
   },
   "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": {
     "ethBalance": "1000014164177090000000000",
-    "neuBalance": "2605746875242968959360909",
+    "neuBalance": "2595781222523998654930383",
     "euroBalance": "1271198800000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
       "707880198800000000000000",
-      "2268860259954700421482463",
-      "1600787200"
+      "2260183026707908968017668",
+      "1600858496"
     ],
     "etherLockBalance": [
       "0",
@@ -212,13 +398,13 @@
       "0",
       "0"
     ],
-    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000005",
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
     "name": "INV_ICBM_EUR_M_HAS_KYC",
     "type": "investor"
   },
   "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": {
     "ethBalance": "999726837625765000000000",
-    "neuBalance": "9999290500266216743775815",
+    "neuBalance": "9961048314308511126508262",
     "euroBalance": "10278127198800000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -312,7 +498,7 @@
   "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6": {
     "ethBalance": "1000014140292572000000000",
     "neuBalance": "0",
-    "euroBalance": "3066000000000000000000",
+    "euroBalance": "3069000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
@@ -467,8 +653,8 @@
   "0x007D45D94368AE57ac8351604dC1cB3236150727": {
     "ethBalance": "1000014208781678000000000",
     "neuBalance": "0",
-    "euroBalance": "3140310293000000000000000",
-    "ethTokenBalance": "8874171100000000000",
+    "euroBalance": "3140309293000000000000000",
+    "ethTokenBalance": "16083618500000000000",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
@@ -498,8 +684,8 @@
   "0x00866b5e4F539b215a28476aD5A364425599F206": {
     "ethBalance": "1000014208781678000000000",
     "neuBalance": "0",
-    "euroBalance": "3140310293000000000000000",
-    "ethTokenBalance": "8874171100000000000",
+    "euroBalance": "3140309293000000000000000",
+    "ethTokenBalance": "16083618500000000000",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
@@ -527,7 +713,7 @@
     "type": "issuer"
   },
   "0x0028625dcBc24a821b40864294D66507fEC70B7F": {
-    "ethBalance": "1000014210775292000000000",
+    "ethBalance": "1000014210773948000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
