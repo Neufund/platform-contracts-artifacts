@@ -3,9 +3,11 @@
     "address": "0x3d7eb0c4fe62ee3197d2ff9bf92a48c4f5ff22be",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1558086660",
+    "startDate": "1558439468",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
+    "equityToken": "0xbd888d812397f16db80428c6512372cc6556082f",
+    "etoTerms": "0x8843fd9a6e5078ab538dd49f6e106e822508225a",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -79,9 +81,11 @@
     "address": "0xfcbfa87aaeb8f2eff1524c16f5a8d69b53da7f78",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1556531464",
+    "startDate": "1556884274",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
+    "equityToken": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03",
+    "etoTerms": "0xdbb36fc53dfee7fb9322b499067b56ffdb420fe4",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -180,9 +184,11 @@
     "address": "0x9ae7542ad7bf7cdf4244095346a9a80025e0778c",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1555926668",
+    "startDate": "1556279479",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
+    "equityToken": "0x57f1dc60dfba309e84e752ff8d08a2b808eabe4c",
+    "etoTerms": "0x2811e15159226fc7767ab0fe0a61caae86740896",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -329,9 +335,11 @@
     "address": "0x79fcd0511561968d59c1d0fe4e200d43b219da45",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1554717074",
+    "startDate": "1555069887",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
+    "equityToken": "0x20c8e3a3f8cb4fd61b44c91f42d73ef4275a30e8",
+    "etoTerms": "0x2ce1a09bfe331347bc81463f96f288b08f8869f8",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -478,9 +486,11 @@
     "address": "0x0037f3a172340811f8c408a04479ff0ec00abf6b",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1554112282",
+    "startDate": "1554465096",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x007d45d94368ae57ac8351604dc1cb3236150727",
+    "equityToken": "0xcf9eb395e7f133c06c4c157b395824d48294a259",
+    "etoTerms": "0xe490343053955eafd04bc0acd28f975ac2b5e87f",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -627,9 +637,11 @@
     "address": "0xb0c41ee2d94603b7a456e880b38839c7fb71b839",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1553248288",
+    "startDate": "1553601105",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x00866b5e4f539b215a28476ad5a364425599f206",
+    "equityToken": "0x378ee88e745e9214b8a616e08db6157c72e1dc07",
+    "etoTerms": "0x808b5d11e5541dcfd789ee674eba31f146eaa1da",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -776,9 +788,11 @@
     "address": "0x5e4d6ef14d04543a575733e87c9c6e62f9f450f6",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1554717098",
+    "startDate": "1555069916",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0028625dcbc24a821b40864294d66507fec70b7f",
+    "equityToken": "0x0cf5b96320a0d23f9564d4dfc6c4b834d342e47c",
+    "etoTerms": "0x2054f50cb484c3f20c5f988e30e1f25a9eed9e47",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -928,6 +942,8 @@
     "startDate": "0",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0015650359daf66f6633deeb490a059027b0e396",
+    "equityToken": "0xc3cce192d9dae80245cce3bde1b35c4230949abd",
+    "etoTerms": "0xd8a7a2d4d8ab01487589b7ada64af6949c793f4c",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
