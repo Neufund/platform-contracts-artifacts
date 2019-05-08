@@ -23,20 +23,6 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MIN_OFFER_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "IS_ICBM_INVESTOR_WHITELISTED",
       "outputs": [
         {
@@ -51,35 +37,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MIN_SIGNING_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "MIN_TICKET_EUR_ULPS",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MAX_WHITELIST_DURATION",
       "outputs": [
         {
           "name": "",
@@ -138,34 +96,6 @@
     },
     {
       "constant": true,
-      "inputs": [],
-      "name": "MIN_PUBLIC_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MAX_SIGNING_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
       "inputs": [
         {
           "name": "tokenAmount",
@@ -187,34 +117,6 @@
       "constant": true,
       "inputs": [],
       "name": "PLATFORM_FEE_FRACTION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MIN_WHITELIST_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "DATE_TO_WHITELIST_MIN_DURATION",
       "outputs": [
         {
           "name": "",
@@ -251,35 +153,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "MAX_OFFER_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "TOKEN_RATE_EXPIRES_AFTER",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MAX_PUBLIC_DURATION",
       "outputs": [
         {
           "name": "",
@@ -303,38 +177,10 @@
       "payable": false,
       "stateMutability": "view",
       "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MIN_CLAIM_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "MAX_CLAIM_DURATION",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
     }
   ],
-  "unlinked_binary": "0x608060405234801561001057600080fd5b50610479806100206000396000f3006080604052600436106101275763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630cbab4f7811461012c57806325929ddd1461015657806327986eda1461016b578063436f032f14610194578063548e73c7146101a95780635d77c182146101be578063659c713b146101d3578063753f3f15146101e85780638291286c146101fd57806386d52e291461022b57806397f97e95146102405780639ae0f89014610255578063bcac56851461026d578063c50f68ec1461022b578063cbf9e46a14610282578063d017ecb414610297578063d6d4fcea146102af578063e1546a23146102c4578063ed1da7b014610240578063f4fb5ea9146102d9578063f76a970314610282578063fe62dfea146101be575b600080fd5b34801561013857600080fd5b506101446004356102ee565b60408051918252519081900360200190f35b34801561016257600080fd5b50610144610307565b34801561017757600080fd5b5061018061030e565b604080519115158252519081900360200190f35b3480156101a057600080fd5b50610144610313565b3480156101b557600080fd5b5061014461031a565b3480156101ca57600080fd5b50610144610327565b3480156101df57600080fd5b5061014461032e565b3480156101f457600080fd5b50610144610333565b34801561020957600080fd5b5061021261033e565b6040805192835260208301919091528051918290030190f35b34801561023757600080fd5b50610144610365565b34801561024c57600080fd5b5061014461036a565b34801561026157600080fd5b50610144600435610371565b34801561027957600080fd5b5061014461038d565b34801561028e57600080fd5b50610144610398565b3480156102a357600080fd5b5061021260043561039f565b3480156102bb57600080fd5b506101446103ab565b3480156102d057600080fd5b506101446103b2565b3480156102e557600080fd5b506101446103b8565b600061030182666a94d74f4300006103c0565b92915050565b6201518081565b600181565b6212750081565b68056bc75e2d6310000081565b62278d0081565b600281565b66470de4df82000081565b7f95482babc4e32de6c4dc3910ee7ae62c8e427efde6bc4e9ce0d6d93e24c3932360019091565b600081565b624f1a0081565b60006103018266470de4df820000670de0b6b3a76400006103dc565b666a94d74f43000081565b62093a8081565b60028104919082900390565b6276a70081565b61384081565b630784ce0081565b60006103d58383670de0b6b3a76400006103dc565b9392505050565b60006103f16103eb85856103f9565b8361041d565b949350505050565b6000828202831580610415575082848281151561041257fe5b04145b15156103d557fe5b60008161042d846002830461043e565b81151561043657fe5b049392505050565b6000828201838110156103d557fe00a165627a7a723058200e0c0de1ad6a6fdfcc57f78c9bc9475365aa0023ee9c373ce5fc24fb855ec9f60029",
+  "unlinked_binary": "0x608060405234801561001057600080fd5b5061033e806100206000396000f3006080604052600436106100ae5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630cbab4f781146100b357806327986eda146100dd578063548e73c714610106578063659c713b1461011b578063753f3f15146101305780638291286c146101455780639ae0f89014610173578063bcac56851461018b578063d017ecb4146101a0578063e1546a23146101b8578063f4fb5ea9146101cd575b600080fd5b3480156100bf57600080fd5b506100cb6004356101e2565b60408051918252519081900360200190f35b3480156100e957600080fd5b506100f26101fb565b604080519115158252519081900360200190f35b34801561011257600080fd5b506100cb610200565b34801561012757600080fd5b506100cb61020d565b34801561013c57600080fd5b506100cb610212565b34801561015157600080fd5b5061015a61021d565b6040805192835260208301919091528051918290030190f35b34801561017f57600080fd5b506100cb600435610244565b34801561019757600080fd5b506100cb610260565b3480156101ac57600080fd5b5061015a60043561026b565b3480156101c457600080fd5b506100cb610277565b3480156101d957600080fd5b506100cb61027d565b60006101f582666a94d74f430000610285565b92915050565b600181565b68056bc75e2d6310000081565b600281565b66470de4df82000081565b7f95482babc4e32de6c4dc3910ee7ae62c8e427efde6bc4e9ce0d6d93e24c3932360019091565b60006101f58266470de4df820000670de0b6b3a76400006102a1565b666a94d74f43000081565b60028104919082900390565b61384081565b630784ce0081565b600061029a8383670de0b6b3a76400006102a1565b9392505050565b60006102b66102b085856102be565b836102e2565b949350505050565b60008282028315806102da57508284828115156102d757fe5b04145b151561029a57fe5b6000816102f28460028304610303565b8115156102fb57fe5b049392505050565b60008282018381101561029a57fe00a165627a7a72305820af13cbb4cff9276ffffa7ce53478c1accaf2efbeed9c693c939358b9d330025c0029",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1557143424791
+  "updated_at": 1557316491499
 }

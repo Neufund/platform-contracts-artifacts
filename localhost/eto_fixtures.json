@@ -1,13 +1,13 @@
 {
-  "0x3d7eb0c4fe62ee3197d2ff9bf92a48c4f5ff22be": {
-    "address": "0x3d7eb0c4fe62ee3197d2ff9bf92a48c4f5ff22be",
+  "0x0fcea18018300eea1b7830ce62a963a77e8e8bc9": {
+    "address": "0x0fcea18018300eea1b7830ce62a963a77e8e8bc9",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1558439468",
+    "startDate": "1558612528",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
-    "equityToken": "0xbd888d812397f16db80428c6512372cc6556082f",
-    "etoTerms": "0x8843fd9a6e5078ab538dd49f6e106e822508225a",
+    "equityToken": "0xaf1532fdd5ecbcce24286c6675a2b95d8cf20db1",
+    "etoTerms": "0x4157dab5ff2348474ef26ad1dd196aff4a8e46e4",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -39,7 +39,6 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
@@ -77,15 +76,15 @@
     },
     "investors": {}
   },
-  "0xfcbfa87aaeb8f2eff1524c16f5a8d69b53da7f78": {
-    "address": "0xfcbfa87aaeb8f2eff1524c16f5a8d69b53da7f78",
+  "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b": {
+    "address": "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1556884274",
+    "startDate": "1557057332",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
-    "equityToken": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03",
-    "etoTerms": "0xdbb36fc53dfee7fb9322b499067b56ffdb420fe4",
+    "equityToken": "0x718de14cd9479beb742dc28abc7c70ce387b880c",
+    "etoTerms": "0x8592711638f43d0a6377119c90b832f4734897b2",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -117,7 +116,6 @@
         "EXISTING_COMPANY_SHARES": "41976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": false,
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
@@ -180,15 +178,15 @@
       ]
     }
   },
-  "0x9ae7542ad7bf7cdf4244095346a9a80025e0778c": {
-    "address": "0x9ae7542ad7bf7cdf4244095346a9a80025e0778c",
+  "0x08ae87edad6c6d5d252bddab88388e25b4ae29aa": {
+    "address": "0x08ae87edad6c6d5d252bddab88388e25b4ae29aa",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1556279479",
+    "startDate": "1556452537",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
-    "equityToken": "0x57f1dc60dfba309e84e752ff8d08a2b808eabe4c",
-    "etoTerms": "0x2811e15159226fc7767ab0fe0a61caae86740896",
+    "equityToken": "0xd20bd631bbccd0fc7df233f224e7b51686a9f427",
+    "etoTerms": "0x79fcd0511561968d59c1d0fe4e200d43b219da45",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -220,7 +218,6 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
@@ -331,15 +328,15 @@
       ]
     }
   },
-  "0x79fcd0511561968d59c1d0fe4e200d43b219da45": {
-    "address": "0x79fcd0511561968d59c1d0fe4e200d43b219da45",
+  "0x0037f3a172340811f8c408a04479ff0ec00abf6b": {
+    "address": "0x0037f3a172340811f8c408a04479ff0ec00abf6b",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1555069887",
+    "startDate": "1555242942",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
-    "equityToken": "0x20c8e3a3f8cb4fd61b44c91f42d73ef4275a30e8",
-    "etoTerms": "0x2ce1a09bfe331347bc81463f96f288b08f8869f8",
+    "equityToken": "0xcf9eb395e7f133c06c4c157b395824d48294a259",
+    "etoTerms": "0xe490343053955eafd04bc0acd28f975ac2b5e87f",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -371,7 +368,6 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
@@ -482,15 +478,15 @@
       ]
     }
   },
-  "0x0037f3a172340811f8c408a04479ff0ec00abf6b": {
-    "address": "0x0037f3a172340811f8c408a04479ff0ec00abf6b",
+  "0x378ee88e745e9214b8a616e08db6157c72e1dc07": {
+    "address": "0x378ee88e745e9214b8a616e08db6157c72e1dc07",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1554465096",
+    "startDate": "1554638150",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x007d45d94368ae57ac8351604dc1cb3236150727",
-    "equityToken": "0xcf9eb395e7f133c06c4c157b395824d48294a259",
-    "etoTerms": "0xe490343053955eafd04bc0acd28f975ac2b5e87f",
+    "equityToken": "0xed0d46c5f5c389686566a12ae3d53e9133e76ab2",
+    "etoTerms": "0x175ad0d4bd4b52b11f74a7f8daaf7cca7fa01860",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -522,7 +518,6 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
@@ -633,15 +628,15 @@
       ]
     }
   },
-  "0xb0c41ee2d94603b7a456e880b38839c7fb71b839": {
-    "address": "0xb0c41ee2d94603b7a456e880b38839c7fb71b839",
+  "0x752e20f4b0c45073a66e9a646f607348a84e1018": {
+    "address": "0x752e20f4b0c45073a66e9a646f607348a84e1018",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1553601105",
+    "startDate": "1553774157",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x00866b5e4f539b215a28476ad5a364425599f206",
-    "equityToken": "0x378ee88e745e9214b8a616e08db6157c72e1dc07",
-    "etoTerms": "0x808b5d11e5541dcfd789ee674eba31f146eaa1da",
+    "equityToken": "0x1c2fb881df9b17ad18107f35d92f1f3c924392ce",
+    "etoTerms": "0x49324c54488e55990639d113d09458d2121a1685",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -673,7 +668,6 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
@@ -784,15 +778,15 @@
       ]
     }
   },
-  "0x5e4d6ef14d04543a575733e87c9c6e62f9f450f6": {
-    "address": "0x5e4d6ef14d04543a575733e87c9c6e62f9f450f6",
+  "0x6e74b755f730daadc3aa5d558e95c264530f2ea2": {
+    "address": "0x6e74b755f730daadc3aa5d558e95c264530f2ea2",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1555069916",
+    "startDate": "1555242966",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0028625dcbc24a821b40864294d66507fec70b7f",
-    "equityToken": "0x0cf5b96320a0d23f9564d4dfc6c4b834d342e47c",
-    "etoTerms": "0x2054f50cb484c3f20c5f988e30e1f25a9eed9e47",
+    "equityToken": "0x432df03a5df2f5983cdf8b5302b419890d5b491f",
+    "etoTerms": "0x3bc9f4e46aaf57579eefd7a08fd196d7bdab8976",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -824,7 +818,6 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
@@ -935,15 +928,15 @@
       ]
     }
   },
-  "0x432df03a5df2f5983cdf8b5302b419890d5b491f": {
-    "address": "0x432df03a5df2f5983cdf8b5302b419890d5b491f",
+  "0xeac70d2aa800d980d10554bb4b7aaef3a75ef134": {
+    "address": "0xeac70d2aa800d980d10554bb4b7aaef3a75ef134",
     "name": "ETONoStartDate",
     "state": "0",
     "startDate": "0",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0015650359daf66f6633deeb490a059027b0e396",
-    "equityToken": "0xc3cce192d9dae80245cce3bde1b35c4230949abd",
-    "etoTerms": "0xd8a7a2d4d8ab01487589b7ada64af6949c793f4c",
+    "equityToken": "0x2754523ce7c78fed60f742b0bc8a8f9fa323bb4c",
+    "etoTerms": "0x272b1d47c56de3b1615704fed440313d6d000993",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -975,7 +968,6 @@
         "EXISTING_COMPANY_SHARES": "40976",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
-        "ALLOW_RETAIL_INVESTORS": true,
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
         "SHAREHOLDER_RIGHTS": null,
