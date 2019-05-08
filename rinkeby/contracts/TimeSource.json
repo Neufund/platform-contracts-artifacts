@@ -1,0 +1,8 @@
+{
+  "contract_name": "TimeSource",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a7230582033c2e967c3fb840b9a1c7f95b3237b1126a32a249051b3ecef8e35c4393c462f0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440410
+}

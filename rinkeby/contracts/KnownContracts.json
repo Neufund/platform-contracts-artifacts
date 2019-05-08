@@ -1,0 +1,8 @@
+{
+  "contract_name": "KnownContracts",
+  "abi": [],
+  "unlinked_binary": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820a7d35d88954ae05c8639aec15899b72a2240bb9e6d47587d20d57d7ec63f6fd70029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1551795440411
+}
