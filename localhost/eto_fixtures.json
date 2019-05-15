@@ -1,13 +1,13 @@
 {
-  "0x0fcea18018300eea1b7830ce62a963a77e8e8bc9": {
-    "address": "0x0fcea18018300eea1b7830ce62a963a77e8e8bc9",
+  "0x2fe109a3f5c32ada1e51b8e6bb3a02705af234a6": {
+    "address": "0x2fe109a3f5c32ada1e51b8e6bb3a02705af234a6",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1559232432",
+    "startDate": "1559247035",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
-    "equityToken": "0xaf1532fdd5ecbcce24286c6675a2b95d8cf20db1",
-    "etoTerms": "0x4157dab5ff2348474ef26ad1dd196aff4a8e46e4",
+    "equityToken": "0x0fcea18018300eea1b7830ce62a963a77e8e8bc9",
+    "etoTerms": "0x48fad166cd74ff25d781715b3a19df280f4a4b0a",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -76,15 +76,15 @@
     },
     "investors": {}
   },
-  "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b": {
-    "address": "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b",
+  "0x0f9a8d21474c992ae77e81a9c2769b0ea55b55df": {
+    "address": "0x0f9a8d21474c992ae77e81a9c2769b0ea55b55df",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1557677237",
+    "startDate": "1557691840",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
-    "equityToken": "0x718de14cd9479beb742dc28abc7c70ce387b880c",
-    "etoTerms": "0x8592711638f43d0a6377119c90b832f4734897b2",
+    "equityToken": "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b",
+    "etoTerms": "0x4790a846670ea854e523f10441f8b31535d0a135",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -178,15 +178,15 @@
       ]
     }
   },
-  "0x08ae87edad6c6d5d252bddab88388e25b4ae29aa": {
-    "address": "0x08ae87edad6c6d5d252bddab88388e25b4ae29aa",
+  "0xac9d64ad2ca317e32145df484792dcb1af1bfe8c": {
+    "address": "0xac9d64ad2ca317e32145df484792dcb1af1bfe8c",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1557072444",
+    "startDate": "1557087047",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
-    "equityToken": "0xd20bd631bbccd0fc7df233f224e7b51686a9f427",
-    "etoTerms": "0x79fcd0511561968d59c1d0fe4e200d43b219da45",
+    "equityToken": "0x08ae87edad6c6d5d252bddab88388e25b4ae29aa",
+    "etoTerms": "0xf964ed64fc83f22cfef479dea19cdccdc6d36d2a",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -328,15 +328,15 @@
       ]
     }
   },
-  "0x0037f3a172340811f8c408a04479ff0ec00abf6b": {
-    "address": "0x0037f3a172340811f8c408a04479ff0ec00abf6b",
+  "0xecbfbea3383b2c1ea2ba8845904e8a010c31a000": {
+    "address": "0xecbfbea3383b2c1ea2ba8845904e8a010c31a000",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1555862849",
+    "startDate": "1555877454",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
-    "equityToken": "0xcf9eb395e7f133c06c4c157b395824d48294a259",
-    "etoTerms": "0xe490343053955eafd04bc0acd28f975ac2b5e87f",
+    "equityToken": "0x0037f3a172340811f8c408a04479ff0ec00abf6b",
+    "etoTerms": "0x3ca25bf0a3ff5877ee8e95423e85b57ec23b524d",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -478,15 +478,15 @@
       ]
     }
   },
-  "0x378ee88e745e9214b8a616e08db6157c72e1dc07": {
-    "address": "0x378ee88e745e9214b8a616e08db6157c72e1dc07",
+  "0xb0c41ee2d94603b7a456e880b38839c7fb71b839": {
+    "address": "0xb0c41ee2d94603b7a456e880b38839c7fb71b839",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1555258057",
+    "startDate": "1555272666",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x007d45d94368ae57ac8351604dc1cb3236150727",
-    "equityToken": "0xed0d46c5f5c389686566a12ae3d53e9133e76ab2",
-    "etoTerms": "0x175ad0d4bd4b52b11f74a7f8daaf7cca7fa01860",
+    "equityToken": "0x378ee88e745e9214b8a616e08db6157c72e1dc07",
+    "etoTerms": "0x808b5d11e5541dcfd789ee674eba31f146eaa1da",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -628,15 +628,15 @@
       ]
     }
   },
-  "0x752e20f4b0c45073a66e9a646f607348a84e1018": {
-    "address": "0x752e20f4b0c45073a66e9a646f607348a84e1018",
+  "0x2054f50cb484c3f20c5f988e30e1f25a9eed9e47": {
+    "address": "0x2054f50cb484c3f20c5f988e30e1f25a9eed9e47",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1554394067",
+    "startDate": "1554408675",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x00866b5e4f539b215a28476ad5a364425599f206",
-    "equityToken": "0x1c2fb881df9b17ad18107f35d92f1f3c924392ce",
-    "etoTerms": "0x49324c54488e55990639d113d09458d2121a1685",
+    "equityToken": "0x752e20f4b0c45073a66e9a646f607348a84e1018",
+    "etoTerms": "0x0aed6b3d39da99a787753f4fd76912510a745be7",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -778,15 +778,15 @@
       ]
     }
   },
-  "0x6e74b755f730daadc3aa5d558e95c264530f2ea2": {
-    "address": "0x6e74b755f730daadc3aa5d558e95c264530f2ea2",
+  "0xd55fd23b7b5b812e16e455ed0ba27901ad5cc940": {
+    "address": "0xd55fd23b7b5b812e16e455ed0ba27901ad5cc940",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1555862879",
+    "startDate": "1555877489",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0028625dcbc24a821b40864294d66507fec70b7f",
-    "equityToken": "0x432df03a5df2f5983cdf8b5302b419890d5b491f",
-    "etoTerms": "0x3bc9f4e46aaf57579eefd7a08fd196d7bdab8976",
+    "equityToken": "0x6e74b755f730daadc3aa5d558e95c264530f2ea2",
+    "etoTerms": "0xc3cce192d9dae80245cce3bde1b35c4230949abd",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -928,15 +928,15 @@
       ]
     }
   },
-  "0xeac70d2aa800d980d10554bb4b7aaef3a75ef134": {
-    "address": "0xeac70d2aa800d980d10554bb4b7aaef3a75ef134",
+  "0xf5346401324b979b4c739ecbc719a92e7239ab8a": {
+    "address": "0xf5346401324b979b4c739ecbc719a92e7239ab8a",
     "name": "ETONoStartDate",
     "state": "0",
     "startDate": "0",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0015650359daf66f6633deeb490a059027b0e396",
-    "equityToken": "0x2754523ce7c78fed60f742b0bc8a8f9fa323bb4c",
-    "etoTerms": "0x272b1d47c56de3b1615704fed440313d6d000993",
+    "equityToken": "0xeac70d2aa800d980d10554bb4b7aaef3a75ef134",
+    "etoTerms": "0x97d646cb67492ea247afbc1fb9bf48294c51915e",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
