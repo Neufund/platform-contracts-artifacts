@@ -1,5 +1,5 @@
 {
-  "0x613a2740a649d878902c3b88ea100453d87f391d": {
+  "0x28611b1ab1a20b9114324acf3f751879d58d05e3": {
     "NAME": "hnwi eto de",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -13,7 +13,7 @@
     "ASSET_TYPE": "1",
     "TOKEN_OFFERING_OPERATOR": "0x798fD195575d195B9Bb9619ffb905E434f044f1D"
   },
-  "0xc6ca53d47f3cb14f2037f4269abd1eac53077ca7": {
+  "0x4f561fd937316210d3bbbe03fba2c75c7add7ffb": {
     "NAME": "hnwi eto li",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -27,7 +27,7 @@
     "ASSET_TYPE": "0",
     "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1"
   },
-  "0x11a90f42580d4c24f4b4b88be7869aa022d45869": {
+  "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a": {
     "NAME": "private eto li",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -41,7 +41,7 @@
     "ASSET_TYPE": "0",
     "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1"
   },
-  "0x7c2c7544b2a872ed97c22aeeac5604da2bc1524c": {
+  "0x8b23033bef6712d1b0d64a836c0d3ff690418f00": {
     "NAME": "mini eto li",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -55,7 +55,7 @@
     "ASSET_TYPE": "0",
     "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1"
   },
-  "0xed59a15321bdb02b71a794e4d08714f340ec26ae": {
+  "0x44538ac4880ea3894e3b53453863b693949392a5": {
     "NAME": "eu-sme eto li",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -69,7 +69,7 @@
     "ASSET_TYPE": "0",
     "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1"
   },
-  "0xd68b00473af92e18d642f479ef8a9aeae192d14b": {
+  "0x9b8b4d6c4950fb2deeb6955b06a2bec65d979011": {
     "NAME": "retail eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -83,7 +83,7 @@
     "ASSET_TYPE": "0",
     "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1"
   },
-  "0x6fa77329d8c9840b51125befa87e5320f6f4a688": {
+  "0x9e4f69b1b9876429565bc1f6730e671ae0ebee93": {
     "NAME": "retail eto li vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -97,7 +97,7 @@
     "ASSET_TYPE": "1",
     "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1"
   },
-  "0xcdc2dfb6987dcdeb4ec45b06a108107230607503": {
+  "0x560687db44b19ce8347a2d35873dd95269ddf6bc": {
     "NAME": "retail eto li vma",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
