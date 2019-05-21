@@ -1,13 +1,13 @@
 {
-  "0x2fe109a3f5c32ada1e51b8e6bb3a02705af234a6": {
-    "address": "0x2fe109a3f5c32ada1e51b8e6bb3a02705af234a6",
+  "0x4157dab5ff2348474ef26ad1dd196aff4a8e46e4": {
+    "address": "0x4157dab5ff2348474ef26ad1dd196aff4a8e46e4",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1559691572",
+    "startDate": "1559698834",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x74180b56dd74bc56a2e9d5720f39247c55f23328",
-    "equityToken": "0x0fcea18018300eea1b7830ce62a963a77e8e8bc9",
-    "etoTerms": "0x48fad166cd74ff25d781715b3a19df280f4a4b0a",
+    "equityToken": "0xfb63c7923235a20a72f8762a65b5ae610890f130",
+    "etoTerms": "0xfcbfa87aaeb8f2eff1524c16f5a8d69b53da7f78",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -37,7 +37,7 @@
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
@@ -46,7 +46,26 @@
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "0"
+        "PUBLIC_DISCOUNT_FRAC": "0",
+        "ETO_TERMS_CONSTRAINTS": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
+      },
+      "etoTermsConstraints": {
+        "NAME": "mini eto li",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "5000000000000000000000000",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_LI",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": true
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
@@ -74,17 +93,18 @@
         "1000000000000000000"
       ]
     },
-    "investors": {}
+    "investors": {},
+    "etoTermsConstraints": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
   },
-  "0x0f9a8d21474c992ae77e81a9c2769b0ea55b55df": {
-    "address": "0x0f9a8d21474c992ae77e81a9c2769b0ea55b55df",
+  "0x8592711638f43d0a6377119c90b832f4734897b2": {
+    "address": "0x8592711638f43d0a6377119c90b832f4734897b2",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1558136381",
+    "startDate": "1558143641",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
-    "equityToken": "0x88322862ff45b9a711ae6b9de3f3dfd6b6c2378b",
-    "etoTerms": "0x4790a846670ea854e523f10441f8b31535d0a135",
+    "equityToken": "0x1597e4b25292e4c2ca57329360f373860a9e2528",
+    "etoTerms": "0x57f1dc60dfba309e84e752ff8d08a2b808eabe4c",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -111,6 +131,7 @@
         "MAX_NUMBER_OF_TOKENS_IN_WHITELIST": "15340000"
       },
       "etoTerms": {
+        "ETO_TERMS_CONSTRAINTS": "0x9b8b4d6c4950fb2deeb6955b06a2bec65d979011",
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "41976",
@@ -124,6 +145,24 @@
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "200000000000000000"
+      },
+      "etoTermsConstraints": {
+        "NAME": "hnwi eto de security",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "100000000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "DE",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_DE",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": false
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
@@ -176,17 +215,18 @@
         "false",
         "false"
       ]
-    }
+    },
+    "etoTermsConstraints": "0x9b8b4d6c4950fb2deeb6955b06a2bec65d979011"
   },
-  "0xac9d64ad2ca317e32145df484792dcb1af1bfe8c": {
-    "address": "0xac9d64ad2ca317e32145df484792dcb1af1bfe8c",
+  "0x79fcd0511561968d59c1d0fe4e200d43b219da45": {
+    "address": "0x79fcd0511561968d59c1d0fe4e200d43b219da45",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1557531589",
+    "startDate": "1557538849",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x16cd5ac5a1b77fb72032e3a09e91a98bb21d8988",
-    "equityToken": "0x08ae87edad6c6d5d252bddab88388e25b4ae29aa",
-    "etoTerms": "0xf964ed64fc83f22cfef479dea19cdccdc6d36d2a",
+    "equityToken": "0x20c8e3a3f8cb4fd61b44c91f42d73ef4275a30e8",
+    "etoTerms": "0x2ce1a09bfe331347bc81463f96f288b08f8869f8",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -216,7 +256,7 @@
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
@@ -225,7 +265,26 @@
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "0"
+        "PUBLIC_DISCOUNT_FRAC": "0",
+        "ETO_TERMS_CONSTRAINTS": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
+      },
+      "etoTermsConstraints": {
+        "NAME": "mini eto li",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "5000000000000000000000000",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_LI",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": true
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
@@ -303,14 +362,14 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "868000000000000000000",
+        "778000000000000000000",
         "0",
-        "3829",
-        "382900000000000000",
-        "226691042047531992",
+        "3432",
+        "343200000000000000",
+        "226689976689976689",
         "0",
         "0",
-        "868000000000000000000",
+        "778000000000000000000",
         "false",
         "true"
       ],
@@ -326,17 +385,18 @@
         "false",
         "false"
       ]
-    }
+    },
+    "etoTermsConstraints": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
   },
-  "0xecbfbea3383b2c1ea2ba8845904e8a010c31a000": {
-    "address": "0xecbfbea3383b2c1ea2ba8845904e8a010c31a000",
+  "0xe490343053955eafd04bc0acd28f975ac2b5e87f": {
+    "address": "0xe490343053955eafd04bc0acd28f975ac2b5e87f",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1556322000",
+    "startDate": "1556329257",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
-    "equityToken": "0x0037f3a172340811f8c408a04479ff0ec00abf6b",
-    "etoTerms": "0x3ca25bf0a3ff5877ee8e95423e85b57ec23b524d",
+    "equityToken": "0x3c493b809476a03eae17dec1a1504a3ddbd38b85",
+    "etoTerms": "0x41bdfab7ee2b023d9f32552ca55874644147980c",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -366,7 +426,7 @@
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
@@ -375,7 +435,26 @@
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "0"
+        "PUBLIC_DISCOUNT_FRAC": "0",
+        "ETO_TERMS_CONSTRAINTS": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
+      },
+      "etoTermsConstraints": {
+        "NAME": "mini eto li",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "5000000000000000000000000",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_LI",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": true
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
@@ -453,14 +532,14 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "868000000000000000000",
+        "778000000000000000000",
         "0",
-        "3829",
-        "382900000000000000",
-        "226691042047531992",
+        "3432",
+        "343200000000000000",
+        "226689976689976689",
         "0",
         "0",
-        "868000000000000000000",
+        "778000000000000000000",
         "false",
         "true"
       ],
@@ -476,17 +555,18 @@
         "false",
         "false"
       ]
-    }
+    },
+    "etoTermsConstraints": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
   },
-  "0xb0c41ee2d94603b7a456e880b38839c7fb71b839": {
-    "address": "0xb0c41ee2d94603b7a456e880b38839c7fb71b839",
+  "0x175ad0d4bd4b52b11f74a7f8daaf7cca7fa01860": {
+    "address": "0x175ad0d4bd4b52b11f74a7f8daaf7cca7fa01860",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1555717214",
+    "startDate": "1555724469",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x007d45d94368ae57ac8351604dc1cb3236150727",
-    "equityToken": "0x378ee88e745e9214b8a616e08db6157c72e1dc07",
-    "etoTerms": "0x808b5d11e5541dcfd789ee674eba31f146eaa1da",
+    "equityToken": "0x873e776a269f4f4f4ac85dd46682fcf8dc24aedd",
+    "etoTerms": "0x1f6558ca4e58cd185b202146b6dcb27995e5ca20",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -516,7 +596,7 @@
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
@@ -525,7 +605,26 @@
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "0"
+        "PUBLIC_DISCOUNT_FRAC": "0",
+        "ETO_TERMS_CONSTRAINTS": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
+      },
+      "etoTermsConstraints": {
+        "NAME": "mini eto li",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "5000000000000000000000000",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_LI",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": true
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
@@ -603,14 +702,14 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "868000000000000000000",
+        "778000000000000000000",
         "0",
-        "3829",
-        "382900000000000000",
-        "226691042047531992",
+        "3432",
+        "343200000000000000",
+        "226689976689976689",
         "0",
         "0",
-        "868000000000000000000",
+        "778000000000000000000",
         "false",
         "true"
       ],
@@ -626,17 +725,18 @@
         "false",
         "false"
       ]
-    }
+    },
+    "etoTermsConstraints": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
   },
-  "0x2054f50cb484c3f20c5f988e30e1f25a9eed9e47": {
-    "address": "0x2054f50cb484c3f20c5f988e30e1f25a9eed9e47",
+  "0x49324c54488e55990639d113d09458d2121a1685": {
+    "address": "0x49324c54488e55990639d113d09458d2121a1685",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1554853229",
+    "startDate": "1554860479",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x00866b5e4f539b215a28476ad5a364425599f206",
-    "equityToken": "0x752e20f4b0c45073a66e9a646f607348a84e1018",
-    "etoTerms": "0x0aed6b3d39da99a787753f4fd76912510a745be7",
+    "equityToken": "0x931d3aca462032d4e90bec0be913bac7ce3c5b4a",
+    "etoTerms": "0x1d65c7f4b725a6eb33b67dec604956feeb362311",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -666,7 +766,7 @@
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
@@ -675,7 +775,26 @@
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "0"
+        "PUBLIC_DISCOUNT_FRAC": "0",
+        "ETO_TERMS_CONSTRAINTS": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
+      },
+      "etoTermsConstraints": {
+        "NAME": "mini eto li",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "5000000000000000000000000",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_LI",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": true
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
@@ -753,14 +872,14 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "868000000000000000000",
+        "778000000000000000000",
         "0",
-        "3829",
-        "382900000000000000",
-        "226691042047531992",
+        "3432",
+        "343200000000000000",
+        "226689976689976689",
         "0",
         "0",
-        "868000000000000000000",
+        "778000000000000000000",
         "false",
         "true"
       ],
@@ -776,17 +895,18 @@
         "true",
         "false"
       ]
-    }
+    },
+    "etoTermsConstraints": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
   },
-  "0xd55fd23b7b5b812e16e455ed0ba27901ad5cc940": {
-    "address": "0xd55fd23b7b5b812e16e455ed0ba27901ad5cc940",
+  "0x3bc9f4e46aaf57579eefd7a08fd196d7bdab8976": {
+    "address": "0x3bc9f4e46aaf57579eefd7a08fd196d7bdab8976",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1556322047",
+    "startDate": "1556329291",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0028625dcbc24a821b40864294d66507fec70b7f",
-    "equityToken": "0x6e74b755f730daadc3aa5d558e95c264530f2ea2",
-    "etoTerms": "0xc3cce192d9dae80245cce3bde1b35c4230949abd",
+    "equityToken": "0xd8a7a2d4d8ab01487589b7ada64af6949c793f4c",
+    "etoTerms": "0xe76de22e14af1503c2dee966a7a49b98167c7cbb",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -816,7 +936,7 @@
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
@@ -825,7 +945,26 @@
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "0"
+        "PUBLIC_DISCOUNT_FRAC": "0",
+        "ETO_TERMS_CONSTRAINTS": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
+      },
+      "etoTermsConstraints": {
+        "NAME": "mini eto li",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "5000000000000000000000000",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_LI",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": true
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
@@ -903,14 +1042,14 @@
         "true"
       ],
       "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
-        "868000000000000000000",
+        "778000000000000000000",
         "0",
-        "3829",
-        "382900000000000000",
-        "226691042047531992",
+        "3432",
+        "343200000000000000",
+        "226689976689976689",
         "0",
         "0",
-        "868000000000000000000",
+        "778000000000000000000",
         "false",
         "true"
       ],
@@ -926,17 +1065,18 @@
         "false",
         "false"
       ]
-    }
+    },
+    "etoTermsConstraints": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
   },
-  "0xf5346401324b979b4c739ecbc719a92e7239ab8a": {
-    "address": "0xf5346401324b979b4c739ecbc719a92e7239ab8a",
+  "0x272b1d47c56de3b1615704fed440313d6d000993": {
+    "address": "0x272b1d47c56de3b1615704fed440313d6d000993",
     "name": "ETONoStartDate",
     "state": "0",
     "startDate": "0",
     "nominee": "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
     "company": "0x0015650359daf66f6633deeb490a059027b0e396",
-    "equityToken": "0xeac70d2aa800d980d10554bb4b7aaef3a75ef134",
-    "etoTerms": "0x97d646cb67492ea247afbc1fb9bf48294c51915e",
+    "equityToken": "0x5610d63da0655ec61e8a1fdb203441d08dd92498",
+    "etoTerms": "0xb4e6e9e69fa77c7875f5f87500807388a91f6b79",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -966,7 +1106,7 @@
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "40976",
-        "MIN_TICKET_EUR_ULPS": "100000000000000000000",
+        "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
@@ -975,13 +1115,33 @@
         "EQUITY_TOKEN_SYMBOL": "QTT",
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "0"
+        "PUBLIC_DISCOUNT_FRAC": "0",
+        "ETO_TERMS_CONSTRAINTS": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
+      },
+      "etoTermsConstraints": {
+        "NAME": "mini eto li",
+        "CAN_SET_TRANSFERABILITY": true,
+        "HAS_NOMINEE": true,
+        "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+        "MAX_TICKET_SIZE_EUR_ULPS": "0",
+        "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+        "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "5000000000000000000000000",
+        "OFFERING_DOCUMENT_TYPE": "0",
+        "OFFERING_DOCUMENT_SUB_TYPE": "0",
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "TOKEN_OFFERING_OPERATOR_LI",
+        "_deploymentMetadata": {
+          "step": 1,
+          "available": true
+        }
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETONoStartDate"
     },
     "whitelist": {},
-    "investors": {}
+    "investors": {},
+    "etoTermsConstraints": "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a"
   }
 }
