@@ -1,5 +1,5 @@
 {
-  "0x28611b1ab1a20b9114324acf3f751879d58d05e3": {
+  "0xdbb36fc53dfee7fb9322b499067b56ffdb420fe4": {
     "NAME": "hnwi eto de vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -17,7 +17,7 @@
       "available": true
     }
   },
-  "0x4f561fd937316210d3bbbe03fba2c75c7add7ffb": {
+  "0x85bea76f2ec57147f9942f68d896e10d6bcacf03": {
     "NAME": "hnwi eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -35,7 +35,7 @@
       "available": true
     }
   },
-  "0x81e17b9ee9f3acbd2a8ba62155132f2c4cc9e20a": {
+  "0x6e2551b25241f1a937777e274ed978c39823ad52": {
     "NAME": "mini eto li",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -53,7 +53,7 @@
       "available": true
     }
   },
-  "0x8b23033bef6712d1b0d64a836c0d3ff690418f00": {
+  "0x4157dab5ff2348474ef26ad1dd196aff4a8e46e4": {
     "NAME": "retail eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -71,7 +71,7 @@
       "available": true
     }
   },
-  "0x44538ac4880ea3894e3b53453863b693949392a5": {
+  "0xaf1532fdd5ecbcce24286c6675a2b95d8cf20db1": {
     "NAME": "retail eto li vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -89,7 +89,7 @@
       "available": true
     }
   },
-  "0x9b8b4d6c4950fb2deeb6955b06a2bec65d979011": {
+  "0x2fe109a3f5c32ada1e51b8e6bb3a02705af234a6": {
     "NAME": "hnwi eto de security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
