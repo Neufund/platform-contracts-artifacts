@@ -1,13 +1,13 @@
 {
-  "0x32Dc26DdbCF99b899F12692c795e01aA2f987169": {
-    "address": "0x32Dc26DdbCF99b899F12692c795e01aA2f987169",
+  "0x295a803DE79cD256ff544682a51435e549a080B2": {
+    "address": "0x295a803DE79cD256ff544682a51435e549a080B2",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1559857246",
+    "startDate": "1559927155",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x74180B56DD74BC56a2E9D5720F39247c55F23328",
-    "equityToken": "0x41BDFaB7Ee2b023D9f32552Ca55874644147980c",
-    "etoTerms": "0xA506759B82a23B7B13eFa36Bd65421D154F36B07",
+    "equityToken": "0xaC9d64Ad2ca317e32145df484792dCB1af1bfe8C",
+    "etoTerms": "0xD20bd631bbcCD0Fc7DF233F224e7B51686A9f427",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -47,7 +47,7 @@
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
-        "ETO_TERMS_CONSTRAINTS": "0x6e2551b25241f1a937777e274Ed978C39823ad52"
+        "ETO_TERMS_CONSTRAINTS": "0x85bEa76f2ec57147F9942f68D896e10d6BCAcf03"
       },
       "etoTermsConstraints": {
         "NAME": "mini eto li",
@@ -90,17 +90,17 @@
       ]
     },
     "investors": {},
-    "etoTermsConstraints": "0x6e2551b25241f1a937777e274ed978c39823ad52"
+    "etoTermsConstraints": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03"
   },
-  "0x0106506016bAe202952F52e856A24b71f7086F2a": {
-    "address": "0x0106506016bAe202952F52e856A24b71f7086F2a",
+  "0xCF9eB395e7F133C06C4c157b395824d48294A259": {
+    "address": "0xCF9eB395e7F133C06C4c157b395824d48294A259",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1558302055",
+    "startDate": "1558371967",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x8e75544B848F0a32a1Ab119E3916Ec7138f3Bed2",
-    "equityToken": "0x03811b67d5B70651ABe804aF2266Bb7bb6703AC4",
-    "etoTerms": "0xB6A47618A6Ff084fB96A29e3A3D1343d23699ACD",
+    "equityToken": "0x3ca25bf0A3Ff5877eE8E95423E85B57EC23B524D",
+    "etoTerms": "0x3C493B809476a03eAE17dEc1a1504A3DdbD38b85",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -127,7 +127,7 @@
         "MAX_NUMBER_OF_TOKENS_IN_WHITELIST": "15340000"
       },
       "etoTerms": {
-        "ETO_TERMS_CONSTRAINTS": "0xE8F9857Df278244662088bed89dabeFD828B8ce8",
+        "ETO_TERMS_CONSTRAINTS": "0x4157daB5ff2348474ef26ad1dd196afF4A8E46e4",
         "DURATION_TERMS": null,
         "TOKEN_TERMS": null,
         "EXISTING_COMPANY_SHARES": "41976",
@@ -208,20 +208,20 @@
         "false"
       ]
     },
-    "etoTermsConstraints": "0xe8f9857df278244662088bed89dabefd828b8ce8"
+    "etoTermsConstraints": "0x4157dab5ff2348474ef26ad1dd196aff4a8e46e4"
   },
-  "0x378eE88E745e9214B8a616e08db6157C72E1dC07": {
-    "address": "0x378eE88E745e9214B8a616e08db6157C72E1dC07",
+  "0x1f6558CA4e58Cd185b202146b6dcB27995e5Ca20": {
+    "address": "0x1f6558CA4e58Cd185b202146b6dcB27995e5Ca20",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1557697265",
+    "startDate": "1557767176",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x36Cec7081d2528a42D56fC1571D6D234dd2608EC",
-    "equityToken": "0xeD0D46c5f5C389686566A12AE3D53E9133E76aB2",
-    "etoTerms": "0x175ad0D4BD4b52b11f74a7F8dAaF7CcA7Fa01860",
+    "equityToken": "0x60faB12507c0f659Ddb32F50Ba3F65dA9BA15bc7",
+    "etoTerms": "0x7a86f4b89e28af5A34F95903BB1Fc93a1f07C3a0",
     "definition": {
       "etoTerms": {
-        "ETO_TERMS_CONSTRAINTS": "0x6e2551b25241f1a937777e274Ed978C39823ad52",
+        "ETO_TERMS_CONSTRAINTS": "0x85bEa76f2ec57147F9942f68D896e10d6BCAcf03",
         "EXISTING_COMPANY_SHARES": "5000",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
@@ -373,17 +373,17 @@
         "false"
       ]
     },
-    "etoTermsConstraints": "0x6e2551b25241f1a937777e274ed978c39823ad52"
+    "etoTermsConstraints": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03"
   },
-  "0x931D3AcA462032D4E90beC0bE913Bac7CE3c5B4A": {
-    "address": "0x931D3AcA462032D4E90beC0bE913Bac7CE3c5B4A",
+  "0x345087ad7CBDe3F210ce164ca029bc0409B49d4d": {
+    "address": "0x345087ad7CBDe3F210ce164ca029bc0409B49d4d",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1556487675",
+    "startDate": "1556557591",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0xC8f867Cf4Ed30b4fF0Aa4c4c8c6b684397B219B0",
-    "equityToken": "0xD2Bb43D3796932d7bCd1cA3108e9fd634B026244",
-    "etoTerms": "0x41447BDc6Ae14A1B454B8Be76D33347CCdc8340B",
+    "equityToken": "0x8878638bd7e53C731B5d289A66F2A8C4144bB159",
+    "etoTerms": "0x8761D536e3e1F3877aDA16944ddCf3eC778e6220",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -423,7 +423,7 @@
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
-        "ETO_TERMS_CONSTRAINTS": "0x6e2551b25241f1a937777e274Ed978C39823ad52"
+        "ETO_TERMS_CONSTRAINTS": "0x85bEa76f2ec57147F9942f68D896e10d6BCAcf03"
       },
       "etoTermsConstraints": {
         "NAME": "mini eto li",
@@ -539,17 +539,17 @@
         "false"
       ]
     },
-    "etoTermsConstraints": "0x6e2551b25241f1a937777e274ed978c39823ad52"
+    "etoTermsConstraints": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03"
   },
-  "0xe930deE4890Af707Da65b303d619b051f9E2D0B6": {
-    "address": "0xe930deE4890Af707Da65b303d619b051f9E2D0B6",
+  "0x07850Ff96938E56BA7B0D9aC77cA5291e79f59C8": {
+    "address": "0x07850Ff96938E56BA7B0D9aC77cA5291e79f59C8",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1555882887",
+    "startDate": "1555952804",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x007D45D94368AE57ac8351604dC1cB3236150727",
-    "equityToken": "0xFeED5A6064E63EA7d26933e346c7B4C4429F5778",
-    "etoTerms": "0xd8405fBc4060b4bC6B8d10a223A4648D39560624",
+    "equityToken": "0x5F02429af651AfFC69C3766255A1c62210Ca0328",
+    "etoTerms": "0x0cf5b96320A0D23F9564d4dFc6c4B834d342E47C",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -589,7 +589,7 @@
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
-        "ETO_TERMS_CONSTRAINTS": "0x6e2551b25241f1a937777e274Ed978C39823ad52"
+        "ETO_TERMS_CONSTRAINTS": "0x85bEa76f2ec57147F9942f68D896e10d6BCAcf03"
       },
       "etoTermsConstraints": {
         "NAME": "mini eto li",
@@ -705,20 +705,20 @@
         "false"
       ]
     },
-    "etoTermsConstraints": "0x6e2551b25241f1a937777e274ed978c39823ad52"
+    "etoTermsConstraints": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03"
   },
-  "0xb4e6E9e69Fa77C7875F5F87500807388A91f6B79": {
-    "address": "0xb4e6E9e69Fa77C7875F5F87500807388A91f6B79",
+  "0xB0741935A6854b23627cb94cDE4DDE893a58335f": {
+    "address": "0xB0741935A6854b23627cb94cDE4DDE893a58335f",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1551692499",
+    "startDate": "1551762418",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x95137084d1b6F58D177523De894293913394aA12",
-    "equityToken": "0x84A89a974273bD6C99DB2A2Dcd07C97e8C3E295f",
-    "etoTerms": "0x59D43a5101561b2084Ef409b383bc05330A1c1f4",
+    "equityToken": "0x466351dba572e15A6defeC46dA61abEe4B8472C4",
+    "etoTerms": "0x6e74b755f730daadC3aa5D558E95c264530f2Ea2",
     "definition": {
       "etoTerms": {
-        "ETO_TERMS_CONSTRAINTS": "0x2fE109A3F5C32adA1e51b8E6bB3A02705AF234a6",
+        "ETO_TERMS_CONSTRAINTS": "0xFB63c7923235a20A72F8762a65b5AE610890f130",
         "EXISTING_COMPANY_SHARES": "9000",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
@@ -870,17 +870,17 @@
         "false"
       ]
     },
-    "etoTermsConstraints": "0x2fe109a3f5c32ada1e51b8e6bb3a02705af234a6"
+    "etoTermsConstraints": "0xfb63c7923235a20a72f8762a65b5ae610890f130"
   },
-  "0x7d7714E7EA23684eAeF84d58743B6AE4f74134F1": {
-    "address": "0x7d7714E7EA23684eAeF84d58743B6AE4f74134F1",
+  "0x94A9A04d600C7187789f1319aa9d98a19e5883c3": {
+    "address": "0x94A9A04d600C7187789f1319aa9d98a19e5883c3",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1556487713",
+    "startDate": "1556557634",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x0028625dcBc24a821b40864294D66507fEC70B7F",
-    "equityToken": "0x30ada73Ba798B673aCCe17E46cf636A303a0a745",
-    "etoTerms": "0x0E52423fC6999fb110c6E8085Ea450ccFa2d7f22",
+    "equityToken": "0xBB9837a0411f7352CFe7B971ee73839C6f49523C",
+    "etoTerms": "0x447b72623b42a50Bef6b214CD62722CE10447FA9",
     "definition": {
       "shareholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -920,7 +920,7 @@
         "SHARE_NOMINAL_VALUE_EUR_ULPS": "1000000000000000000",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
-        "ETO_TERMS_CONSTRAINTS": "0x6e2551b25241f1a937777e274Ed978C39823ad52"
+        "ETO_TERMS_CONSTRAINTS": "0x85bEa76f2ec57147F9942f68D896e10d6BCAcf03"
       },
       "etoTermsConstraints": {
         "NAME": "mini eto li",
@@ -1036,20 +1036,20 @@
         "false"
       ]
     },
-    "etoTermsConstraints": "0x6e2551b25241f1a937777e274ed978c39823ad52"
+    "etoTermsConstraints": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03"
   },
-  "0x9Ed5ccd48938351833C8F5E9428EE81350BF3494": {
-    "address": "0x9Ed5ccd48938351833C8F5E9428EE81350BF3494",
+  "0x518D9cE76e9160cD7beA440dB0E357Eb2678a9D2": {
+    "address": "0x518D9cE76e9160cD7beA440dB0E357Eb2678a9D2",
     "name": "ETONoStartDate",
     "state": "0",
     "startDate": "0",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0xd9C46960cE6bE33BbED615087ABbD35Fda77d42C",
-    "equityToken": "0xD008CE1d324430D563bEcCc18328A65f5E2113d8",
-    "etoTerms": "0xFD631eF3Cd327522DCa8b5dFe77d0ffeE4BfF60A",
+    "equityToken": "0xf4c2CCaE6289a23f663E9B10795D1ef6f80D494E",
+    "etoTerms": "0x2fb0A21Fa2756dBc2228FDA9cBDb6c39Ad4aa376",
     "definition": {
       "etoTerms": {
-        "ETO_TERMS_CONSTRAINTS": "0x85bEa76f2ec57147F9942f68D896e10d6BCAcf03",
+        "ETO_TERMS_CONSTRAINTS": "0xDD6172bFBc5DCA56Ba1070D6319247b57E836Ef2",
         "EXISTING_COMPANY_SHARES": "10050",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000000",
         "MAX_TICKET_EUR_ULPS": "15920398009950248756218905",
@@ -1107,6 +1107,6 @@
     },
     "whitelist": {},
     "investors": {},
-    "etoTermsConstraints": "0x85bea76f2ec57147f9942f68d896e10d6bcacf03"
+    "etoTermsConstraints": "0xdd6172bfbc5dca56ba1070d6319247b57e836ef2"
   }
 }
