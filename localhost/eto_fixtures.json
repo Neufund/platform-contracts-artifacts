@@ -3,7 +3,7 @@
     "address": "0x808B5D11E5541dCfd789eE674eba31F146EAA1DA",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1560072039",
+    "startDate": "1560287748",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x74180B56DD74BC56a2E9D5720F39247c55F23328",
     "equityToken": "0x175ad0D4BD4b52b11f74a7F8dAaF7CcA7Fa01860",
@@ -75,7 +75,7 @@
     "address": "0x345087ad7CBDe3F210ce164ca029bc0409B49d4d",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1558516846",
+    "startDate": "1558732555",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x8e75544B848F0a32a1Ab119E3916Ec7138f3Bed2",
     "equityToken": "0x8878638bd7e53C731B5d289A66F2A8C4144bB159",
@@ -155,14 +155,14 @@
         "500000000000000000000000",
         "500000000000000000"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "true",
         "0",
         "1000000000000000000"
       ]
     },
     "investors": {
-      "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
+      "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": [
         "100000000000000000000000",
         "0",
         "337116",
@@ -174,7 +174,7 @@
         "false",
         "true"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "104324034459800000000000",
         "329877421286703521322414",
         "351693",
@@ -193,7 +193,7 @@
     "address": "0x2054F50CB484c3f20c5F988E30E1F25a9EED9e47",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1557912053",
+    "startDate": "1558127762",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x36Cec7081d2528a42D56fC1571D6D234dd2608EC",
     "equityToken": "0x752e20f4b0c45073a66e9A646f607348a84e1018",
@@ -272,7 +272,7 @@
         "500000000000000000000000",
         "500000000000000000"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "true",
         "0",
         "1000000000000000000"
@@ -404,7 +404,7 @@
       ]
     },
     "investors": {
-      "0x00b30CC2cc22c9820d47a4E0C9E1A54455bA0883": [
+      "0x139Fab72691f03eA1589A847b110096c7cD56e35": [
         "1341487958823022000000",
         "0",
         "2235",
@@ -452,7 +452,7 @@
         "false",
         "true"
       ],
-      "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
+      "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": [
         "100000000000000000000000",
         "0",
         "277777",
@@ -464,7 +464,7 @@
         "false",
         "true"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "104324034459800000000000",
         "329728327034804183307264",
         "289788",
@@ -783,7 +783,7 @@
     "address": "0xE76de22E14Af1503C2dEe966A7A49b98167C7CBB",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1556702472",
+    "startDate": "1556918181",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0xC8f867Cf4Ed30b4fF0Aa4c4c8c6b684397B219B0",
     "equityToken": "0x205A1B99a2DBB51f59bE0C38AcE4f0dF6D75FEA6",
@@ -863,14 +863,14 @@
         "500000000000000000000000",
         "500000000000000000"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "true",
         "0",
         "1000000000000000000"
       ]
     },
     "investors": {
-      "0x00b30CC2cc22c9820d47a4E0C9E1A54455bA0883": [
+      "0x139Fab72691f03eA1589A847b110096c7cD56e35": [
         "1341487958823022000000",
         "0",
         "4143",
@@ -918,7 +918,7 @@
         "false",
         "true"
       ],
-      "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
+      "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": [
         "100000000000000000000000",
         "0",
         "441241",
@@ -930,7 +930,7 @@
         "false",
         "true"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "3341942934459800000000000",
         "10472569865460309919720888",
         "10460320",
@@ -949,9 +949,9 @@
     "address": "0xADf6B6ABb18d459aCa5Ecf0A36c1B56D37807128",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1556097682",
+    "startDate": "1556313391",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
-    "company": "0x007D45D94368AE57ac8351604dC1cB3236150727",
+    "company": "0x6A57FeBaE70BfC83c64835eA58240958fba328ff",
     "equityToken": "0xb4e6E9e69Fa77C7875F5F87500807388A91f6B79",
     "etoTerms": "0x57573b672ee00b7a09Fb234b21374dF4E79AA214",
     "definition": {
@@ -1024,14 +1024,14 @@
         "500000000000000000000000",
         "500000000000000000"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "true",
         "0",
         "1000000000000000000"
       ]
     },
     "investors": {
-      "0x00b30CC2cc22c9820d47a4E0C9E1A54455bA0883": [
+      "0x139Fab72691f03eA1589A847b110096c7cD56e35": [
         "1341487958823022000000",
         "0",
         "4143",
@@ -1079,7 +1079,7 @@
         "false",
         "true"
       ],
-      "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
+      "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": [
         "100000000000000000000000",
         "0",
         "441241",
@@ -1091,7 +1091,7 @@
         "false",
         "true"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "3341942934459800000000000",
         "10322001576171118554583590",
         "10460320",
@@ -1110,7 +1110,7 @@
     "address": "0x3D0eF720d0fd26b9453e426979C7778Ac971621c",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1551907293",
+    "startDate": "1552123002",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
     "company": "0x95137084d1b6F58D177523De894293913394aA12",
     "equityToken": "0x0E52423fC6999fb110c6E8085Ea450ccFa2d7f22",
@@ -1189,14 +1189,14 @@
         "500000000000000000000000",
         "500000000000000000"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "true",
         "0",
         "1000000000000000000"
       ]
     },
     "investors": {
-      "0x00b30CC2cc22c9820d47a4E0C9E1A54455bA0883": [
+      "0x139Fab72691f03eA1589A847b110096c7cD56e35": [
         "1341487958823022000000",
         "0",
         "2012",
@@ -1244,7 +1244,7 @@
         "true",
         "true"
       ],
-      "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
+      "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": [
         "100000000000000000000000",
         "0",
         "214285",
@@ -1256,7 +1256,7 @@
         "false",
         "true"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "6770990701126466670000000",
         "20327107449356669353582154",
         "10223551",
@@ -1575,9 +1575,9 @@
     "address": "0xB338167e42857d76c7302b42C3e04cc540441649",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1556702533",
+    "startDate": "1556918242",
     "nominee": "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6",
-    "company": "0x0028625dcBc24a821b40864294D66507fEC70B7F",
+    "company": "0x51305B1CC683dedF60b39E92AeF52f4e09E9E781",
     "equityToken": "0x6503698E1836707835C813EBd515d63E9aBB91C5",
     "etoTerms": "0x26C17F463200f0f3f43185eB08246844aF3ff56e",
     "definition": {
@@ -1655,14 +1655,14 @@
         "500000000000000000000000",
         "500000000000000000"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "true",
         "0",
         "1000000000000000000"
       ]
     },
     "investors": {
-      "0x00b30CC2cc22c9820d47a4E0C9E1A54455bA0883": [
+      "0x139Fab72691f03eA1589A847b110096c7cD56e35": [
         "1341487958823022000000",
         "0",
         "4143",
@@ -1710,7 +1710,7 @@
         "false",
         "true"
       ],
-      "0x0020D330ef4De5C07D4271E0A67e8fD67A21D523": [
+      "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": [
         "100000000000000000000000",
         "0",
         "441241",
@@ -1722,7 +1722,7 @@
         "false",
         "true"
       ],
-      "0x0009C1d95C547d53E3b962059Be11802b5e85BA3": [
+      "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": [
         "104324034459800000000000",
         "308515853544323662362664",
         "460320",
