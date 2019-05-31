@@ -23,9 +23,13 @@
       "TOKEN_RATE_ORACLE": "0xB3E69d2637076D265bFb056bF5F35d9155535CD6",
       "GAS_STIPEND_SERVICE": "0x29c57b5F27b249Ab3c11Badf6efc4B2308bc75Dd"
     },
-    "MIN_DEPOSIT_AMOUNT_EUR_ULPS": "50000000000000000000",
-    "MIN_WITHDRAW_AMOUNT_EUR_ULPS": "10000000000000000000",
+    "MIN_DEPOSIT_AMOUNT_EUR_ULPS": "1000000000000000000",
+    "MIN_WITHDRAW_AMOUNT_EUR_ULPS": "5000000000000000000",
     "MAX_SIMPLE_EXCHANGE_ALLOWANCE_EUR_ULPS": "25000000000000000000",
+    "EURT_WITHDRAWAL_FEE_FRAC": "5000000000000000",
+    "EURT_DEPOSIT_FEE_FRAC": "0",
+    "TOKEN_OFFERING_OPERATOR_DE": "0xA826813D0eb5D629E959c02b8f7a3d0f53066Ce4",
+    "TOKEN_OFFERING_OPERATOR_LI": "0x0084C8f023D51896807a32d6f3e1AAc307eD891D",
     "ICBM_COMMITMENT_ADDRESS": "0xf432cec23b2a0d6062b969467f65669de81f4653",
     "UNIVERSE_ADDRESS": "0x2785279ef76d21d39ad9a5a495955b77dedad528",
     "ISOLATED_UNIVERSE": false,
@@ -54,7 +58,8 @@
       "STANDARD_TOKEN_TERMS": "ETOTokenTerms",
       "FEE_DISBURSAL": "FeeDisbursal",
       "FEE_DISBURSAL_CONTROLLER": "FeeDisbursalController",
-      "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle"
+      "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle",
+      "ETO_TERMS_CONSTRAINTS": "ETOTermsConstraints"
     },
     "shouldSkipDeployment": false,
     "isLiveDeployment": true
@@ -107,7 +112,8 @@
     "equityTokenInterface": "0xab9885bb",
     "equityTokenControllerInterface": "0xfa30b2f1",
     "termsInterface": "0x9d5754ab",
-    "paymentTokenInterface": "0xb2a0042a"
+    "paymentTokenInterface": "0xb2a0042a",
+    "etoTermsConstraints": "0xce2be4f5"
   },
   "INTERFACE_ARTIFACTS": {
     "accessPolicy": [
@@ -189,6 +195,10 @@
     ],
     "paymentTokenInterface": [
       "IERC223Token"
+    ],
+    "etoTermsConstraints": [
+      "ETOTermsConstraints",
+      ""
     ]
   },
   "NETWORK": {
@@ -222,6 +232,7 @@
       "0x84b07cd505f3257782b96a3e121ac1f5d1cae32f",
       "0x8a194c13308326173423119f8dcb785ce14c732b",
       "0x8e75544b848f0a32a1ab119e3916ec7138f3bed2",
+      "0x9058b511c7450303f5bc187aaf4cc25d7f7f88c6",
       "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
       "0xcb6470fa4b5d56c8f494e7c1ce56b28c548931a6",
       "0xdf5f67e6e4c643a2ced1f9de88a5da42e1507efd",
@@ -231,6 +242,6 @@
       "0xf40011040398947b3c6b7532ed23fbc8c19c9654"
     ]
   },
-  "HEAD_BLOCK_NO": 8701347,
-  "INITIAL_BLOCK_NO": 8701303
+  "HEAD_BLOCK_NO": 10621444,
+  "INITIAL_BLOCK_NO": 10621405
 }
