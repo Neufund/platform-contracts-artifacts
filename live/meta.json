@@ -23,9 +23,13 @@
       "TOKEN_RATE_ORACLE": "0x7C725f972D1ebDEF5Bbfd8996d3Cbe307b23cd42",
       "GAS_STIPEND_SERVICE": "0xABa4430574f2353C0A22Ca4CF2d4a122f0031245"
     },
-    "MIN_DEPOSIT_AMOUNT_EUR_ULPS": "50000000000000000000",
-    "MIN_WITHDRAW_AMOUNT_EUR_ULPS": "10000000000000000000",
+    "MIN_DEPOSIT_AMOUNT_EUR_ULPS": "1000000000000000000",
+    "MIN_WITHDRAW_AMOUNT_EUR_ULPS": "5000000000000000000",
     "MAX_SIMPLE_EXCHANGE_ALLOWANCE_EUR_ULPS": "25000000000000000000",
+    "EURT_WITHDRAWAL_FEE_FRAC": "5000000000000000",
+    "EURT_DEPOSIT_FEE_FRAC": "0",
+    "TOKEN_OFFERING_OPERATOR_DE": "0xA826813D0eb5D629E959c02b8f7a3d0f53066Ce4",
+    "TOKEN_OFFERING_OPERATOR_LI": "0x0084C8f023D51896807a32d6f3e1AAc307eD891D",
     "ICBM_COMMITMENT_ADDRESS": "0xf432cec23b2a0d6062b969467f65669de81f4653",
     "UNIVERSE_ADDRESS": "0x82fb5126506b6c315fa4a7ae3d4cb8a46a1aae67",
     "ISOLATED_UNIVERSE": false,
@@ -54,7 +58,8 @@
       "STANDARD_TOKEN_TERMS": "ETOTokenTerms",
       "FEE_DISBURSAL": "FeeDisbursal",
       "FEE_DISBURSAL_CONTROLLER": "FeeDisbursalController",
-      "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle"
+      "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle",
+      "ETO_TERMS_CONSTRAINTS": "ETOTermsConstraints"
     },
     "shouldSkipDeployment": false,
     "isLiveDeployment": true
@@ -107,7 +112,8 @@
     "equityTokenInterface": "0xab9885bb",
     "equityTokenControllerInterface": "0xfa30b2f1",
     "termsInterface": "0x9d5754ab",
-    "paymentTokenInterface": "0xb2a0042a"
+    "paymentTokenInterface": "0xb2a0042a",
+    "etoTermsConstraints": "0xce2be4f5"
   },
   "INTERFACE_ARTIFACTS": {
     "accessPolicy": [
@@ -189,6 +195,10 @@
     ],
     "paymentTokenInterface": [
       "IERC223Token"
+    ],
+    "etoTermsConstraints": [
+      "ETOTermsConstraints",
+      ""
     ]
   },
   "NETWORK": {
@@ -199,12 +209,12 @@
       "UNIVERSE_ADDRESS": "0x82fb5126506b6c315fa4a7ae3d4cb8a46a1aae67",
       "ISOLATED_UNIVERSE": false
     },
-    "gasPrice": 5000000000,
+    "gasPrice": 6000000000,
     "from": "0x08712307a86632b15d13ecfebe732c07cc026915",
     "unlockedAccounts": [
       "0x08712307a86632b15d13ecfebe732c07cc026915"
     ]
   },
-  "HEAD_BLOCK_NO": 7208163,
-  "INITIAL_BLOCK_NO": 7208101
+  "HEAD_BLOCK_NO": 7895234,
+  "INITIAL_BLOCK_NO": 7895174
 }
