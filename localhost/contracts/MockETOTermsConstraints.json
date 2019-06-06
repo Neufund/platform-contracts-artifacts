@@ -402,10 +402,10 @@
     "17": {
       "events": {},
       "links": {},
-      "address": "0x48fad166cd74ff25d781715b3a19df280f4a4b0a",
-      "updated_at": 1559735682732
+      "address": "0xaf1532fdd5ecbcce24286c6675a2b95d8cf20db1",
+      "updated_at": 1559823051826
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1559735682732
+  "updated_at": 1559823051826
 }

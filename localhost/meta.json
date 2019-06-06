@@ -3,7 +3,7 @@
     "Q18": "1000000000000000000",
     "LOCK_DURATION": 46656000,
     "PENALTY_FRACTION": "100000000000000000",
-    "START_DATE": 1559822333,
+    "START_DATE": 1559909721,
     "CAP_EUR": "2e+26",
     "MIN_TICKET_EUR": "290000000000000000000",
     "ETH_EUR_FRACTION": "290000000000000000000",
@@ -207,7 +207,7 @@
     "gasPrice": 21000000000,
     "from": "0x8a194c13308326173423119f8dcb785ce14c732b",
     "deploymentConfigOverride": {
-      "START_DATE": 1559822333,
+      "START_DATE": 1559909721,
       "artifacts": {
         "ICBM_COMMITMENT": "MockICBMCommitment",
         "STANDARD_ETO_COMMITMENT": "MockETOCommitment",
@@ -228,6 +228,7 @@
       "0x30fd2af22459b61f5bdfddcaef9bfad6acbf9fdc",
       "0x429123b08df32b0006fd1f3b0ef893a8993802f3",
       "0xde185a5c2bd3913fac1f64102e3defd9e1797c4d",
+      "0x844c5c9ce2ad620592a5d686fc8e76866f039c56",
       "0xe6ad2cdba2fb15504232ebfa82f64c06c87f9326",
       "0x619f0a73f02b8ac8f58440c21e15a461e69011a5",
       "0xb3a2eb675288bff642f5036235ffb541a4289e71",
@@ -292,6 +293,6 @@
       "0x9bb148c453a6aea6759695c8da0d0918c8f494e9"
     ]
   },
-  "HEAD_BLOCK_NO": 558,
-  "INITIAL_BLOCK_NO": 124
+  "HEAD_BLOCK_NO": 560,
+  "INITIAL_BLOCK_NO": 126
 }

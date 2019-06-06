@@ -170,10 +170,10 @@
     "17": {
       "events": {},
       "links": {},
-      "address": "0x9b42eee9c59d30b360db070e6e7305e719767a10",
-      "updated_at": 1559735853362
+      "address": "0x938cf82874c97730432c413ecfb6d13443ec926c",
+      "updated_at": 1559823182279
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1559735853362
+  "updated_at": 1559823182279
 }
