@@ -1,7 +1,7 @@
 {
   "0x8a194c13308326173423119F8dCb785CE14C732B": {
-    "ethBalance": "9999999999709348074834692838300000",
-    "neuBalance": "25636063799045806649549268",
+    "ethBalance": "9999999999709018071248358838300000",
+    "neuBalance": "23129214430943267421061937",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -102,7 +102,7 @@
     "icbmEtherLockBalance": [
       "161128979800000000000",
       "151848689370013263717423",
-      "1609427700"
+      "1609508703"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "name": "INV_ETH_ICBM_NO_KYC",
@@ -124,10 +124,62 @@
     }
   },
   "0x7F2BE389E2b13DA09D325332E3cb718CD751B7C6": {
-    "ethBalance": "408993083681000000000",
+    "ethBalance": "204487743187000000000",
     "neuBalance": "0",
-    "euroBalance": "1370269800000000000000000",
-    "ethTokenBalance": "606173760000000000000",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "685134900000000000000000",
+    "icbmEthTokenBalance": "303086880000000000000",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "name": "INV_ETH_EUR_ICBM_KYC_ICBM_UNLOCK",
+    "type": "investor",
+    "definition": {
+      "address": "0x7F2BE389E2b13DA09D325332E3cb718CD751B7C6",
+      "type": "investor",
+      "identityClaims": {
+        "isVerified": true
+      },
+      "seed": "timber rely gap brown useful craft level lounge volume vote flush punch vanish casino fold cliff hollow maximum flip coast barrel copy quit globe",
+      "derivationPath": "m/44'/60'/0'/0/0",
+      "privateKey": "0xc8f0b2c1a527e9c69495341ed9eb4ba51943abd1f35bed2e08fa29895ad902e2",
+      "balances": {
+        "etherToken": 0,
+        "euroToken": 0,
+        "initialEth": 541.2871
+      },
+      "icbmCommitment": {
+        "ETH": 336.7632,
+        "unlockEther": true,
+        "EUR": 761261,
+        "unlockEuro": true
+      }
+    }
+  },
+  "0xBA9807E260E1E162F46a5ACd228153EdFE2604eC": {
+    "ethBalance": "689076346814000000000",
+    "neuBalance": "0",
+    "euroBalance": "7950807000000000000000",
+    "ethTokenBalance": "163955349000000000000",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
@@ -154,19 +206,22 @@
     "name": "INV_ETH_EUR_ICBM_KYC_UNLOCK",
     "type": "investor",
     "definition": {
-      "address": "0x7F2BE389E2b13DA09D325332E3cb718CD751B7C6",
+      "address": "0xBA9807E260E1E162F46a5ACd228153EdFE2604eC",
       "type": "investor",
-      "seed": "timber rely gap brown useful craft level lounge volume vote flush punch vanish casino fold cliff hollow maximum flip coast barrel copy quit globe",
+      "identityClaims": {
+        "isVerified": true
+      },
+      "seed": "cigar swap vacuum venue south exchange lesson finger melody admit bright regular cancel fan clinic door pluck jewel budget lucky brother fine gym access",
       "derivationPath": "m/44'/60'/0'/0/0",
-      "privateKey": "0xc8f0b2c1a527e9c69495341ed9eb4ba51943abd1f35bed2e08fa29895ad902e2",
+      "privateKey": "0xb48109435808dc0640813c46523f7537a5952980a6c1de39d4bb8eb2f543259f",
       "balances": {
         "etherToken": 0,
         "euroToken": 0,
-        "initialEth": 541.2871
+        "initialEth": 871.28982
       },
       "icbmCommitment": {
-        "ETH": 336.7632,
-        "EUR": 761261
+        "ETH": 182.17261,
+        "EUR": 8834.23
       },
       "icbmMigrations": {
         "etherToken": true,
@@ -178,7 +233,7 @@
   },
   "0xDE185A5c2Bd3913fAC1F64102e3DEFD9E1797C4d": {
     "ethBalance": "1012710045060849000000000",
-    "neuBalance": "150692009466649652672380",
+    "neuBalance": "151213518268828303875416",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -200,8 +255,8 @@
     ],
     "icbmEtherLockBalance": [
       "161128979800000000000",
-      "150692009466649652672380",
-      "1609427703"
+      "151213518268828303875416",
+      "1609508706"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "name": "INV_ETH_ICBM_NO_KYC_2",
@@ -224,7 +279,7 @@
   },
   "0x844C5c9cE2Ad620592A5D686Fc8e76866f039c56": {
     "ethBalance": "1991920649000000000",
-    "neuBalance": "93507255228181836330062",
+    "neuBalance": "93830861349313659887561",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -246,8 +301,8 @@
     ],
     "icbmEtherLockBalance": [
       "100000000000000000000",
-      "93507255228181836330062",
-      "1609427703"
+      "93830861349313659887561",
+      "1609508706"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
     "name": "INV_ETH_ICBM_HAS_KYC",
@@ -271,7 +326,7 @@
   },
   "0xE6Ad2CdBA2FB15504232eBFa82f64c06c87F9326": {
     "ethBalance": "1007985180131427000000000",
-    "neuBalance": "5721027057920634404328751",
+    "neuBalance": "5740826156617159184855233",
     "euroBalance": "0",
     "ethTokenBalance": "387198273981000000000",
     "icbmEuroBalance": "0",
@@ -288,8 +343,8 @@
     ],
     "icbmEuroLockBalance": [
       "1781267000000000000000000",
-      "5721027057920634404328751",
-      "1609427703"
+      "5740826156617159184855233",
+      "1609508707"
     ],
     "icbmEtherLockBalance": [
       "0",
@@ -320,7 +375,7 @@
   },
   "0x619f0a73f02b8ac8F58440c21E15A461E69011a5": {
     "ethBalance": "1006709262253403000000000",
-    "neuBalance": "5677037451285761989500423",
+    "neuBalance": "5696684312533561663388669",
     "euroBalance": "0",
     "ethTokenBalance": "10000000000000000000",
     "icbmEuroBalance": "0",
@@ -337,8 +392,8 @@
     ],
     "icbmEuroLockBalance": [
       "1781267000000000000000000",
-      "5677037451285761989500423",
-      "1609427704"
+      "5696684312533561663388669",
+      "1609508707"
     ],
     "icbmEtherLockBalance": [
       "0",
@@ -461,20 +516,20 @@
   },
   "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": {
     "ethBalance": "1028519031800300000000000",
-    "neuBalance": "428739645751182483989788",
+    "neuBalance": "430223410549950281244511",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
       "71827000000000000000000",
-      "227937947399541798349070",
-      "1609427705"
+      "228726785814664953782577",
+      "1609508708"
     ],
     "etherLockBalance": [
       "218128979800000000000",
-      "200801698351640685640718",
-      "1609427704"
+      "201496624735285327461934",
+      "1609508708"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -540,20 +595,20 @@
   },
   "0x7824e49353BD72E20B61717cf82a06a4EEE209e8": {
     "ethBalance": "1008544577080300000000000",
-    "neuBalance": "428488749686488858099456",
+    "neuBalance": "429971646194319180875661",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
       "71827000000000000000000",
-      "227804559375915737392209",
-      "1609427706"
+      "228592936167169966982023",
+      "1609508709"
     ],
     "etherLockBalance": [
       "218128979800000000000",
-      "200684190310573120707247",
-      "1609427705"
+      "201378710027149213893638",
+      "1609508709"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -623,20 +678,20 @@
   },
   "0xA622f39780fC8722243b49ACF3bFFEEb9B9201F2": {
     "ethBalance": "1003435021625138000000000",
-    "neuBalance": "428238000444781868906212",
+    "neuBalance": "429720029169793761897778",
     "euroBalance": "0",
     "ethTokenBalance": "1000000000000000000000",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
       "71827000000000000000000",
-      "227671249410221889359902",
-      "1609427707"
+      "228459164847746922962857",
+      "1609508711"
     ],
     "etherLockBalance": [
       "218128979800000000000",
-      "200566751034559979546310",
-      "1609427706"
+      "201260864322046838934921",
+      "1609508710"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -707,7 +762,7 @@
   },
   "0x139Fab72691f03eA1589A847b110096c7cD56e35": {
     "ethBalance": "20154117841401000000000",
-    "neuBalance": "1112271515126768589131558",
+    "neuBalance": "1116120819330781942882094",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -719,8 +774,8 @@
     ],
     "etherLockBalance": [
       "1192547929800000000000",
-      "1095207128937645180713978",
-      "1609427707"
+      "1098997377405173892280489",
+      "1609508711"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -797,7 +852,7 @@
   },
   "0xF7784a74Cc59d1e6e1C10ca2053f34D68d280aE7": {
     "ethBalance": "1006427117859401000000000",
-    "neuBalance": "1110579941701524910893805",
+    "neuBalance": "1114423391776749894441795",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -809,8 +864,8 @@
     ],
     "etherLockBalance": [
       "1192547929800000000000",
-      "1093541507505060710784535",
-      "1609427708"
+      "1097325991657405992151565",
+      "1609508711"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -886,8 +941,8 @@
     }
   },
   "0xFa8ae4e924e14C834Ad48238a55A24Af97A8f3F3": {
-    "ethBalance": "1057521026969196000000000",
-    "neuBalance": "1108890940868147585096127",
+    "ethBalance": "1057521026971401000000000",
+    "neuBalance": "1112728545717705919788870",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -899,8 +954,8 @@
     ],
     "etherLockBalance": [
       "1192547929800000000000",
-      "1091878419195831067642707",
-      "1609427708"
+      "1095657147799523614247365",
+      "1609508712"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -976,8 +1031,8 @@
     }
   },
   "0x4A20381D628AEEc776335a89bb32106a8F9d4323": {
-    "ethBalance": "1074914708084217000000000",
-    "neuBalance": "1107204508714167420595167",
+    "ethBalance": "1074914708088627000000000",
+    "neuBalance": "1111036277227640712888304",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -989,8 +1044,8 @@
     ],
     "etherLockBalance": [
       "1192547929800000000000",
-      "1090217860157511869126337",
-      "1609427708"
+      "1093990841965749992941539",
+      "1609508712"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -1066,16 +1121,16 @@
     }
   },
   "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": {
-    "ethBalance": "999934309396000000000",
-    "neuBalance": "2556397489149101009802402",
+    "ethBalance": "999934311601000000000",
+    "neuBalance": "2565244566025819627325023",
     "euroBalance": "1271198800000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
       "212988198800000000000000",
-      "669729889602807809806396",
-      "1609427709"
+      "672047663675541899781933",
+      "1609508713"
     ],
     "etherLockBalance": [
       "0",
@@ -1153,7 +1208,7 @@
   },
   "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": {
     "ethBalance": "5866528998594995800000",
-    "neuBalance": "10264988015116857192932208",
+    "neuBalance": "10282195858628144409491375",
     "euroBalance": "10278127198800000000000000",
     "ethTokenBalance": "33533420000000000000",
     "icbmEuroBalance": "0",
@@ -1266,7 +1321,7 @@
   },
   "0xAF45584b7BcD4dc342932A41660193b80D59E35E": {
     "ethBalance": "5869603596407000000000",
-    "neuBalance": "322688210663251798711324",
+    "neuBalance": "323229149713484276293592",
     "euroBalance": "10278127198800000000000000",
     "ethTokenBalance": "34533420000000000000",
     "icbmEuroBalance": "0",
@@ -1683,7 +1738,7 @@
     }
   },
   "0x74180B56DD74BC56a2E9D5720F39247c55F23328": {
-    "ethBalance": "1000004998816818000000000",
+    "ethBalance": "1000004998818162000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -2336,7 +2391,7 @@
   },
   "0x798fD195575d195B9Bb9619ffb905E434f044f1D": {
     "ethBalance": "1000005000000000000000000",
-    "neuBalance": "25174540408349854614702957",
+    "neuBalance": "25216741801299853466317422",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2384,7 +2439,7 @@
   },
   "0xC35ef5DA2607C70D812cA2F317E9958910450dF1": {
     "ethBalance": "1000005000000000000000000",
-    "neuBalance": "10587741601880108991643534",
+    "neuBalance": "10605490384441628685784969",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2557,7 +2612,7 @@
   },
   "0x07D8B4d97F7B21020b332367692e11FDd5036D7b": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186631537335227402462215",
+    "neuBalance": "186944397499353138647603",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2633,7 +2688,7 @@
   },
   "0x62b3f983F037828d76B4925655CC083cfDCd9E13": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186581994907283586784890",
+    "neuBalance": "186894772020857637009449",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2709,7 +2764,7 @@
   },
   "0x6E577c22f1c5F0021a057CfcE67aC7E630De38F7": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186532465630665648895754",
+    "neuBalance": "186845159715734265531105",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2785,7 +2840,7 @@
   },
   "0x2824a394B5a3386b3140Bc426E40e24217f0a42f": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186482949501882492788371",
+    "neuBalance": "186795560580486075900110",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2861,7 +2916,7 @@
   },
   "0x8b5eCeCafECc6335FcBa939328898d4A3088f906": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186433446517443949188058",
+    "neuBalance": "186745974611617048089298",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2937,7 +2992,7 @@
   },
   "0x68B4b0274148F062F919C410a8c36078c03398BB": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186383956673860775305890",
+    "neuBalance": "186696401805632090110361",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3013,7 +3068,7 @@
   },
   "0x766BD4B833738FEe9Af4d1f330733c489A5f87B7": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186334479967644654592744",
+    "neuBalance": "186646842159037037767507",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3089,7 +3144,7 @@
   },
   "0x72969Bf8DE31c47380ce21eeBC75BEf26cE31153": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186285016395308196493430",
+    "neuBalance": "186597295668338654411168",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3165,7 +3220,7 @@
   },
   "0x0566DEA0412Dc4bcb9ef0c4d884E56dADefcB7F3": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186235565953364936200887",
+    "neuBalance": "186547762330044630691779",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3241,7 +3296,7 @@
   },
   "0x0D54192b7C8F126DCd946Ffd03E336B24052EdF2": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186186128638329334410423",
+    "neuBalance": "186498242140663584313620",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3317,7 +3372,7 @@
   },
   "0x353d3030AF583fc0e547Da80700BbD953F330A4b": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186136704446716777074050",
+    "neuBalance": "186448735096705059788724",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3393,7 +3448,7 @@
   },
   "0x5c104a588E47209b7248F4ea17996E9E69A6ADFc": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186087293375043575154855",
+    "neuBalance": "186399241194679528190854",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3469,7 +3524,7 @@
   },
   "0x9CfE167F8f2b9D6A8A6311A766ffb63648e69c04": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "186037895419826964381470",
+    "neuBalance": "186349760431098386909529",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3545,7 +3600,7 @@
   },
   "0x4fD82E066C68DdadFc99f98cb4eb50DE4B855A18": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "185988510577585105002561",
+    "neuBalance": "186300292802473959404150",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3621,7 +3676,7 @@
   },
   "0x5989e17aDd9568A715E8330ed5Fac1540161C961": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "185939138844837081541436",
+    "neuBalance": "186250838305319494958148",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3697,7 +3752,7 @@
   },
   "0x87447BF7D8E1229122B1B088D6eeF07703457ACe": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "185889780218102902550669",
+    "neuBalance": "186201396936149168433232",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3773,7 +3828,7 @@
   },
   "0xF73F063634E0250C5AFA2F72431e3F4783379c24": {
     "ethBalance": "386628749491000000000",
-    "neuBalance": "185840434693903500366826",
+    "neuBalance": "186151968691478080023684",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3848,8 +3903,8 @@
     }
   },
   "0xcB9e5e4CD1267653d5787181fec6202c016277a1": {
-    "ethBalance": "386628747286000000000",
-    "neuBalance": "185791102268760730865232",
+    "ethBalance": "386628749491000000000",
+    "neuBalance": "186102553567822255010723",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3924,8 +3979,8 @@
     }
   },
   "0x6d0c98717ce99E830DD0EC449E8c52B4915565aC": {
-    "ethBalance": "386628740671000000000",
-    "neuBalance": "185741782939197373214819",
+    "ethBalance": "386628749491000000000",
+    "neuBalance": "186053151561698643516938",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4000,8 +4055,8 @@
     }
   },
   "0xe33784584Ece52976A0742B50E6D60c2CF76980f": {
-    "ethBalance": "386628740671000000000",
-    "neuBalance": "185692476701737129633027",
+    "ethBalance": "386628749491000000000",
+    "neuBalance": "186003762669625120260781",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4076,8 +4131,8 @@
     }
   },
   "0xE8EE4200877Df51A5D871D4e7b6181a7168445D8": {
-    "ethBalance": "386628740671000000000",
-    "neuBalance": "185643183552904625140776",
+    "ethBalance": "386628749491000000000",
+    "neuBalance": "185954386888120484311132",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4152,8 +4207,8 @@
     }
   },
   "0x73174Ee5B22cF9ba4413bAe663631C5C9C996D3e": {
-    "ethBalance": "386628740671000000000",
-    "neuBalance": "185593903489225407317510",
+    "ethBalance": "386628749491000000000",
+    "neuBalance": "185905024213704458841920",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4228,8 +4283,8 @@
     }
   },
   "0xC5C10aDbd1A1a835904908FBd734dD729aD6980a": {
-    "ethBalance": "386628740671000000000",
-    "neuBalance": "185544636507225946056281",
+    "ethBalance": "386628749491000000000",
+    "neuBalance": "185855674642897690886813",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4304,8 +4359,8 @@
     }
   },
   "0x92a0f60DE33f5f0952F8c60336dc6b8133e3DB5d": {
-    "ethBalance": "386628740671000000000",
-    "neuBalance": "185495382603433633318943",
+    "ethBalance": "386628747286000000000",
+    "neuBalance": "185806338172221751093980",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4606,7 +4661,7 @@
   },
   "0x9bB148c453a6aeA6759695C8da0D0918c8F494E9": {
     "ethBalance": "386628740671000000000",
-    "neuBalance": "185446141774376782891349",
+    "neuBalance": "185757014798199133480914",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
