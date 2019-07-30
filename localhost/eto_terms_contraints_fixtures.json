@@ -1,5 +1,5 @@
 {
-  "0x9AE7542ad7bF7cdF4244095346a9A80025E0778C": {
+  "0x0f9a8d21474c992ae77E81A9C2769B0ea55b55DF": {
     "NAME": "hnwi eto de vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -17,7 +17,7 @@
       "available": true
     }
   },
-  "0x1597e4b25292E4c2ca57329360f373860a9E2528": {
+  "0xcDb7326DE87B752406f541cBBd4b3Ae35A4a9bA7": {
     "NAME": "hnwi eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -35,7 +35,7 @@
       "available": true
     }
   },
-  "0x8592711638f43d0A6377119c90b832F4734897b2": {
+  "0x7e9AeaA4b6A4a4E8468271b7e0FC57c2cB7a88c5": {
     "NAME": "mini eto li",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -53,7 +53,7 @@
       "available": true
     }
   },
-  "0x4790a846670EA854E523f10441F8b31535d0a135": {
+  "0x6b52709DcCD6fE0753bC2fcdf86f320dD818bceD": {
     "NAME": "retail eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -71,7 +71,7 @@
       "available": true
     }
   },
-  "0x718de14cd9479beb742dC28abc7C70ce387B880C": {
+  "0x2ce1a09bFe331347BC81463f96F288b08f8869f8": {
     "NAME": "retail eto li vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -89,7 +89,7 @@
       "available": true
     }
   },
-  "0x88322862Ff45B9A711Ae6b9DE3f3DFd6B6c2378B": {
+  "0xC8fC26967Db8b6D1784c8e80f35de96f366FA7d4": {
     "NAME": "retail eto de vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -107,7 +107,7 @@
       "available": true
     }
   },
-  "0x0f9a8d21474c992ae77E81A9C2769B0ea55b55DF": {
+  "0x20C8E3a3f8CB4FD61b44C91F42d73Ef4275A30E8": {
     "NAME": "hnwi eto de security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,

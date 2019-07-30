@@ -198,10 +198,10 @@
     "17": {
       "events": {},
       "links": {},
-      "address": "0x6b52709dccd6fe0753bc2fcdf86f320dd818bced",
-      "updated_at": 1564168548184
+      "address": "0xd20bd631bbccd0fc7df233f224e7b51686a9f427",
+      "updated_at": 1564494053555
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1564168548184
+  "updated_at": 1564494053555
 }
