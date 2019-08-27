@@ -1,6 +1,6 @@
 {
   "0x8a194c13308326173423119F8dCb785CE14C732B": {
-    "ethBalance": "9999999999707203057927869817300000",
+    "ethBalance": "9999999999707198057410429815200000",
     "neuBalance": "23129214430943267421061937",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -102,7 +102,7 @@
     "icbmEtherLockBalance": [
       "161128979800000000000",
       "151848689370013263717423",
-      "1613575824"
+      "1613581503"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "name": "INV_ETH_ICBM_NO_KYC",
@@ -256,7 +256,7 @@
     "icbmEtherLockBalance": [
       "161128979800000000000",
       "151213518268828303875416",
-      "1613575826"
+      "1613581505"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "name": "INV_ETH_ICBM_NO_KYC_2",
@@ -302,7 +302,7 @@
     "icbmEtherLockBalance": [
       "100000000000000000000",
       "93830861349313659887561",
-      "1613575826"
+      "1613581505"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
     "name": "INV_ETH_ICBM_HAS_KYC",
@@ -344,7 +344,7 @@
     "icbmEuroLockBalance": [
       "1781267000000000000000000",
       "5740826156617159184855233",
-      "1613575826"
+      "1613581506"
     ],
     "icbmEtherLockBalance": [
       "0",
@@ -393,7 +393,7 @@
     "icbmEuroLockBalance": [
       "1781267000000000000000000",
       "5696684312533561663388669",
-      "1613575827"
+      "1613581506"
     ],
     "icbmEtherLockBalance": [
       "0",
@@ -524,12 +524,12 @@
     "euroLockBalance": [
       "71827000000000000000000",
       "228726785814664953782577",
-      "1613575828"
+      "1613581507"
     ],
     "etherLockBalance": [
       "218128979800000000000",
       "201496624735285327461934",
-      "1613575827"
+      "1613581507"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -603,12 +603,12 @@
     "euroLockBalance": [
       "71827000000000000000000",
       "228592936167169966982023",
-      "1613575829"
+      "1613581508"
     ],
     "etherLockBalance": [
       "218128979800000000000",
       "201378710027149213893638",
-      "1613575828"
+      "1613581508"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -686,12 +686,12 @@
     "euroLockBalance": [
       "71827000000000000000000",
       "228459164847746922962857",
-      "1613575830"
+      "1613581509"
     ],
     "etherLockBalance": [
       "218128979800000000000",
       "201260864322046838934921",
-      "1613575829"
+      "1613581509"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -775,7 +775,7 @@
     "etherLockBalance": [
       "1192547929800000000000",
       "1098997377405173892280489",
-      "1613575830"
+      "1613581509"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -865,7 +865,7 @@
     "etherLockBalance": [
       "1192547929800000000000",
       "1097325991657405992151565",
-      "1613575831"
+      "1613581510"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -955,7 +955,7 @@
     "etherLockBalance": [
       "1192547929800000000000",
       "1095657147799523614247365",
-      "1613575831"
+      "1613581510"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -1045,7 +1045,7 @@
     "etherLockBalance": [
       "1192547929800000000000",
       "1093990841965749992941539",
-      "1613575832"
+      "1613581511"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -1130,7 +1130,7 @@
     "euroLockBalance": [
       "212988198800000000000000",
       "672047663675541899781933",
-      "1613575832"
+      "1613581511"
     ],
     "etherLockBalance": [
       "0",
@@ -1831,7 +1831,7 @@
     }
   },
   "0xC8f867Cf4Ed30b4fF0Aa4c4c8c6b684397B219B0": {
-    "ethBalance": "1000004998953948000000000",
+    "ethBalance": "1000004998955292000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -4777,7 +4777,7 @@
     }
   },
   "0xCB6470fa4b5D56C8f494e7c1CE56B28c548931a6": {
-    "ethBalance": "1000004993642796000000000",
+    "ethBalance": "1000005000000000000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -4816,6 +4816,53 @@
       "seed": "faint inject car announce few flee sun sibling scheme dance oil garage pretty giggle blood box hybrid swift goose timber vanish good subway coffee",
       "derivationPath": "m/44'/60'/0'/0",
       "privateKey": "0x1354699398f5b5f518b9714457a24a872d4746561da0648cbe03d1785b6af649",
+      "balances": {
+        "etherToken": 0,
+        "euroToken": 0,
+        "initialEth": 5
+      }
+    }
+  },
+  "0x1ebf9E9FfeD78dA0E2576916cf6F925DEF358020": {
+    "ethBalance": "4993642796000000000",
+    "neuBalance": "0",
+    "euroBalance": "0",
+    "ethTokenBalance": "0",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000005",
+    "name": "NOMINEE_SETUP_NO_ST",
+    "type": "nominee",
+    "definition": {
+      "address": "0x1ebf9E9FfeD78dA0E2576916cf6F925DEF358020",
+      "type": "nominee",
+      "identityClaims": {
+        "isVerified": true,
+        "hasBankAccount": true
+      },
+      "seed": "cargo borrow lawsuit gallery walk purchase muscle churn start hello bring cup easy social husband peanut buddy fold spray doll sustain machine ancient aspect",
+      "derivationPath": "m/44'/60'/0'/0",
+      "privateKey": "0xcebcb0c2593bd382eefcce13463d1db608d5d62739c49808c81af6888989f9c5",
       "balances": {
         "etherToken": 0,
         "euroToken": 0,
