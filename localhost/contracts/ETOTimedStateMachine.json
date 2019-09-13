@@ -604,7 +604,7 @@
         },
         {
           "indexed": false,
-          "name": "capitalIncreaseEurUlps",
+          "name": "capitalIncreaseUlps",
           "type": "uint256"
         }
       ],
@@ -757,5 +757,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1567761726546
+  "updated_at": 1568334385950
 }

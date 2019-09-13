@@ -242,7 +242,7 @@
       "name": "shareholderInformation",
       "outputs": [
         {
-          "name": "totalCompanyShares",
+          "name": "shareCapital",
           "type": "uint256"
         },
         {
@@ -390,7 +390,7 @@
         },
         {
           "indexed": false,
-          "name": "totalShares",
+          "name": "shareCapital",
           "type": "uint256"
         },
         {
@@ -540,5 +540,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1567761726544
+  "updated_at": 1568334385948
 }

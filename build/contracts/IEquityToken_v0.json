@@ -1,5 +1,5 @@
 {
-  "contract_name": "IEquityToken",
+  "contract_name": "IEquityToken_v0",
   "abi": [
     {
       "constant": true,
@@ -321,6 +321,20 @@
       "type": "function"
     },
     {
+      "constant": true,
+      "inputs": [],
+      "name": "shareNominalValueEurUlps",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "constant": false,
       "inputs": [
         {
@@ -375,20 +389,6 @@
       "constant": true,
       "inputs": [],
       "name": "sharesTotalSupply",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "shareNominalValueUlps",
       "outputs": [
         {
           "name": "",
@@ -644,5 +644,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1568334368882
+  "updated_at": 1568334368883
 }
