@@ -224,20 +224,6 @@
       "type": "function"
     },
     {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "investors",
-          "type": "address[]"
-        }
-      ],
-      "name": "claimMany",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
       "constant": true,
       "inputs": [
         {
@@ -450,20 +436,6 @@
       "constant": false,
       "inputs": [
         {
-          "name": "investors",
-          "type": "address[]"
-        }
-      ],
-      "name": "refundMany",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
           "name": "agreementUri",
           "type": "string"
         }
@@ -632,7 +604,7 @@
         },
         {
           "indexed": false,
-          "name": "capitalIncreaseEurUlps",
+          "name": "capitalIncreaseUlps",
           "type": "uint256"
         }
       ],
@@ -785,5 +757,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1559677313151
+  "updated_at": 1569138370854
 }
