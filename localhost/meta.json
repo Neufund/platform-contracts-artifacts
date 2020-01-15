@@ -3,7 +3,7 @@
     "Q18": "1000000000000000000",
     "LOCK_DURATION": 46656000,
     "PENALTY_FRACTION": "100000000000000000",
-    "START_DATE": 1579193679,
+    "START_DATE": 1579211081,
     "CAP_EUR": "2e+26",
     "MIN_TICKET_EUR": "290000000000000000000",
     "ETH_EUR_FRACTION": "290000000000000000000",
@@ -52,7 +52,7 @@
       "PLATFORM_TERMS": "PlatformTerms",
       "STANDARD_ETO_COMMITMENT": "MockETOCommitment",
       "STANDARD_EQUITY_TOKEN": "EquityToken",
-      "PLACEHOLDER_EQUITY_TOKEN_CONTROLLER": "PlaceholderEquityTokenController",
+      "PLACEHOLDER_EQUITY_TOKEN_CONTROLLER": "GranularTransferController",
       "STANDARD_ETO_TERMS": "ETOTerms",
       "STANDARD_SHAREHOLDER_RIGHTS": "ShareholderRights",
       "STANDARD_DURATION_TERMS": "ETODurationTerms",
@@ -210,11 +210,12 @@
     "gasPrice": 21000000000,
     "from": "0x8a194c13308326173423119f8dcb785ce14c732b",
     "deploymentConfigOverride": {
-      "START_DATE": 1579193679,
+      "START_DATE": 1579211081,
       "artifacts": {
         "ICBM_COMMITMENT": "MockICBMCommitment",
         "STANDARD_ETO_COMMITMENT": "MockETOCommitment",
-        "ETO_TERMS_CONSTRAINTS": "MockETOTermsConstraints"
+        "ETO_TERMS_CONSTRAINTS": "MockETOTermsConstraints",
+        "PLACEHOLDER_EQUITY_TOKEN_CONTROLLER": "GranularTransferController"
       },
       "addresses": {
         "EURT_DEPOSIT_MANAGER": "0x9058B511C7450303F5Bc187aAf4cC25d7f7F88C6",
