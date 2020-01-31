@@ -54,24 +54,6 @@
     }
   },
   "0x20C8E3a3f8CB4FD61b44C91F42d73Ef4275A30E8": {
-    "NAME": "retail eto li security",
-    "CAN_SET_TRANSFERABILITY": true,
-    "HAS_NOMINEE": true,
-    "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
-    "MAX_TICKET_SIZE_EUR_ULPS": "0",
-    "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
-    "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "0",
-    "OFFERING_DOCUMENT_TYPE": "1",
-    "OFFERING_DOCUMENT_SUB_TYPE": "0",
-    "JURISDICTION": "DE",
-    "ASSET_TYPE": "0",
-    "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1",
-    "_deploymentMetadata": {
-      "step": 1,
-      "available": true
-    }
-  },
-  "0x79Fcd0511561968D59c1d0Fe4E200d43B219dA45": {
     "NAME": "retail eto li vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -89,7 +71,7 @@
       "available": true
     }
   },
-  "0xF964Ed64FC83F22cFEf479dEA19cDCCdc6d36D2a": {
+  "0x79Fcd0511561968D59c1d0Fe4E200d43B219dA45": {
     "NAME": "retail eto de vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -107,7 +89,7 @@
       "available": true
     }
   },
-  "0xD20bd631bbcCD0Fc7DF233F224e7B51686A9f427": {
+  "0xF964Ed64FC83F22cFEf479dEA19cDCCdc6d36D2a": {
     "NAME": "hnwi eto de security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -125,7 +107,7 @@
       "available": false
     }
   },
-  "0xA506759B82a23B7B13eFa36Bd65421D154F36B07": {
+  "0xdD4E0a393f3C374E70Dcb5dCbb0358FcEb6bacD8": {
     "NAME": "retail EU-SME eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -135,6 +117,24 @@
     "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "20000000000000000000000000",
     "OFFERING_DOCUMENT_TYPE": "1",
     "OFFERING_DOCUMENT_SUB_TYPE": "1",
+    "JURISDICTION": "LI",
+    "ASSET_TYPE": "0",
+    "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1",
+    "_deploymentMetadata": {
+      "step": 2,
+      "available": true
+    }
+  },
+  "0xA506759B82a23B7B13eFa36Bd65421D154F36B07": {
+    "NAME": "retail eto li security",
+    "CAN_SET_TRANSFERABILITY": true,
+    "HAS_NOMINEE": true,
+    "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
+    "MAX_TICKET_SIZE_EUR_ULPS": "0",
+    "MIN_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+    "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "0",
+    "OFFERING_DOCUMENT_TYPE": "1",
+    "OFFERING_DOCUMENT_SUB_TYPE": "0",
     "JURISDICTION": "LI",
     "ASSET_TYPE": "0",
     "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1",
