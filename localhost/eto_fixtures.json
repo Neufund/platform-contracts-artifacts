@@ -1,15 +1,15 @@
 {
-  "0xE76de22E14Af1503C2dEe966A7A49b98167C7CBB": {
-    "address": "0xE76de22E14Af1503C2dEe966A7A49b98167C7CBB",
+  "0x29F70bcaA905BEA1Ae2FFff2502dE84e9d413701": {
+    "address": "0x29F70bcaA905BEA1Ae2FFff2502dE84e9d413701",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1588803622",
+    "startDate": "1591618298",
     "nominee": "0xeBFb2D6F2CB7C13D82Cb3027AC6BaD07cc416BC8",
     "company": "0x74180B56DD74BC56a2E9D5720F39247c55F23328",
-    "equityToken": "0x205A1B99a2DBB51f59bE0C38AcE4f0dF6D75FEA6",
-    "etoTerms": "0xFeED5A6064E63EA7d26933e346c7B4C4429F5778",
+    "equityToken": "0xE76de22E14Af1503C2dEe966A7A49b98167C7CBB",
+    "etoTerms": "0xe930deE4890Af707Da65b303d619b051f9E2D0B6",
     "definition": {
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "500000000000000000",
@@ -18,8 +18,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNPyPao7dEsQzKarCYCyGyDrutzWyACDMcq8HbQ1eGt2E"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -30,6 +29,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
+        "ISIN": "LI03981289128",
         "MIN_NUMBER_OF_TOKENS": "10000000",
         "MAX_NUMBER_OF_TOKENS": "34520000",
         "TOKEN_PRICE_EUR_ULPS": "323761890000000000",
@@ -40,15 +40,14 @@
         "EQUITY_TOKEN_DECIMALS": "0"
       },
       "etoTerms": {
-        "DURATION_TERMS": null,
-        "TOKEN_TERMS": null,
         "SHARE_CAPITAL_CURRENCY_CODE": "EUR",
         "EXISTING_SHARE_CAPITAL": "40976000000000000000000",
+        "AUTHORIZED_CAPITAL": "1273000000000000000000",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
-        "SHAREHOLDER_RIGHTS": null,
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNPyPao7dEsQzKarCYCyGyDrutzWyACDMcq8HbQ1eGt2E",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "ETO_TERMS_CONSTRAINTS": "0xC8fC26967Db8b6D1784c8e80f35de96f366FA7d4"
@@ -71,21 +70,22 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETOInSetupState"
     },
+    "investmentAgreement": "",
     "whitelist": {},
     "investors": {},
     "etoTermsConstraints": "0xc8fc26967db8b6d1784c8e80f35de96f366fa7d4"
   },
-  "0xB0741935A6854b23627cb94cDE4DDE893a58335f": {
-    "address": "0xB0741935A6854b23627cb94cDE4DDE893a58335f",
+  "0x69Ca0c4097903A9AFe37d7FBc1782c38f3878f7A": {
+    "address": "0x69Ca0c4097903A9AFe37d7FBc1782c38f3878f7A",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1587248428",
+    "startDate": "1590063104",
     "nominee": "0x3cBF04332fcCD88B1413430e5EA89c9BD4cA0bd0",
     "company": "0x8e75544B848F0a32a1Ab119E3916Ec7138f3Bed2",
-    "equityToken": "0x466351dba572e15A6defeC46dA61abEe4B8472C4",
-    "etoTerms": "0x6e74b755f730daadC3aa5D558E95c264530f2Ea2",
+    "equityToken": "0xD329f28dD3A4933B5E7E9AbDF478324e5C7c3df5",
+    "etoTerms": "0x466351dba572e15A6defeC46dA61abEe4B8472C4",
     "definition": {
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "500000000000000000",
@@ -94,8 +94,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNPyPao7dEsQzKarCYCyGyDrutzWyACDMcq8HbQ1eGt2E"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "691200",
@@ -106,6 +105,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "Rich",
         "EQUITY_TOKEN_SYMBOL": "RCH",
+        "ISIN": "DE038748939874",
         "MIN_NUMBER_OF_TOKENS": "10000000",
         "MAX_NUMBER_OF_TOKENS": "34520000",
         "TOKEN_PRICE_EUR_ULPS": "423761890000000000",
@@ -116,18 +116,17 @@
         "EQUITY_TOKEN_DECIMALS": "0"
       },
       "etoTerms": {
-        "ETO_TERMS_CONSTRAINTS": "0xF964Ed64FC83F22cFEf479dEA19cDCCdc6d36D2a",
-        "DURATION_TERMS": null,
-        "TOKEN_TERMS": null,
         "SHARE_CAPITAL_CURRENCY_CODE": "EUR",
+        "AUTHORIZED_CAPITAL": "1273000000000000000000",
         "EXISTING_SHARE_CAPITAL": "41976000000000000000000",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
-        "SHAREHOLDER_RIGHTS": null,
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNPyPao7dEsQzKarCYCyGyDrutzWyACDMcq8HbQ1eGt2E",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
-        "PUBLIC_DISCOUNT_FRAC": "200000000000000000"
+        "PUBLIC_DISCOUNT_FRAC": "200000000000000000",
+        "ETO_TERMS_CONSTRAINTS": "0xF964Ed64FC83F22cFEf479dEA19cDCCdc6d36D2a"
       },
       "etoTermsConstraints": {
         "NAME": "hnwi eto de security",
@@ -147,6 +146,7 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETOInWhitelistState"
     },
+    "investmentAgreement": "",
     "whitelist": {
       "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": [
         "true",
@@ -214,28 +214,30 @@
     },
     "etoTermsConstraints": "0xf964ed64fc83f22cfef479dea19cdccdc6d36d2a"
   },
-  "0x2754523CE7C78FeD60F742b0Bc8A8F9fa323bB4C": {
-    "address": "0x2754523CE7C78FeD60F742b0Bc8A8F9fa323bB4C",
+  "0x452E6B9b81d49A2F11121B0Bf06Bf078Fd0607DA": {
+    "address": "0x452E6B9b81d49A2F11121B0Bf06Bf078Fd0607DA",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1586643635",
+    "startDate": "1589458309",
     "nominee": "0xAfb3Af3243A95feFA75BE1282D3739ca696fE31d",
     "company": "0x36Cec7081d2528a42D56fC1571D6D234dd2608EC",
-    "equityToken": "0x97d646Cb67492EA247afBc1fb9BF48294C51915E",
-    "etoTerms": "0x5610d63dA0655EC61E8a1fdb203441D08dD92498",
+    "equityToken": "0xf5346401324b979B4c739ECbC719a92E7239aB8A",
+    "etoTerms": "0x2754523CE7C78FeD60F742b0Bc8A8F9fa323bB4C",
     "definition": {
       "etoTerms": {
         "SHARE_CAPITAL_CURRENCY_CODE": "EUR",
         "EXISTING_SHARE_CAPITAL": "5000000000000000000000",
+        "AUTHORIZED_CAPITAL": "652000000000000000000",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "WHITELIST_DISCOUNT_FRAC": "400000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmZrZrjMeGAGbKgnfo8HjAo2EsYNJ8bVjpvWTt8y1FMf5N",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNzSHHHqe6NQbB3NnxmWvzyLHNjovU8cBxyJRWHDVGFfE",
         "ETO_TERMS_CONSTRAINTS": "0xC8fC26967Db8b6D1784c8e80f35de96f366FA7d4"
       },
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "0",
@@ -244,8 +246,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "604800",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNzSHHHqe6NQbB3NnxmWvzyLHNjovU8cBxyJRWHDVGFfE"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -256,6 +257,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "Blok",
         "EQUITY_TOKEN_SYMBOL": "BLKK",
+        "ISIN": "LI7632819987982",
         "MIN_NUMBER_OF_TOKENS": "5000000",
         "MAX_NUMBER_OF_TOKENS": "6000000",
         "TOKEN_PRICE_EUR_ULPS": "600000000000000000",
@@ -283,6 +285,7 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETOInPublicState"
     },
+    "investmentAgreement": "",
     "whitelist": {
       "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": [
         "true",
@@ -823,28 +826,30 @@
     },
     "etoTermsConstraints": "0xc8fc26967db8b6d1784c8e80f35de96f366fa7d4"
   },
-  "0x3D0eF720d0fd26b9453e426979C7778Ac971621c": {
-    "address": "0x3D0eF720d0fd26b9453e426979C7778Ac971621c",
+  "0x66527ecF51bdc04124Dce528d105b1775f5069bf": {
+    "address": "0x66527ecF51bdc04124Dce528d105b1775f5069bf",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1584829252",
+    "startDate": "1587643921",
     "nominee": "0x20879bbA708b97b795fcD39D15A47CAf83165d1E",
     "company": "0xC8f867Cf4Ed30b4fF0Aa4c4c8c6b684397B219B0",
-    "equityToken": "0x0E52423fC6999fb110c6E8085Ea450ccFa2d7f22",
-    "etoTerms": "0x1A654472A6c5E3fAcE6d012B490515E8FAC6f051",
+    "equityToken": "0x048046BeFE77b1c2cc48181c137709d7d9B4a7Aa",
+    "etoTerms": "0x30ada73Ba798B673aCCe17E46cf636A303a0a745",
     "definition": {
       "etoTerms": {
         "SHARE_CAPITAL_CURRENCY_CODE": "EUR",
         "EXISTING_SHARE_CAPITAL": "10050000000000000000000",
+        "AUTHORIZED_CAPITAL": "125000000000000000000",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "20000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmZrZrjMeGAGbKgnfo8HjAo2EsYNJ8bVjpvWTt8y1FMf5N",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmaRkcbpuf8sinZkbHvjnjBNY8J3diRu1aWQuS9kQPkv1S",
         "ETO_TERMS_CONSTRAINTS": "0xdD4E0a393f3C374E70Dcb5dCbb0358FcEb6bacD8"
       },
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "0",
@@ -853,8 +858,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "604800",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmaRkcbpuf8sinZkbHvjnjBNY8J3diRu1aWQuS9kQPkv1S"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "1209600",
@@ -865,6 +869,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
+        "ISIN": "LI037619281",
         "MIN_NUMBER_OF_TOKENS": "10000000",
         "MAX_NUMBER_OF_TOKENS": "34520000",
         "TOKEN_PRICE_EUR_ULPS": "323761890000000000",
@@ -892,6 +897,7 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETOInSigningState"
     },
+    "investmentAgreement": "",
     "whitelist": {
       "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": [
         "true",
@@ -1007,28 +1013,30 @@
     },
     "etoTermsConstraints": "0xdd4e0a393f3c374e70dcb5dcbb0358fceb6bacd8"
   },
-  "0xD008CE1d324430D563bEcCc18328A65f5E2113d8": {
-    "address": "0xD008CE1d324430D563bEcCc18328A65f5E2113d8",
+  "0x225ac0Ce959fae80EA4C79cf7cf70c65900b6867": {
+    "address": "0x225ac0Ce959fae80EA4C79cf7cf70c65900b6867",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1581459661",
+    "startDate": "1584274329",
     "nominee": "0x5Ebe8eF595F45e1e6Dee0D629c899cAe5170B884",
     "company": "0x6A57FeBaE70BfC83c64835eA58240958fba328ff",
-    "equityToken": "0xa327F15bF8E4B985acAfc1CE0675d320f1Fe1Bb4",
-    "etoTerms": "0x818c93dbD533F9f2a4f4e441Cfc2c8d2bad8d0a0",
+    "equityToken": "0x401d60f43dF94cC43C005b75cbc43747DCDEEddE",
+    "etoTerms": "0x048E477c11dD996C0570bB54579C40e5530E350d",
     "definition": {
       "etoTerms": {
         "SHARE_CAPITAL_CURRENCY_CODE": "PLN",
         "EXISTING_SHARE_CAPITAL": "27800000000000000000000",
+        "AUTHORIZED_CAPITAL": "0",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "WHITELIST_DISCOUNT_FRAC": "100000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmZrZrjMeGAGbKgnfo8HjAo2EsYNJ8bVjpvWTt8y1FMf5N",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNzSHHHqe6NQbB3NnxmWvzyLHNjovU8cBxyJRWHDVGFfE",
         "ETO_TERMS_CONSTRAINTS": "0xC8fC26967Db8b6D1784c8e80f35de96f366FA7d4"
       },
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "0",
@@ -1037,8 +1045,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "604800",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "100000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNzSHHHqe6NQbB3NnxmWvzyLHNjovU8cBxyJRWHDVGFfE"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -1049,6 +1056,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "6-SHARES",
         "EQUITY_TOKEN_SYMBOL": "SSH",
+        "ISIN": "",
         "MIN_NUMBER_OF_TOKENS": "6000000",
         "MAX_NUMBER_OF_TOKENS": "30000000",
         "TOKEN_PRICE_EUR_ULPS": "161870503597122302",
@@ -1076,6 +1084,7 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETOInClaimState"
     },
+    "investmentAgreement": "ipfs:QmNzSHHHqe6NQbB3NnxmWvzyLHNjovU8cBxyJRWHDVGFfE",
     "whitelist": {
       "0x7824e49353BD72E20B61717cf82a06a4EEE209e8": [
         "true",
@@ -1186,28 +1195,30 @@
     },
     "etoTermsConstraints": "0xc8fc26967db8b6d1784c8e80f35de96f366fa7d4"
   },
-  "0xF0F0dB2BEd1176Fedbde47bF854D5a894BB88939": {
-    "address": "0xF0F0dB2BEd1176Fedbde47bF854D5a894BB88939",
+  "0x003E1A812E941D92261BA6daBb9eC59678828cD9": {
+    "address": "0x003E1A812E941D92261BA6daBb9eC59678828cD9",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1580638870",
+    "startDate": "1583453537",
     "nominee": "0x5A72Dce8025165C416F77739c157403E978738dE",
     "company": "0x95137084d1b6F58D177523De894293913394aA12",
-    "equityToken": "0xE45De39B2516E06BaD66BfD9F40cf8e015080ff3",
-    "etoTerms": "0x5cca0896c38406221038B61107F8EC27a664CdDF",
+    "equityToken": "0xB8Ec77e9E76c374bEa513340F4bC374F92ca05E6",
+    "etoTerms": "0x08720cD470a2Dfc38Ab5d8911250B511b7d4188a",
     "definition": {
       "etoTerms": {
         "SHARE_CAPITAL_CURRENCY_CODE": "EUR",
         "EXISTING_SHARE_CAPITAL": "9000000000000000000000",
+        "AUTHORIZED_CAPITAL": "0",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": false,
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmcoZxecpVUaWCG2CjdNucNtRzKsCYBGaTkC54eW6MkRg3",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmdJQ9mrepd6mNQ6KTyoPwPELhbRZnN4pYUVyg2VY2vTG1",
         "ETO_TERMS_CONSTRAINTS": "0x79Fcd0511561968D59c1d0Fe4E200d43B219dA45"
       },
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "0",
@@ -1216,8 +1227,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "604800",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmdJQ9mrepd6mNQ6KTyoPwPELhbRZnN4pYUVyg2VY2vTG1"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -1228,6 +1238,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "NOMERA",
         "EQUITY_TOKEN_SYMBOL": "NOM",
+        "ISIN": "",
         "MIN_NUMBER_OF_TOKENS": "10000000",
         "MAX_NUMBER_OF_TOKENS": "15000000",
         "TOKEN_PRICE_EUR_ULPS": "666666666666666667",
@@ -1255,6 +1266,7 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETOInPayoutState"
     },
+    "investmentAgreement": "ipfs:QmdJQ9mrepd6mNQ6KTyoPwPELhbRZnN4pYUVyg2VY2vTG1",
     "whitelist": {
       "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": [
         "true",
@@ -1670,17 +1682,17 @@
     },
     "etoTermsConstraints": "0x79fcd0511561968d59c1d0fe4e200d43b219da45"
   },
-  "0x4412FF12A3041A01aD58E369dd7B4AB4bf897314": {
-    "address": "0x4412FF12A3041A01aD58E369dd7B4AB4bf897314",
+  "0xEd90F89d5259216a129bCE7b9ade4F20D417845e": {
+    "address": "0xEd90F89d5259216a129bCE7b9ade4F20D417845e",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1585434107",
+    "startDate": "1588248765",
     "nominee": "0x9bC06F070f3759Ff9B4C7Dc0e47b67296F7A5e72",
     "company": "0x51305B1CC683dedF60b39E92AeF52f4e09E9E781",
-    "equityToken": "0x67F7d79a51C5D9B6973244B1a208fa3fd0fdAb29",
-    "etoTerms": "0xedF1A2969a26c8E21C62d564E84dd157ddB2e087",
+    "equityToken": "0x56ABD03100c1EdEAe7fDb27339a4d10A1CdEbb63",
+    "etoTerms": "0x8C4cddf4A129aaf82CFb4EbeDb6cAA02A0d64e2f",
     "definition": {
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "500000000000000000",
@@ -1689,8 +1701,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "432000",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNPyPao7dEsQzKarCYCyGyDrutzWyACDMcq8HbQ1eGt2E"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "604800",
@@ -1701,6 +1712,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "Quintessence",
         "EQUITY_TOKEN_SYMBOL": "QTT",
+        "ISIN": "LI03981289128",
         "MIN_NUMBER_OF_TOKENS": "10000000",
         "MAX_NUMBER_OF_TOKENS": "34520000",
         "TOKEN_PRICE_EUR_ULPS": "323761890000000000",
@@ -1711,15 +1723,14 @@
         "EQUITY_TOKEN_DECIMALS": "0"
       },
       "etoTerms": {
-        "DURATION_TERMS": null,
-        "TOKEN_TERMS": null,
         "SHARE_CAPITAL_CURRENCY_CODE": "EUR",
         "EXISTING_SHARE_CAPITAL": "40976000000000000000000",
+        "AUTHORIZED_CAPITAL": "1273000000000000000000",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "5000000000000000000000000",
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmWKa6zVZjZu3x2CtJnSNTHUwWMeAcyfv9iZDnoawmULeT",
-        "SHAREHOLDER_RIGHTS": null,
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmNPyPao7dEsQzKarCYCyGyDrutzWyACDMcq8HbQ1eGt2E",
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "ETO_TERMS_CONSTRAINTS": "0xC8fC26967Db8b6D1784c8e80f35de96f366FA7d4"
@@ -1742,6 +1753,7 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETOInRefundState"
     },
+    "investmentAgreement": "",
     "whitelist": {
       "0xDf5F67E6e4c643a2ceD1f9De88A5da42E1507eFD": [
         "true",
@@ -1857,28 +1869,30 @@
     },
     "etoTermsConstraints": "0xc8fc26967db8b6d1784c8e80f35de96f366fa7d4"
   },
-  "0x48af1c117500e8671d7783FF0BA4Bf8865699154": {
-    "address": "0x48af1c117500e8671d7783FF0BA4Bf8865699154",
+  "0x151978145AC9feCa2D68709243244B3cDE02CC91": {
+    "address": "0x151978145AC9feCa2D68709243244B3cDE02CC91",
     "name": "ETONoStartDate",
     "state": "0",
     "startDate": "0",
     "nominee": "0x1ebf9E9FfeD78dA0E2576916cf6F925DEF358020",
     "company": "0xd9C46960cE6bE33BbED615087ABbD35Fda77d42C",
-    "equityToken": "0xf24264C0bdbCfF64cC0c9311c6dE554ccB61fF58",
-    "etoTerms": "0xb2AB2Dd5013cf19fC46875AEe574105F7877faaD",
+    "equityToken": "0xe9dC35C623a65c93c980cbFC80fCCeEcaAd595ea",
+    "etoTerms": "0xe59c213bcc92F7920B55418C3182CAE0d859DF37",
     "definition": {
       "etoTerms": {
         "SHARE_CAPITAL_CURRENCY_CODE": "EUR",
         "EXISTING_SHARE_CAPITAL": "10050000000000000000000",
+        "AUTHORIZED_CAPITAL": "2342000000000000000000",
         "MIN_TICKET_EUR_ULPS": "100000000000000000000000",
         "MAX_TICKET_EUR_ULPS": "15920398009950248756218905",
         "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmZrZrjMeGAGbKgnfo8HjAo2EsYNJ8bVjpvWTt8y1FMf5N",
+        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmaRkcbpuf8sinZkbHvjnjBNY8J3diRu1aWQuS9kQPkv1S",
         "ETO_TERMS_CONSTRAINTS": "0x2ce1a09bFe331347BC81463f96F288b08f8869f8"
       },
-      "shareholderTerms": {
+      "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
         "TAG_ALONG_VOTING_RULE": "2",
         "LIQUIDATION_PREFERENCE_MULTIPLIER_FRAC": "0",
@@ -1887,8 +1901,7 @@
         "RESTRICTED_ACT_VOTING_DURATION": "1209600",
         "VOTING_FINALIZATION_DURATION": "604800",
         "SHAREHOLDERS_VOTING_QUORUM_FRAC": "500000000000000000",
-        "VOTING_MAJORITY_FRAC": "500000000000000000",
-        "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmaRkcbpuf8sinZkbHvjnjBNY8J3diRu1aWQuS9kQPkv1S"
+        "VOTING_MAJORITY_FRAC": "500000000000000000"
       },
       "durTerms": {
         "WHITELIST_DURATION": "1209600",
@@ -1899,6 +1912,7 @@
       "tokenTerms": {
         "EQUITY_TOKEN_NAME": "Bionic",
         "EQUITY_TOKEN_SYMBOL": "BNIC",
+        "ISIN": "LI837111821",
         "MIN_NUMBER_OF_TOKENS": "10000000",
         "MAX_NUMBER_OF_TOKENS": "20000000",
         "TOKEN_PRICE_EUR_ULPS": "796019900497512438",
@@ -1926,6 +1940,7 @@
       "companyTokenHolderAgreement": "ipfs:QmVEJvxmo4M5ugvfSQfKzejW8cvXsWe8261MpGChov7DQt",
       "name": "ETONoStartDate"
     },
+    "investmentAgreement": "",
     "whitelist": {},
     "investors": {},
     "etoTermsConstraints": "0x2ce1a09bfe331347bc81463f96f288b08f8869f8"

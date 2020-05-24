@@ -1,0 +1,48 @@
+{
+  "contract_name": "IESOPOptionsConverter",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "employee",
+          "type": "address"
+        },
+        {
+          "name": "poolOptions",
+          "type": "uint256"
+        },
+        {
+          "name": "extraOptions",
+          "type": "uint256"
+        },
+        {
+          "name": "bonusOptions",
+          "type": "uint256"
+        },
+        {
+          "name": "exercisedOptions",
+          "type": "uint256"
+        },
+        {
+          "name": "optionsPerShareCapitalUnit",
+          "type": "uint256"
+        }
+      ],
+      "name": "exerciseOptions",
+      "outputs": [
+        {
+          "name": "convertedOptions",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1590322271045
+}

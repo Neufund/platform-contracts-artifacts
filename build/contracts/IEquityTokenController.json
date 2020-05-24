@@ -84,20 +84,6 @@
     },
     {
       "constant": true,
-      "inputs": [],
-      "name": "commitmentObserver",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
       "inputs": [
         {
           "name": "sender",
@@ -181,24 +167,6 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "oldState",
-          "type": "uint8"
-        },
-        {
-          "name": "newState",
-          "type": "uint8"
-        }
-      ],
-      "name": "onStateTransition",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -377,5 +345,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1587507580506
+  "updated_at": 1590322257167
 }
