@@ -386,6 +386,11 @@
         },
         {
           "indexed": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
           "name": "resolutionTitle",
           "type": "string"
         },
@@ -517,5 +522,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1590405654408
+  "updated_at": 1590952778064
 }

@@ -100,36 +100,6 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "tokens",
-      "outputs": [
-        {
-          "name": "token",
-          "type": "address[1]"
-        },
-        {
-          "name": "tokenType",
-          "type": "uint8[1]"
-        },
-        {
-          "name": "tokenState",
-          "type": "uint8[1]"
-        },
-        {
-          "name": "holderRights",
-          "type": "address[1]"
-        },
-        {
-          "name": "tokenTransferable",
-          "type": "bool[1]"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "state",
       "outputs": [
         {
@@ -187,6 +157,10 @@
         {
           "name": "shaUrl",
           "type": "string"
+        },
+        {
+          "name": "tokenholderRights",
+          "type": "address"
         }
       ],
       "payable": false,
@@ -215,6 +189,36 @@
         {
           "name": "",
           "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "governanceToken",
+      "outputs": [
+        {
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "name": "tokenType",
+          "type": "uint8"
+        },
+        {
+          "name": "tokenState",
+          "type": "uint8"
+        },
+        {
+          "name": "holderRights",
+          "type": "address"
+        },
+        {
+          "name": "tokenTransferable",
+          "type": "bool"
         }
       ],
       "payable": false,
@@ -254,5 +258,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1590405654409
+  "updated_at": 1590952778065
 }

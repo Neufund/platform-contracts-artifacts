@@ -225,36 +225,6 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "tokens",
-      "outputs": [
-        {
-          "name": "token",
-          "type": "address[1]"
-        },
-        {
-          "name": "tokenType",
-          "type": "uint8[1]"
-        },
-        {
-          "name": "tokenState",
-          "type": "uint8[1]"
-        },
-        {
-          "name": "holderRights",
-          "type": "address[1]"
-        },
-        {
-          "name": "tokenTransferable",
-          "type": "bool[1]"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "state",
       "outputs": [
         {
@@ -400,6 +370,36 @@
       "type": "function"
     },
     {
+      "constant": true,
+      "inputs": [],
+      "name": "governanceToken",
+      "outputs": [
+        {
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "name": "tokenType",
+          "type": "uint8"
+        },
+        {
+          "name": "tokenState",
+          "type": "uint8"
+        },
+        {
+          "name": "holderRights",
+          "type": "address"
+        },
+        {
+          "name": "tokenTransferable",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -456,6 +456,11 @@
           "indexed": true,
           "name": "resolutionId",
           "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "token",
+          "type": "address"
         },
         {
           "indexed": false,
@@ -590,5 +595,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1590405668077
+  "updated_at": 1590952792474
 }

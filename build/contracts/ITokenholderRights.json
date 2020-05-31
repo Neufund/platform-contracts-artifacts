@@ -1,0 +1,47 @@
+{
+  "contract_name": "ITokenholderRights",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "encodedBylaw",
+          "type": "uint56"
+        }
+      ],
+      "name": "decodeBylaw",
+      "outputs": [
+        {
+          "name": "decodedBylaw",
+          "type": "uint256[9]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "action",
+          "type": "uint8"
+        }
+      ],
+      "name": "getBylaw",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint56"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1590952778065
+}
