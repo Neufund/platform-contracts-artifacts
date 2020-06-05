@@ -63,6 +63,25 @@
           "type": "bytes32"
         }
       ],
+      "name": "offchainVoteDocumentUri",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "proposalId",
+          "type": "bytes32"
+        }
+      ],
       "name": "timedProposal",
       "outputs": [
         {
@@ -359,5 +378,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1591361975453
+  "updated_at": 1591373071248
 }
