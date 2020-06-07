@@ -21,15 +21,16 @@
       "EURT_LEGAL_MANAGER": "0x5c31F869F4f9891ca3470bE30Ca3d9e60ced0a05",
       "GAS_EXCHANGE": "0x58125e023252A1Da9655994fC446892dbD1B2C03",
       "TOKEN_RATE_ORACLE": "0x7C725f972D1ebDEF5Bbfd8996d3Cbe307b23cd42",
-      "GAS_STIPEND_SERVICE": "0xABa4430574f2353C0A22Ca4CF2d4a122f0031245"
+      "GAS_STIPEND_SERVICE": "0xABa4430574f2353C0A22Ca4CF2d4a122f0031245",
+      "TOKEN_OFFERING_OPERATOR_DE": "0xA826813D0eb5D629E959c02b8f7a3d0f53066Ce4",
+      "TOKEN_OFFERING_OPERATOR_LI": "0x0084C8f023D51896807a32d6f3e1AAc307eD891D"
     },
     "MIN_DEPOSIT_AMOUNT_EUR_ULPS": "1000000000000000000",
     "MIN_WITHDRAW_AMOUNT_EUR_ULPS": "5000000000000000000",
     "MAX_SIMPLE_EXCHANGE_ALLOWANCE_EUR_ULPS": "25000000000000000000",
     "EURT_WITHDRAWAL_FEE_FRAC": "5000000000000000",
     "EURT_DEPOSIT_FEE_FRAC": "0",
-    "TOKEN_OFFERING_OPERATOR_DE": "0xA826813D0eb5D629E959c02b8f7a3d0f53066Ce4",
-    "TOKEN_OFFERING_OPERATOR_LI": "0x0084C8f023D51896807a32d6f3e1AAc307eD891D",
+    
     "ICBM_COMMITMENT_ADDRESS": "0xf432cec23b2a0d6062b969467f65669de81f4653",
     "UNIVERSE_ADDRESS": "0x82fb5126506b6c315fa4a7ae3d4cb8a46a1aae67",
     "ISOLATED_UNIVERSE": false,
@@ -59,7 +60,9 @@
       "FEE_DISBURSAL": "FeeDisbursal",
       "FEE_DISBURSAL_CONTROLLER": "FeeDisbursalController",
       "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle",
-      "ETO_TERMS_CONSTRAINTS": "ETOTermsConstraints"
+      "ETO_TERMS_CONSTRAINTS": "ETOTermsConstraints",
+      "VOTING_CENTER": "VotingCenter",
+      "VOTING_CENTER_CONTROLLER": "VotingController"
     },
     "shouldSkipDeployment": false,
     "isLiveDeployment": true
@@ -84,7 +87,10 @@
     "gasExchange": "0x9fe43636e0675246c99e96d7abf9f858f518b9442c35166d87f0934abef8a969",
     "tokenRateOracle": "0xa80c3a0c8a5324136e4c806a778583a2a980f378bdd382921b8d28dcfe965585",
     "disburser": "0xd7ea6093d11d866c9e8449f8bffd9da1387c530ee40ad54f0641425bb0ca33b7",
-    "disbursalManager": "0x677f87f7b7ef7c97e42a7e6c85c295cf020c9f11eea1e49f6bf847d7aeae1475"
+    "disbursalManager": "0x677f87f7b7ef7c97e42a7e6c85c295cf020c9f11eea1e49f6bf847d7aeae1475",
+    "companyUpgradeAdmin": "0xfef15747c403732d986b29a92a880d8f2fb886b99417c8bbef226f85885ca924",
+    "votingCenterManager": "0x9bcacccc20bcbf1767ee8e29e2864147661ed440e7f387fcae3af0d5151f44d8",
+    "votingInitiator": "0x2b98b258a9bc663ad7d67d2e8b9ecc3370fa01131dc3d51cafc10da966bf1eb3"
   },
   "KNOWN_INTERFACES": {
     "accessPolicy": "0xb05049d9",
@@ -113,7 +119,8 @@
     "equityTokenControllerInterface": "0xfa30b2f1",
     "termsInterface": "0x9d5754ab",
     "paymentTokenInterface": "0xb2a0042a",
-    "etoTermsConstraints": "0xce2be4f5"
+    "etoTermsConstraints": "0xce2be4f5",
+    "votingCenter": "0xff5dbb18"
   },
   "INTERFACE_ARTIFACTS": {
     "accessPolicy": [
@@ -177,6 +184,12 @@
     "platformTerms": [
       "PlatformTerms"
     ],
+    "votingCenter": [
+      "VotingCenter"
+    ],
+    "paymentTokenInterface": [
+      "IERC223Token"
+    ],
     "commitmentInterface": [
       "ETOCommitment",
       ""
@@ -192,9 +205,6 @@
     "termsInterface": [
       "ETOTerms",
       ""
-    ],
-    "paymentTokenInterface": [
-      "IERC223Token"
     ],
     "etoTermsConstraints": [
       "ETOTermsConstraints",
