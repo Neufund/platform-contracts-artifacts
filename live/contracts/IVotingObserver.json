@@ -1,0 +1,54 @@
+{
+  "contract_name": "IVotingObserver",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "votingCenter",
+          "type": "address"
+        },
+        {
+          "name": "proposalId",
+          "type": "bytes32"
+        }
+      ],
+      "name": "votingResult",
+      "outputs": [
+        {
+          "name": "inFavor",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "proposalId",
+          "type": "bytes32"
+        },
+        {
+          "name": "oldState",
+          "type": "uint8"
+        },
+        {
+          "name": "newState",
+          "type": "uint8"
+        }
+      ],
+      "name": "onProposalStateTransition",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1591373085265
+}
