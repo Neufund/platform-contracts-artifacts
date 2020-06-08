@@ -33,7 +33,7 @@
           "type": "uint32"
         },
         {
-          "name": "offchainVotingPower",
+          "name": "totalVotingPower",
           "type": "uint256"
         },
         {
@@ -378,5 +378,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1591373085265
+  "updated_at": 1591652090712
 }
