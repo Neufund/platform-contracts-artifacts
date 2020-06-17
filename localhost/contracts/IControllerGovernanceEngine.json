@@ -1,0 +1,260 @@
+{
+  "contract_name": "IControllerGovernanceEngine",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "resolutionsList",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "votingCenter",
+          "type": "address"
+        },
+        {
+          "name": "proposalId",
+          "type": "bytes32"
+        }
+      ],
+      "name": "votingResult",
+      "outputs": [
+        {
+          "name": "inFavor",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "proposalId",
+          "type": "bytes32"
+        },
+        {
+          "name": "oldState",
+          "type": "uint8"
+        },
+        {
+          "name": "newState",
+          "type": "uint8"
+        }
+      ],
+      "name": "onProposalStateTransition",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "state",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        }
+      ],
+      "name": "resolution",
+      "outputs": [
+        {
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "name": "startedAt",
+          "type": "uint32"
+        },
+        {
+          "name": "finishedAt",
+          "type": "uint32"
+        },
+        {
+          "name": "failedCode",
+          "type": "bytes32"
+        },
+        {
+          "name": "promise",
+          "type": "bytes32"
+        },
+        {
+          "name": "payload",
+          "type": "bytes32"
+        },
+        {
+          "name": "cancelAt",
+          "type": "uint32"
+        },
+        {
+          "name": "nextStep",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "companyLegalRepresentative",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "oldState",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "newState",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "timestamp",
+          "type": "uint32"
+        }
+      ],
+      "name": "LogGovStateTransition",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "resolutionTitle",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "documentUrl",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "state",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "promise",
+          "type": "bytes"
+        }
+      ],
+      "name": "LogResolutionStarted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "state",
+          "type": "uint8"
+        }
+      ],
+      "name": "LogResolutionExecuted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "tokenType",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "tokenholderRights",
+          "type": "address"
+        }
+      ],
+      "name": "LogTokenholderRightsAmended",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1592412292873
+}

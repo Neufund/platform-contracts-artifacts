@@ -1,0 +1,120 @@
+{
+  "contract_name": "IControllerETO",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "commitment",
+          "type": "address"
+        }
+      ],
+      "name": "startNewOffering",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tokenOfferings",
+      "outputs": [
+        {
+          "name": "offerings",
+          "type": "address[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "oldState",
+          "type": "uint8"
+        },
+        {
+          "name": "newState",
+          "type": "uint8"
+        }
+      ],
+      "name": "onStateTransition",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "etoCommitment",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        }
+      ],
+      "name": "LogOfferingFailed",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "etoCommitment",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newShares",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogOfferingSucceeded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "etoCommitment",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        }
+      ],
+      "name": "LogOfferingRegistered",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1592412292873
+}

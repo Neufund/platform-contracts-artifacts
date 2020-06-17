@@ -1,0 +1,61 @@
+{
+  "contract_name": "IControllerGovernanceToken",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "governanceToken",
+      "outputs": [
+        {
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "name": "tokenType",
+          "type": "uint8"
+        },
+        {
+          "name": "tokenState",
+          "type": "uint8"
+        },
+        {
+          "name": "holderRights",
+          "type": "address"
+        },
+        {
+          "name": "tokenTransferable",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "equityToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "transfersEnabled",
+          "type": "bool"
+        }
+      ],
+      "name": "LogTransfersStateChanged",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1592412277937
+}
