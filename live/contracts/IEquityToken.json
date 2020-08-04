@@ -294,6 +294,20 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "ISIN",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "symbol",
       "outputs": [
         {
@@ -567,6 +581,50 @@
       "anonymous": false,
       "inputs": [
         {
+          "indexed": true,
+          "name": "holder",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "controller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogTokensIssued",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "holder",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "controller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogTokensDestroyed",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
           "indexed": false,
           "name": "oldController",
           "type": "address"
@@ -583,6 +641,33 @@
         }
       ],
       "name": "LogChangeTokenController",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "oldNominee",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newNominee",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "controller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "by",
+          "type": "address"
+        }
+      ],
+      "name": "LogChangeNominee",
       "type": "event"
     },
     {
@@ -662,5 +747,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1569711316280
+  "updated_at": 1596014101715
 }

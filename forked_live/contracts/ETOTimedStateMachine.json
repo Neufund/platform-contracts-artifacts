@@ -470,6 +470,21 @@
       "type": "function"
     },
     {
+      "inputs": [
+        {
+          "name": "durationTerms",
+          "type": "address"
+        },
+        {
+          "name": "observer",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
       "anonymous": false,
       "inputs": [
         {
@@ -757,5 +772,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1569711316281
+  "updated_at": 1596014101716
 }

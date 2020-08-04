@@ -1,0 +1,241 @@
+{
+  "contract_name": "IControllerGeneralInformation",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "ISHAUrl",
+          "type": "string"
+        },
+        {
+          "name": "shareCapitalUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "newTokenholderRights",
+          "type": "address"
+        }
+      ],
+      "name": "amendISHAResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "shareCapitalUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
+        }
+      ],
+      "name": "amendShareCapitalResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
+        }
+      ],
+      "name": "amendCompanyValuationResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "generalAction",
+          "type": "uint8"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
+        }
+      ],
+      "name": "generalResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
+        }
+      ],
+      "name": "establishAuthorizedCapitalResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "shareholderInformation",
+      "outputs": [
+        {
+          "name": "shareCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "shaUrl",
+          "type": "string"
+        },
+        {
+          "name": "tokenholderRights",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "ISHAUrl",
+          "type": "string"
+        }
+      ],
+      "name": "LogISHAAmended",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogCompanyValuationAmended",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "shareCapitalUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogShareCapitalAmended",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "authorizedCapitalUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogAuthorizedCapitalEstablished",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1596014101714
+}

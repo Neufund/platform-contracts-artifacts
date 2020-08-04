@@ -3,16 +3,70 @@
   "abi": [
     {
       "constant": true,
-      "inputs": [],
-      "name": "capTable",
-      "outputs": [
+      "inputs": [
         {
-          "name": "equityTokens",
-          "type": "address[]"
+          "name": "broker",
+          "type": "address"
         },
         {
-          "name": "shares",
-          "type": "uint256[]"
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onTransfer",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onDestroyTokens",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "resolutionsList",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32[]"
         }
       ],
       "payable": false,
@@ -21,26 +75,86 @@
     },
     {
       "constant": false,
-      "inputs": [],
-      "name": "closeCompany",
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "ISHAUrl",
+          "type": "string"
+        },
+        {
+          "name": "shareCapitalUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "newTokenholderRights",
+          "type": "address"
+        }
+      ],
+      "name": "amendISHAResolution",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "votingCenter",
+          "type": "address"
+        },
+        {
+          "name": "proposalId",
+          "type": "bytes32"
+        }
+      ],
+      "name": "votingResult",
+      "outputs": [
+        {
+          "name": "inFavor",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "constant": false,
       "inputs": [
         {
-          "name": "informationType",
-          "type": "string"
+          "name": "resolutionId",
+          "type": "bytes32"
         },
         {
-          "name": "informationUrl",
+          "name": "shareCapitalUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
           "type": "string"
         }
       ],
-      "name": "issueGeneralInformation",
+      "name": "amendShareCapitalResolution",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -52,9 +166,39 @@
         {
           "name": "resolutionId",
           "type": "bytes32"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
         }
       ],
-      "name": "executeResolution",
+      "name": "amendCompanyValuationResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "proposalId",
+          "type": "bytes32"
+        },
+        {
+          "name": "oldState",
+          "type": "uint8"
+        },
+        {
+          "name": "newState",
+          "type": "uint8"
+        }
+      ],
+      "name": "onProposalStateTransition",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -62,12 +206,21 @@
     },
     {
       "constant": true,
-      "inputs": [],
-      "name": "oldTokenController",
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "newController",
+          "type": "address"
+        }
+      ],
+      "name": "onChangeTokenController",
       "outputs": [
         {
           "name": "",
-          "type": "address"
+          "type": "bool"
         }
       ],
       "payable": false,
@@ -76,11 +229,73 @@
     },
     {
       "constant": false,
-      "inputs": [],
-      "name": "cancelCompanyClosing",
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "generalAction",
+          "type": "uint8"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
+        }
+      ],
+      "name": "generalResolution",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "commitment",
+          "type": "address"
+        }
+      ],
+      "name": "startNewOffering",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "oldNominee",
+          "type": "address"
+        },
+        {
+          "name": "newNominee",
+          "type": "address"
+        }
+      ],
+      "name": "onChangeNominee",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -90,10 +305,6 @@
       "outputs": [
         {
           "name": "offerings",
-          "type": "address[]"
-        },
-        {
-          "name": "equityTokens",
           "type": "address[]"
         }
       ],
@@ -121,6 +332,28 @@
       "type": "function"
     },
     {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
+        }
+      ],
+      "name": "establishAuthorizedCapitalResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "constant": true,
       "inputs": [],
       "name": "amendmentsCount",
@@ -135,32 +368,94 @@
       "type": "function"
     },
     {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onGenerateTokens",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "constant": false,
       "inputs": [
         {
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "name": "resolutionUri",
-          "type": "string"
-        },
-        {
-          "name": "action",
+          "name": "oldState",
           "type": "uint8"
         },
         {
-          "name": "payload",
-          "type": "bytes"
+          "name": "newState",
+          "type": "uint8"
         }
       ],
-      "name": "startResolution",
+      "name": "onStateTransition",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "contractId",
       "outputs": [
+        {
+          "name": "id",
+          "type": "bytes32"
+        },
+        {
+          "name": "version",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
         {
           "name": "resolutionId",
           "type": "bytes32"
+        },
+        {
+          "name": "paymentToken",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "recycleAfter",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
         }
       ],
+      "name": "extraOrdinaryPayoutResolution",
+      "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
@@ -194,6 +489,51 @@
       ],
       "payable": false,
       "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "name": "spender",
+          "type": "address"
+        }
+      ],
+      "name": "onAllowance",
+      "outputs": [
+        {
+          "name": "allowanceOverride",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "tokenFallback",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -237,6 +577,36 @@
       "type": "function"
     },
     {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "name": "paymentToken",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "recycleAfter",
+          "type": "uint256"
+        },
+        {
+          "name": "resolutionDocumentUrl",
+          "type": "string"
+        }
+      ],
+      "name": "ordinaryPayoutResolution",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "constant": true,
       "inputs": [],
       "name": "shareholderInformation",
@@ -250,7 +620,15 @@
           "type": "uint256"
         },
         {
-          "name": "shareholderRights",
+          "name": "authorizedCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "shaUrl",
+          "type": "string"
+        },
+        {
+          "name": "tokenholderRights",
           "type": "address"
         }
       ],
@@ -259,17 +637,30 @@
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true,
       "inputs": [
         {
-          "name": "newController",
+          "name": "owner",
           "type": "address"
+        },
+        {
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
         }
       ],
-      "name": "changeTokenController",
-      "outputs": [],
+      "name": "onApprove",
+      "outputs": [
+        {
+          "name": "allow",
+          "type": "bool"
+        }
+      ],
       "payable": false,
-      "stateMutability": "nonpayable",
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -284,6 +675,57 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "resolutionId",
+          "type": "bytes32"
+        }
+      ],
+      "name": "resolution",
+      "outputs": [
+        {
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "name": "startedAt",
+          "type": "uint32"
+        },
+        {
+          "name": "finishedAt",
+          "type": "uint32"
+        },
+        {
+          "name": "failedCode",
+          "type": "bytes32"
+        },
+        {
+          "name": "promise",
+          "type": "bytes32"
+        },
+        {
+          "name": "payload",
+          "type": "bytes32"
+        },
+        {
+          "name": "cancelAt",
+          "type": "uint32"
+        },
+        {
+          "name": "nextStep",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -303,109 +745,32 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "newTokenController",
+      "name": "governanceToken",
       "outputs": [
         {
-          "name": "",
+          "name": "token",
           "type": "address"
+        },
+        {
+          "name": "tokenType",
+          "type": "uint8"
+        },
+        {
+          "name": "tokenState",
+          "type": "uint8"
+        },
+        {
+          "name": "holderRights",
+          "type": "address"
+        },
+        {
+          "name": "tokenTransferable",
+          "type": "bool"
         }
       ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "oldState",
-          "type": "uint32"
-        },
-        {
-          "indexed": false,
-          "name": "newState",
-          "type": "uint32"
-        },
-        {
-          "indexed": false,
-          "name": "timestamp",
-          "type": "uint32"
-        }
-      ],
-      "name": "LogGovStateTransition",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "resolutionId",
-          "type": "bytes32"
-        },
-        {
-          "indexed": false,
-          "name": "action",
-          "type": "uint8"
-        }
-      ],
-      "name": "LogResolutionExecuted",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "resolutionId",
-          "type": "bytes32"
-        },
-        {
-          "indexed": false,
-          "name": "equityToken",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "name": "transfersEnabled",
-          "type": "bool"
-        }
-      ],
-      "name": "LogTransfersStateChanged",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "resolutionId",
-          "type": "bytes32"
-        },
-        {
-          "indexed": false,
-          "name": "ISHAUrl",
-          "type": "string"
-        },
-        {
-          "indexed": false,
-          "name": "shareCapital",
-          "type": "uint256"
-        },
-        {
-          "indexed": false,
-          "name": "companyValuationEurUlps",
-          "type": "uint256"
-        },
-        {
-          "indexed": false,
-          "name": "newShareholderRights",
-          "type": "address"
-        }
-      ],
-      "name": "LogISHAAmended",
-      "type": "event"
     },
     {
       "anonymous": false,
@@ -450,29 +815,7 @@
       "anonymous": false,
       "inputs": [
         {
-          "indexed": false,
-          "name": "companyLegalRep",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "name": "informationType",
-          "type": "string"
-        },
-        {
-          "indexed": false,
-          "name": "informationUrl",
-          "type": "string"
-        }
-      ],
-      "name": "LogGeneralInformation",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
+          "indexed": true,
           "name": "resolutionId",
           "type": "bytes32"
         },
@@ -494,17 +837,203 @@
       "anonymous": false,
       "inputs": [
         {
-          "indexed": false,
+          "indexed": true,
           "name": "resolutionId",
           "type": "bytes32"
         },
         {
           "indexed": false,
-          "name": "newController",
+          "name": "equityToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "transfersEnabled",
+          "type": "bool"
+        }
+      ],
+      "name": "LogTransfersStateChanged",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "ISHAUrl",
+          "type": "string"
+        }
+      ],
+      "name": "LogISHAAmended",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogCompanyValuationAmended",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "shareCapitalUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogShareCapitalAmended",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "authorizedCapitalUlps",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogAuthorizedCapitalEstablished",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "oldState",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "newState",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "timestamp",
+          "type": "uint32"
+        }
+      ],
+      "name": "LogGovStateTransition",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "resolutionTitle",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "documentUrl",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "state",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "promise",
+          "type": "bytes"
+        }
+      ],
+      "name": "LogResolutionStarted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "action",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "state",
+          "type": "uint8"
+        }
+      ],
+      "name": "LogResolutionExecuted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "resolutionId",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "tokenType",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "tokenholderRights",
           "type": "address"
         }
       ],
-      "name": "LogMigratedTokenController",
+      "name": "LogTokenholderRightsAmended",
       "type": "event"
     },
     {
@@ -540,5 +1069,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1569711316280
+  "updated_at": 1596014101714
 }

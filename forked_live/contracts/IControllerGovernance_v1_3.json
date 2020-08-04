@@ -1,31 +1,18 @@
 {
-  "contract_name": "IEquityTokenController",
+  "contract_name": "IControllerGovernance_v1_3",
   "abi": [
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "broker",
-          "type": "address"
-        },
-        {
-          "name": "from",
-          "type": "address"
-        },
-        {
-          "name": "to",
-          "type": "address"
-        },
-        {
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "onTransfer",
+      "inputs": [],
+      "name": "capTable",
       "outputs": [
         {
-          "name": "allow",
-          "type": "bool"
+          "name": "equityTokens",
+          "type": "address[]"
+        },
+        {
+          "name": "shares",
+          "type": "uint256[]"
         }
       ],
       "payable": false,
@@ -34,48 +21,12 @@
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "sender",
-          "type": "address"
-        },
-        {
-          "name": "owner",
-          "type": "address"
-        },
-        {
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "onDestroyTokens",
-      "outputs": [
-        {
-          "name": "allow",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "sender",
-          "type": "address"
-        },
-        {
-          "name": "newController",
-          "type": "address"
-        }
-      ],
-      "name": "onChangeTokenController",
+      "inputs": [],
+      "name": "oldTokenController",
       "outputs": [
         {
           "name": "",
-          "type": "bool"
+          "type": "address"
         }
       ],
       "payable": false,
@@ -84,25 +35,16 @@
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "sender",
-          "type": "address"
-        },
-        {
-          "name": "oldNominee",
-          "type": "address"
-        },
-        {
-          "name": "newNominee",
-          "type": "address"
-        }
-      ],
-      "name": "onChangeNominee",
+      "inputs": [],
+      "name": "tokenOfferings",
       "outputs": [
         {
-          "name": "",
-          "type": "bool"
+          "name": "offerings",
+          "type": "address[]"
+        },
+        {
+          "name": "equityTokens",
+          "type": "address[]"
         }
       ],
       "payable": false,
@@ -144,29 +86,20 @@
     },
     {
       "constant": true,
-      "inputs": [
+      "inputs": [],
+      "name": "contractId",
+      "outputs": [
         {
-          "name": "sender",
-          "type": "address"
+          "name": "id",
+          "type": "bytes32"
         },
         {
-          "name": "owner",
-          "type": "address"
-        },
-        {
-          "name": "amount",
+          "name": "version",
           "type": "uint256"
         }
       ],
-      "name": "onGenerateTokens",
-      "outputs": [
-        {
-          "name": "allow",
-          "type": "bool"
-        }
-      ],
       "payable": false,
-      "stateMutability": "view",
+      "stateMutability": "pure",
       "type": "function"
     },
     {
@@ -202,20 +135,11 @@
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "owner",
-          "type": "address"
-        },
-        {
-          "name": "spender",
-          "type": "address"
-        }
-      ],
-      "name": "onAllowance",
+      "inputs": [],
+      "name": "state",
       "outputs": [
         {
-          "name": "allowanceOverride",
+          "name": "",
           "type": "uint256"
         }
       ],
@@ -251,29 +175,38 @@
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "owner",
-          "type": "address"
-        },
-        {
-          "name": "spender",
-          "type": "address"
-        },
-        {
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "onApprove",
+      "inputs": [],
+      "name": "shareholderInformation",
       "outputs": [
         {
-          "name": "allow",
-          "type": "bool"
+          "name": "shareCapital",
+          "type": "uint256"
+        },
+        {
+          "name": "companyValuationEurUlps",
+          "type": "uint256"
+        },
+        {
+          "name": "shareholderRights",
+          "type": "address"
         }
       ],
       "payable": false,
       "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newController",
+          "type": "address"
+        }
+      ],
+      "name": "changeTokenController",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -288,6 +221,34 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "companyLegalRepresentative",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "newTokenController",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
       "type": "function"
     },
     {
