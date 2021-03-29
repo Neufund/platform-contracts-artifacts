@@ -1,5 +1,5 @@
 {
-  "0x2ce1a09bFe331347BC81463f96F288b08f8869f8": {
+  "0xC8fC26967Db8b6D1784c8e80f35de96f366FA7d4": {
     "NAME": "hnwi eto de vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -17,7 +17,7 @@
       "available": true
     }
   },
-  "0xC8fC26967Db8b6D1784c8e80f35de96f366FA7d4": {
+  "0x20C8E3a3f8CB4FD61b44C91F42d73Ef4275A30E8": {
     "NAME": "hnwi eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -35,7 +35,7 @@
       "available": true
     }
   },
-  "0x20C8E3a3f8CB4FD61b44C91F42d73Ef4275A30E8": {
+  "0x79Fcd0511561968D59c1d0Fe4E200d43B219dA45": {
     "NAME": "mini eto li",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -53,7 +53,7 @@
       "available": true
     }
   },
-  "0x79Fcd0511561968D59c1d0Fe4E200d43B219dA45": {
+  "0xF964Ed64FC83F22cFEf479dEA19cDCCdc6d36D2a": {
     "NAME": "retail eto li vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -71,7 +71,7 @@
       "available": true
     }
   },
-  "0xF964Ed64FC83F22cFEf479dEA19cDCCdc6d36D2a": {
+  "0xD20bd631bbcCD0Fc7DF233F224e7B51686A9f427": {
     "NAME": "retail eto de vma",
     "CAN_SET_TRANSFERABILITY": false,
     "HAS_NOMINEE": true,
@@ -89,7 +89,7 @@
       "available": true
     }
   },
-  "0xD20bd631bbcCD0Fc7DF233F224e7B51686A9f427": {
+  "0x08ae87edAd6c6d5D252bDdAB88388e25B4AE29Aa": {
     "NAME": "hnwi eto de security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -107,7 +107,7 @@
       "available": false
     }
   },
-  "0xA506759B82a23B7B13eFa36Bd65421D154F36B07": {
+  "0x6a950E43FB2676D31a07538e1F19Bd20AD34399a": {
     "NAME": "retail EU-SME eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,
@@ -125,7 +125,7 @@
       "available": true
     }
   },
-  "0x6a950E43FB2676D31a07538e1F19Bd20AD34399a": {
+  "0x41BDFaB7Ee2b023D9f32552Ca55874644147980c": {
     "NAME": "retail eto li security",
     "CAN_SET_TRANSFERABILITY": true,
     "HAS_NOMINEE": true,

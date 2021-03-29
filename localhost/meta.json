@@ -3,7 +3,7 @@
     "Q18": "1000000000000000000",
     "LOCK_DURATION": 46656000,
     "PENALTY_FRACTION": "100000000000000000",
-    "START_DATE": 1614844885,
+    "START_DATE": 1617143124,
     "CAP_EUR": "2e+26",
     "MIN_TICKET_EUR": "290000000000000000000",
     "ETH_EUR_FRACTION": "290000000000000000000",
@@ -62,7 +62,8 @@
       "TOKEN_EXCHANGE_RATE_ORACLE": "ITokenExchangeRateOracle",
       "ETO_TERMS_CONSTRAINTS": "MockETOTermsConstraints",
       "VOTING_CENTER": "MockVotingCenter",
-      "VOTING_CENTER_CONTROLLER": "VotingController"
+      "VOTING_CENTER_CONTROLLER": "VotingController",
+      "EXIT_CONTROLLER": "ExitController"
     },
     "shouldSkipDeployment": false,
     "isLiveDeployment": false
@@ -121,7 +122,8 @@
     "termsInterface": "0x9d5754ab",
     "paymentTokenInterface": "0xb2a0042a",
     "etoTermsConstraints": "0xce2be4f5",
-    "votingCenter": "0xff5dbb18"
+    "votingCenter": "0xff5dbb18",
+    "exitController": "0xca32f084"
   },
   "INTERFACE_ARTIFACTS": {
     "accessPolicy": [
@@ -210,6 +212,10 @@
     "etoTermsConstraints": [
       "ETOTermsConstraints",
       ""
+    ],
+    "exitController": [
+      "ExitController",
+      ""
     ]
   },
   "NETWORK": {
@@ -218,7 +224,7 @@
     "gasPrice": 21000000000,
     "from": "0x8a194c13308326173423119f8dcb785ce14c732b",
     "deploymentConfigOverride": {
-      "START_DATE": 1614844885,
+      "START_DATE": 1617143124,
       "artifacts": {
         "ICBM_COMMITMENT": "MockICBMCommitment",
         "STANDARD_ETO_COMMITMENT": "MockETOCommitment",
@@ -273,6 +279,7 @@
       "0xc8f867cf4ed30b4ff0aa4c4c8c6b684397b219b0",
       "0x6a57febae70bfc83c64835ea58240958fba328ff",
       "0x95137084d1b6f58d177523de894293913394aa12",
+      "0x990e4b3b0bda3389f535750eb19ee1887d884f4d",
       "0x51305b1cc683dedf60b39e92aef52f4e09e9e781",
       "0xd9c46960ce6be33bbed615087abbd35fda77d42c",
       "0x239fd29638c8f42e2675d84455a632157152df46",
@@ -327,6 +334,6 @@
       "0x3ddd82c6b1ad4f4d4567626307f1868cdfebcbb9"
     ]
   },
-  "HEAD_BLOCK_NO": 710,
-  "INITIAL_BLOCK_NO": 153
+  "HEAD_BLOCK_NO": 769,
+  "INITIAL_BLOCK_NO": 154
 }

@@ -1,6 +1,6 @@
 {
   "0x8a194c13308326173423119F8dCb785CE14C732B": {
-    "ethBalance": "9999999999698826774258195813100000",
+    "ethBalance": "9999999999698821418919232811000000",
     "neuBalance": "23129214430943267421061937",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -78,7 +78,7 @@
     }
   },
   "0x015F6C944aB6E80aB1cdAa52F021476F8e5733fa": {
-    "ethBalance": "8371330115080000000000",
+    "ethBalance": "8371223604697000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -146,7 +146,7 @@
     "icbmEtherLockBalance": [
       "161128979800000000000",
       "151848689370013263717423",
-      "1661414198"
+      "1663712438"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "name": "INV_ETH_ICBM_NO_KYC",
@@ -300,7 +300,7 @@
     "icbmEtherLockBalance": [
       "161128979800000000000",
       "151213518268828303875416",
-      "1661414199"
+      "1663712439"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "name": "INV_ETH_ICBM_NO_KYC_2",
@@ -346,7 +346,7 @@
     "icbmEtherLockBalance": [
       "100000000000000000000",
       "93830861349313659887561",
-      "1661414200"
+      "1663712440"
     ],
     "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
     "name": "INV_ETH_ICBM_HAS_KYC",
@@ -388,7 +388,7 @@
     "icbmEuroLockBalance": [
       "1781267000000000000000000",
       "5740826156617159184855233",
-      "1661414200"
+      "1663712440"
     ],
     "icbmEtherLockBalance": [
       "0",
@@ -437,7 +437,7 @@
     "icbmEuroLockBalance": [
       "1781267000000000000000000",
       "5696684312533561663388669",
-      "1661414200"
+      "1663712440"
     ],
     "icbmEtherLockBalance": [
       "0",
@@ -568,12 +568,12 @@
     "euroLockBalance": [
       "71827000000000000000000",
       "228726785814664953782577",
-      "1661414201"
+      "1663712441"
     ],
     "etherLockBalance": [
       "218128979800000000000",
       "201496624735285327461934",
-      "1661414201"
+      "1663712441"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -629,6 +629,10 @@
             "discountAmount": 500000,
             "discount": 0.5
           },
+          "ETOInPayoutStateWithExitContract": {
+            "discountAmount": 500000,
+            "discount": 0.5
+          },
           "ETOInRefundState": {
             "discountAmount": 500000,
             "discount": 0.5
@@ -647,12 +651,12 @@
     "euroLockBalance": [
       "71827000000000000000000",
       "228592936167169966982023",
-      "1661414202"
+      "1663712442"
     ],
     "etherLockBalance": [
       "218128979800000000000",
       "201378710027149213893638",
-      "1661414201"
+      "1663712441"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -712,6 +716,10 @@
             "discountAmount": 500000,
             "discount": 0.5
           },
+          "ETOInPayoutStateWithExitContract": {
+            "discountAmount": 500000,
+            "discount": 0.5
+          },
           "ETOInRefundState": {
             "discountAmount": 500000,
             "discount": 0.5
@@ -730,12 +738,12 @@
     "euroLockBalance": [
       "71827000000000000000000",
       "228459164847746922962857",
-      "1661414203"
+      "1663712442"
     ],
     "etherLockBalance": [
       "218128979800000000000",
       "201260864322046838934921",
-      "1661414202"
+      "1663712442"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -795,6 +803,10 @@
             "discountAmount": 500000,
             "discount": 0.5
           },
+          "ETOInPayoutStateWithExitContract": {
+            "discountAmount": 500000,
+            "discount": 0.5
+          },
           "ETOInRefundState": {
             "discountAmount": 500000,
             "discount": 0.5
@@ -805,8 +817,8 @@
     }
   },
   "0x139Fab72691f03eA1589A847b110096c7cD56e35": {
-    "ethBalance": "11071823458798000000000",
-    "neuBalance": "11147385092574010091438359",
+    "ethBalance": "1989525974852000000000",
+    "neuBalance": "20930827704069258991500019",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -817,9 +829,9 @@
       "0"
     ],
     "etherLockBalance": [
-      "1190547929800000000000",
-      "1097154269300345795848737",
-      "1661414203"
+      "1184831719800000000000",
+      "1091886472810396089296664",
+      "1663712443"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -883,6 +895,12 @@
               "wallet": 9082.2812
             }
           },
+          "ETOInPayoutStateWithExitContract": {
+            "ETH": {
+              "icbm": 5.71621,
+              "wallet": 9082.2812
+            }
+          },
           "ETOInRefundState": {
             "ETH": {
               "icbm": 3.71621
@@ -890,13 +908,14 @@
           }
         },
         "claim": [
-          "ETOInPayoutState"
+          "ETOInPayoutState",
+          "ETOInPayoutStateWithExitContract"
         ]
       }
     }
   },
   "0xF7784a74Cc59d1e6e1C10ca2053f34D68d280aE7": {
-    "ethBalance": "1006427111540648000000000",
+    "ethBalance": "1006427101810214000000000",
     "neuBalance": "1114423391776749894441795",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -908,9 +927,9 @@
       "0"
     ],
     "etherLockBalance": [
-      "1192547929800000000000",
-      "1097325991657405992151565",
-      "1661414203"
+      "1188831719800000000000",
+      "1093906511633537211693519",
+      "1663712443"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -973,6 +992,11 @@
               "icbm": 3.71621
             }
           },
+          "ETOInPayoutStateWithExitContract": {
+            "ETH": {
+              "icbm": 3.71621
+            }
+          },
           "ETOInRefundState": {
             "ETH": {
               "icbm": 3.71621
@@ -980,14 +1004,15 @@
           }
         },
         "claim": [
-          "ETOInPayoutState"
+          "ETOInPayoutState",
+          "ETOInPayoutStateWithExitContract"
         ]
       }
     }
   },
   "0xFa8ae4e924e14C834Ad48238a55A24Af97A8f3F3": {
-    "ethBalance": "1057521016731297000000000",
-    "neuBalance": "7162444536885362005638261",
+    "ethBalance": "1057521001203435000000000",
+    "neuBalance": "13062702729993256064735398",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -998,9 +1023,9 @@
       "0"
     ],
     "etherLockBalance": [
-      "1192547929800000000000",
-      "1095657147799523614247365",
-      "1661414203"
+      "1188831719800000000000",
+      "1092242868215887153139064",
+      "1663712443"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -1066,6 +1091,14 @@
               "wallet": 2000000.23
             }
           },
+          "ETOInPayoutStateWithExitContract": {
+            "ETH": {
+              "icbm": 3.71621
+            },
+            "EUR": {
+              "wallet": 2000000.23
+            }
+          },
           "ETOInRefundState": {
             "ETH": {
               "icbm": 3.71621
@@ -1073,13 +1106,14 @@
           }
         },
         "claim": [
-          "ETOInPayoutState"
+          "ETOInPayoutState",
+          "ETOInPayoutStateWithExitContract"
         ]
       }
     }
   },
   "0x4A20381D628AEEc776335a89bb32106a8F9d4323": {
-    "ethBalance": "1074914703282462000000000",
+    "ethBalance": "1074914693552028000000000",
     "neuBalance": "1111036277227640712888304",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -1091,9 +1125,9 @@
       "0"
     ],
     "etherLockBalance": [
-      "1192547929800000000000",
-      "1093990841965749992941539",
-      "1661414204"
+      "1188831719800000000000",
+      "1090581754913371848952186",
+      "1663712444"
     ],
     "icbmEuroLockBalance": [
       "0",
@@ -1156,6 +1190,11 @@
               "icbm": 3.71621
             }
           },
+          "ETOInPayoutStateWithExitContract": {
+            "ETH": {
+              "icbm": 3.71621
+            }
+          },
           "ETOInRefundState": {
             "ETH": {
               "icbm": 3.71621
@@ -1163,22 +1202,23 @@
           }
         },
         "claim": [
-          "ETOInPayoutState"
+          "ETOInPayoutState",
+          "ETOInPayoutStateWithExitContract"
         ]
       }
     }
   },
   "0x6d65815Fcd587FAAe5dac7D6ce65De5d56BCF5E7": {
-    "ethBalance": "999943569997000000000",
+    "ethBalance": "999936379639000000000",
     "neuBalance": "2565244566025819627325023",
     "euroBalance": "1271198800000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
     "euroLockBalance": [
-      "212988198800000000000000",
-      "672047663675541899781933",
-      "1661414204"
+      "112988198800000000000000",
+      "356514846617162278524751",
+      "1663712444"
     ],
     "etherLockBalance": [
       "0",
@@ -1245,6 +1285,11 @@
               "icbm": 100000
             }
           },
+          "ETOInPayoutStateWithExitContract": {
+            "EUR": {
+              "icbm": 100000
+            }
+          },
           "ETOInRefundState": {
             "EUR": {
               "icbm": 100000
@@ -1255,8 +1300,8 @@
     }
   },
   "0xfA1Af2E251ee739F83e14d7daCfd77B3d0E930b7": {
-    "ethBalance": "5866519102050995800000",
-    "neuBalance": "3325466733249969721181443",
+    "ethBalance": "5577495310310995800000",
+    "neuBalance": "5811395736982971374365857",
     "euroBalance": "10278127198800000000000000",
     "ethTokenBalance": "33533420000000000000",
     "icbmEuroBalance": "0",
@@ -1321,6 +1366,10 @@
             "discountAmount": 0,
             "discount": 0
           },
+          "ETOInPayoutStateWithExitContract": {
+            "discountAmount": 0,
+            "discount": 0
+          },
           "ETOInRefundState": {
             "discountAmount": 0,
             "discount": 0
@@ -1355,6 +1404,14 @@
               "wallet": 27611.21
             }
           },
+          "ETOInPayoutStateWithExitContract": {
+            "ETH": {
+              "wallet": 289
+            },
+            "EUR": {
+              "wallet": 27611.21
+            }
+          },
           "ETOInRefundState": {
             "ETH": {
               "wallet": 289
@@ -1365,14 +1422,15 @@
           }
         },
         "claim": [
-          "ETOInClaimState"
+          "ETOInClaimState",
+          "ETOInPayoutStateWithExitContract"
         ]
       }
     }
   },
   "0xAF45584b7BcD4dc342932A41660193b80D59E35E": {
-    "ethBalance": "5869596761726000000000",
-    "neuBalance": "323229149713484276293592",
+    "ethBalance": "5580584407951000000000",
+    "neuBalance": "636391636964646231074955",
     "euroBalance": "10278127198800000000000000",
     "ethTokenBalance": "34533420000000000000",
     "icbmEuroBalance": "0",
@@ -1437,6 +1495,10 @@
             "discountAmount": 0,
             "discount": 0
           },
+          "ETOInPayoutStateWithExitContract": {
+            "discountAmount": 0,
+            "discount": 0
+          },
           "ETOInRefundState": {
             "discountAmount": 0,
             "discount": 0
@@ -1468,6 +1530,11 @@
               "wallet": 289
             }
           },
+          "ETOInPayoutStateWithExitContract": {
+            "ETH": {
+              "wallet": 289
+            }
+          },
           "ETOInRefundState": {
             "ETH": {
               "wallet": 289
@@ -1478,7 +1545,8 @@
           }
         },
         "claim": [
-          "ETOInClaimState"
+          "ETOInClaimState",
+          "ETOInPayoutStateWithExitContract"
         ]
       }
     }
@@ -1743,7 +1811,7 @@
     }
   },
   "0x74180B56DD74BC56a2E9D5720F39247c55F23328": {
-    "ethBalance": "1000004997143244000000000",
+    "ethBalance": "1000004997143496000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -1789,7 +1857,7 @@
     }
   },
   "0x8e75544B848F0a32a1Ab119E3916Ec7138f3Bed2": {
-    "ethBalance": "1000004997736830000000000",
+    "ethBalance": "1000004997737082000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -1835,7 +1903,7 @@
     }
   },
   "0x36Cec7081d2528a42D56fC1571D6D234dd2608EC": {
-    "ethBalance": "4997737082000000000",
+    "ethBalance": "4997736830000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -1930,7 +1998,7 @@
   "0x6A57FeBaE70BfC83c64835eA58240958fba328ff": {
     "ethBalance": "4995525215000000000",
     "neuBalance": "0",
-    "euroBalance": "1038964830935251797640000",
+    "euroBalance": "734398230803006472280000",
     "ethTokenBalance": "575078894800000000000",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
@@ -1974,7 +2042,7 @@
     }
   },
   "0x95137084d1b6F58D177523De894293913394aA12": {
-    "ethBalance": "4955016194000000000",
+    "ethBalance": "4955014934000000000",
     "neuBalance": "0",
     "euroBalance": "2426416096800000000000000",
     "ethTokenBalance": "12494954158800000000000",
@@ -2020,8 +2088,54 @@
       "notes": "etoissuer4"
     }
   },
+  "0x990E4B3B0BDA3389F535750EB19eE1887D884F4D": {
+    "ethBalance": "4995525215000000000",
+    "neuBalance": "0",
+    "euroBalance": "3077138720504061839740000",
+    "ethTokenBalance": "9386831658800000000000",
+    "icbmEuroBalance": "0",
+    "icbmEthTokenBalance": "0",
+    "euroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "etherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEuroLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "icbmEtherLockBalance": [
+      "0",
+      "0",
+      "0"
+    ],
+    "identityClaims": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "name": "ISSUER_EXIT",
+    "type": "issuer",
+    "definition": {
+      "address": "0x990E4B3B0BDA3389F535750EB19eE1887D884F4D",
+      "type": "issuer",
+      "identityClaims": {
+        "isVerified": true
+      },
+      "seed": "keep unhappy metal drum body cliff call nature comfort nurse guess sea flame mimic kingdom lecture rabbit husband tape habit talk potato front buyer",
+      "derivationPath": "m/44'/60'/0'/0",
+      "privateKey": "0x655766fa61f198b8696790d0cbf4b8fa3c6f80418c91d6494e17a3a153874782",
+      "balances": {
+        "etherToken": 0,
+        "euroToken": 0,
+        "initialEth": 5
+      }
+    }
+  },
   "0x51305B1CC683dedF60b39E92AeF52f4e09E9E781": {
-    "ethBalance": "4997736830000000000",
+    "ethBalance": "4997737082000000000",
     "neuBalance": "0",
     "euroBalance": "0",
     "ethTokenBalance": "0",
@@ -2396,7 +2510,7 @@
   },
   "0x798fD195575d195B9Bb9619ffb905E434f044f1D": {
     "ethBalance": "1000005000000000000000000",
-    "neuBalance": "21407163385266182742026467",
+    "neuBalance": "40870091784511686955637731",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2444,7 +2558,7 @@
   },
   "0xC35ef5DA2607C70D812cA2F317E9958910450dF1": {
     "ethBalance": "1000005000000000000000000",
-    "neuBalance": "3648761259063453997475037",
+    "neuBalance": "2683139863876562068384417",
     "euroBalance": "0",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2610,7 +2724,7 @@
   },
   "0x07D8B4d97F7B21020b332367692e11FDd5036D7b": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184498055960160209260557",
+    "neuBalance": "185000842934438018308994",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2686,7 +2800,7 @@
   },
   "0x62b3f983F037828d76B4925655CC083cfDCd9E13": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184449079877266125905956",
+    "neuBalance": "184951733383814954586937",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2762,7 +2876,7 @@
   },
   "0x6E577c22f1c5F0021a057CfcE67aC7E630De38F7": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184400116795358330266390",
+    "neuBalance": "184902636869607964136243",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2838,7 +2952,7 @@
   },
   "0x2824a394B5a3386b3140Bc426E40e24217f0a42f": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184351166710985634854717",
+    "neuBalance": "184853553388356454426957",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2914,7 +3028,7 @@
   },
   "0x8b5eCeCafECc6335FcBa939328898d4A3088f906": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184302229620697768321603",
+    "neuBalance": "184804482936600751563562",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -2990,7 +3104,7 @@
   },
   "0x68B4b0274148F062F919C410a8c36078c03398BB": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184253305521045375212316",
+    "neuBalance": "184755425510882100041110",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3066,7 +3180,7 @@
   },
   "0x766BD4B833738FEe9Af4d1f330733c489A5f87B7": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184204394408580015723630",
+    "neuBalance": "184706381107742662501434",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3142,7 +3256,7 @@
   },
   "0x72969Bf8DE31c47380ce21eeBC75BEf26cE31153": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184155496279854165460716",
+    "neuBalance": "184657349723725519489427",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3218,7 +3332,7 @@
   },
   "0x0566DEA0412Dc4bcb9ef0c4d884E56dADefcB7F3": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184106611131421215194174",
+    "neuBalance": "184608331355374669209364",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3294,7 +3408,7 @@
   },
   "0x0D54192b7C8F126DCd946Ffd03E336B24052EdF2": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184057738959835470617084",
+    "neuBalance": "184559325999235027281328",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3370,7 +3484,7 @@
   },
   "0x353d3030AF583fc0e547Da80700BbD953F330A4b": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "184008879761652152102139",
+    "neuBalance": "184510333651852426497646",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3446,7 +3560,7 @@
   },
   "0x5c104a588E47209b7248F4ea17996E9E69A6ADFc": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183960033533427394458831",
+    "neuBalance": "184461354309773616579448",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3522,7 +3636,7 @@
   },
   "0x9CfE167F8f2b9D6A8A6311A766ffb63648e69c04": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183911200271718246690717",
+    "neuBalance": "184412387969546263933249",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3598,7 +3712,7 @@
   },
   "0x4fD82E066C68DdadFc99f98cb4eb50DE4B855A18": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183862379973082671752737",
+    "neuBalance": "184363434627718951407605",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3674,7 +3788,7 @@
   },
   "0x5989e17aDd9568A715E8330ed5Fac1540161C961": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183813572634079546308595",
+    "neuBalance": "184314494280841178049858",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3750,7 +3864,7 @@
   },
   "0x87447BF7D8E1229122B1B088D6eeF07703457ACe": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183764778251268660488221",
+    "neuBalance": "184265566925463358862900",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3826,7 +3940,7 @@
   },
   "0xF73F063634E0250C5AFA2F72431e3F4783379c24": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183715996821210717645278",
+    "neuBalance": "184216652558136824562049",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3902,7 +4016,7 @@
   },
   "0xcB9e5e4CD1267653d5787181fec6202c016277a1": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183667228340467334114745",
+    "neuBalance": "184167751175413821331955",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -3978,7 +4092,7 @@
   },
   "0x6d0c98717ce99E830DD0EC449E8c52B4915565aC": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183618472805601038970554",
+    "neuBalance": "184118862773847510583589",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4054,7 +4168,7 @@
   },
   "0xe33784584Ece52976A0742B50E6D60c2CF76980f": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183569730213175273783311",
+    "neuBalance": "184069987349991968711284",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4130,7 +4244,7 @@
   },
   "0xE8EE4200877Df51A5D871D4e7b6181a7168445D8": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183521000559754392378053",
+    "neuBalance": "184021124900402186849860",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4206,7 +4320,7 @@
   },
   "0x73174Ee5B22cF9ba4413bAe663631C5C9C996D3e": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183472283841903660592100",
+    "neuBalance": "183972275421634070631787",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4282,7 +4396,7 @@
   },
   "0xC5C10aDbd1A1a835904908FBd734dD729aD6980a": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183423580056189256032943",
+    "neuBalance": "183923438910244439944437",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4358,7 +4472,7 @@
   },
   "0x92a0f60DE33f5f0952F8c60336dc6b8133e3DB5d": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183374889199178267836217",
+    "neuBalance": "183874615362791028687381",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -4659,7 +4773,7 @@
   },
   "0x9bB148c453a6aeA6759695C8da0D0918c8F494E9": {
     "ethBalance": "386624935135000000000",
-    "neuBalance": "183326211267438696423730",
+    "neuBalance": "183825804775832484529769",
     "euroBalance": "745000000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
@@ -5068,7 +5182,7 @@
   "0x20879bbA708b97b795fcD39D15A47CAf83165d1E": {
     "ethBalance": "99993702940000000000",
     "neuBalance": "0",
-    "euroBalance": "1161000000000000000000",
+    "euroBalance": "1062000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
@@ -5117,7 +5231,7 @@
   "0x5Ebe8eF595F45e1e6Dee0D629c899cAe5170B884": {
     "ethBalance": "99973036000000000000",
     "neuBalance": "0",
-    "euroBalance": "121500000000000000000",
+    "euroBalance": "94500000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
@@ -5164,9 +5278,9 @@
     }
   },
   "0x5A72Dce8025165C416F77739c157403E978738dE": {
-    "ethBalance": "99973036000000000000",
+    "ethBalance": "99944196469000000000",
     "neuBalance": "0",
-    "euroBalance": "1117000000000000000000",
+    "euroBalance": "9002160000000000000000000",
     "ethTokenBalance": "0",
     "icbmEuroBalance": "0",
     "icbmEthTokenBalance": "0",
@@ -5200,7 +5314,8 @@
       "address": "0x5A72Dce8025165C416F77739c157403E978738dE",
       "type": "nominee",
       "balances": {
-        "initialEth": 100
+        "initialEth": 100,
+        "euroToken": 20000000
       },
       "identityClaims": {
         "isVerified": true,
@@ -5208,7 +5323,8 @@
         "isSophisticatedInvestor": false
       },
       "notarizes": [
-        "ETOInPayoutState"
+        "ETOInPayoutState",
+        "ETOInPayoutStateWithExitContract"
       ]
     }
   },
