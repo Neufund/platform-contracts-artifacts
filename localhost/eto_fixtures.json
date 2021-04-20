@@ -83,7 +83,7 @@
     "address": "0xADf6B6ABb18d459aCa5Ecf0A36c1B56D37807128",
     "name": "ETOInSetupState",
     "state": "0",
-    "startDate": "1618352468",
+    "startDate": "1620246619",
     "nominee": "0xeBFb2D6F2CB7C13D82Cb3027AC6BaD07cc416BC8",
     "company": "0x74180B56DD74BC56a2E9D5720F39247c55F23328",
     "equityToken": "0xb4e6E9e69Fa77C7875F5F87500807388A91f6B79",
@@ -163,7 +163,7 @@
     "address": "0x52e3f3Dd59A8931dd95Eb60160B3ec4fA85EdBae",
     "name": "ETOInWhitelistState",
     "state": "1",
-    "startDate": "1616797274",
+    "startDate": "1618691427",
     "nominee": "0x3cBF04332fcCD88B1413430e5EA89c9BD4cA0bd0",
     "company": "0x8e75544B848F0a32a1Ab119E3916Ec7138f3Bed2",
     "equityToken": "0xC80EAe3BCB3000D27BAf61517210dCD6f297229c",
@@ -306,7 +306,7 @@
     "address": "0x048046BeFE77b1c2cc48181c137709d7d9B4a7Aa",
     "name": "ETOInPublicState",
     "state": "2",
-    "startDate": "1616192480",
+    "startDate": "1618086635",
     "nominee": "0xAfb3Af3243A95feFA75BE1282D3739ca696fE31d",
     "company": "0x36Cec7081d2528a42D56fC1571D6D234dd2608EC",
     "equityToken": "0x7d7714E7EA23684eAeF84d58743B6AE4f74134F1",
@@ -922,7 +922,7 @@
     "address": "0x9Ed5ccd48938351833C8F5E9428EE81350BF3494",
     "name": "ETOInSigningState",
     "state": "3",
-    "startDate": "1614378093",
+    "startDate": "1616272252",
     "nominee": "0x20879bbA708b97b795fcD39D15A47CAf83165d1E",
     "company": "0xC8f867Cf4Ed30b4fF0Aa4c4c8c6b684397B219B0",
     "equityToken": "0xD008CE1d324430D563bEcCc18328A65f5E2113d8",
@@ -1113,7 +1113,7 @@
     "address": "0x8C8dfb3E6b3Ba156341bd559D1DafD35315Be11D",
     "name": "ETOInClaimState",
     "state": "4",
-    "startDate": "1611008501",
+    "startDate": "1612902662",
     "nominee": "0x5Ebe8eF595F45e1e6Dee0D629c899cAe5170B884",
     "company": "0x6A57FeBaE70BfC83c64835eA58240958fba328ff",
     "equityToken": "0x0232B26de9bbbFCB1AedBB0eCFd2111841096f8C",
@@ -1299,7 +1299,7 @@
     "address": "0x34E02E7B1BD53541AD341C24a36cB3727Cf6fcA7",
     "name": "ETOInPayoutState",
     "state": "5",
-    "startDate": "1610187711",
+    "startDate": "1612081874",
     "nominee": "0x5A72Dce8025165C416F77739c157403E978738dE",
     "company": "0x95137084d1b6F58D177523De894293913394aA12",
     "equityToken": "0xD91FD615124C7Cd7B80A131484dF5770172d5E32",
@@ -1790,7 +1790,7 @@
     "address": "0xa1c9b16bdCc0D5616a1C081914c87d98bD363674",
     "name": "ETOInPayoutStateWithExitContract",
     "state": "5",
-    "startDate": "1610187739",
+    "startDate": "1612081911",
     "nominee": "0x5A72Dce8025165C416F77739c157403E978738dE",
     "company": "0x990E4B3B0BDA3389F535750EB19eE1887D884F4D",
     "equityToken": "0xF0e27758f63fD0D7af8538cac54aFd701ab57c4D",
@@ -1803,12 +1803,12 @@
         "AUTHORIZED_CAPITAL": "0",
         "MIN_TICKET_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_EUR_ULPS": "10000000000000000000000000",
-        "ENABLE_TRANSFERS_ON_SUCCESS": false,
+        "ENABLE_TRANSFERS_ON_SUCCESS": true,
         "WHITELIST_DISCOUNT_FRAC": "300000000000000000",
         "PUBLIC_DISCOUNT_FRAC": "0",
         "INVESTOR_OFFERING_DOCUMENT_URL": "ipfs:QmdMo4GqAsZVyXBh6iJsL4n2DqrEjehMaJbjZBCAaMzD1Q",
         "INVESTMENT_AGREEMENT_TEMPLATE_URL": "ipfs:QmViRB8brducaZiP2HKB8A9Zz838Gv8E6pxjv2VCD1wZeL",
-        "ETO_TERMS_CONSTRAINTS": "0xD20bd631bbcCD0Fc7DF233F224e7B51686A9f427"
+        "ETO_TERMS_CONSTRAINTS": "0x41BDFaB7Ee2b023D9f32552Ca55874644147980c"
       },
       "tokenholderTerms": {
         "GENERAL_VOTING_RULE": "1",
@@ -1840,8 +1840,8 @@
         "EQUITY_TOKEN_DECIMALS": "0"
       },
       "etoTermsConstraints": {
-        "NAME": "retail eto de vma",
-        "CAN_SET_TRANSFERABILITY": false,
+        "NAME": "retail eto li security",
+        "CAN_SET_TRANSFERABILITY": true,
         "HAS_NOMINEE": true,
         "MIN_TICKET_SIZE_EUR_ULPS": "10000000000000000000",
         "MAX_TICKET_SIZE_EUR_ULPS": "0",
@@ -1849,9 +1849,9 @@
         "MAX_INVESTMENT_AMOUNT_EUR_ULPS": "0",
         "OFFERING_DOCUMENT_TYPE": "1",
         "OFFERING_DOCUMENT_SUB_TYPE": "0",
-        "JURISDICTION": "DE",
-        "ASSET_TYPE": "1",
-        "TOKEN_OFFERING_OPERATOR": "0x798fD195575d195B9Bb9619ffb905E434f044f1D"
+        "JURISDICTION": "LI",
+        "ASSET_TYPE": "0",
+        "TOKEN_OFFERING_OPERATOR": "0xC35ef5DA2607C70D812cA2F317E9958910450dF1"
       },
       "reservationAndAcquisitionAgreement": "ipfs:QmQsmERwxd9p4njM91aaT5nVhF6q1G3V35JYAzpvFMKrxp",
       "companyTokenHolderAgreement": "ipfs:QmdMo4GqAsZVyXBh6iJsL4n2DqrEjehMaJbjZBCAaMzD1Q",
@@ -1975,13 +1975,13 @@
         "false"
       ]
     },
-    "etoTermsConstraints": "0xd20bd631bbccd0fc7df233f224e7b51686a9f427"
+    "etoTermsConstraints": "0x41bdfab7ee2b023d9f32552ca55874644147980c"
   },
   "0xa8fc0267151116F5fa4b2B4C9677ec56b7E40748": {
     "address": "0xa8fc0267151116F5fa4b2B4C9677ec56b7E40748",
     "name": "ETOInRefundState",
     "state": "6",
-    "startDate": "1614982951",
+    "startDate": "1616877126",
     "nominee": "0x9bC06F070f3759Ff9B4C7Dc0e47b67296F7A5e72",
     "company": "0x51305B1CC683dedF60b39E92AeF52f4e09E9E781",
     "equityToken": "0xEc9c7e94f5392429347505599Adc8fE7e0719d3a",
